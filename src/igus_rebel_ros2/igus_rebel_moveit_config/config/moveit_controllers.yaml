@@ -23,10 +23,10 @@ rebel_arm_controller:
     - joint5
     - joint6
 
-gripper_controller:           # ADD THIS
-  type: FollowJointTrajectory        # ADD THIS
-  action_ns: follow_joint_trajectory      # ADD THIS
-  default: true               # ADD THIS
-  joints:                     # ADD THIS
-    - left_finger_joint       # ADD THIS
-    - right_finger_joint      # ADD THIS
+gripper_controller:
+  type: FollowJointTrajectory
+  action_ns: follow_joint_trajectory
+  default: true
+  joints:               
+    - left_finger_joint       
+    - right_finger_joint      

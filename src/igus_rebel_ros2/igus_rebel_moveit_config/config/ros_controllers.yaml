@@ -8,7 +8,7 @@ controller_manager:
     rebel_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    gripper_controller:                                          # ADD THIS
+    gripper_controller:
       type: joint_trajectory_controller/JointTrajectoryController 
 
 rebel_arm_controller:
