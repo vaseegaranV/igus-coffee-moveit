@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<robot name="igus_rebel">
+    <group name="igus_rebel_arm">
+        <link name="world" />
+        <link name="igus_7th_axis" />
+        <link name="base_tile" />
+        <link name="base_link" />        
+        <link name="link1" />
+        <link name="motor1" />
+        <link name="link2" />
+        <link name="motor2" />
+        <link name="link3" />
+        <link name="motor3" />
+        <link name="link4" />
+        <link name="motor4" />
+        <link name="link5" />
+        <link name="motor5" />
+        <link name="link6" />
+        <joint name="rail_slider" />
+        <joint name="robot_on_tile" />
+        <joint name="joint1" />
+        <joint name="J_motor1" />
+        <joint name="joint2" />
+        <joint name="J_motor2" />
+        <joint name="joint3" />
+        <joint name="J_motor3" />
+        <joint name="joint4" />
+        <joint name="J_motor4" />
+        <joint name="joint5" />
+        <joint name="J_motor5" />
+        <joint name="joint6" />
+        <chain base_link="world" tip_link="link6" />
+    </group>
+
+    <!-- Gripper group for opening/closing fingers -->
+    <group name="gripper">
+        <joint name="left_finger_joint" />
+        <joint name="right_finger_joint" />
+    </group>
+
+    <group_state name="home" group="igus_rebel_arm">
+        <joint name="rail_slider" value="0" />
+        <joint name="joint1" value="0" />
+        <joint name="joint2" value="0" />
+        <joint name="joint3" value="0" />
+        <joint name="joint4" value="0" />
+        <joint name="joint5" value="0" />
+        <joint name="joint6" value="0" />
+    </group_state>
+    <group_state name="zeros" group="igus_rebel_arm">
+        <joint name="rail_slider" value="0" />
+        <joint name="joint1" value="0" />
+        <joint name="joint2" value="0" />
+        <joint name="joint3" value="0" />
+        <joint name="joint4" value="0" />
+        <joint name="joint5" value="0" />
+        <joint name="joint6" value="0" />
+    </group_state>
+
+    <!-- Gripper named states -->
+    <group_state name="closed" group="gripper">
+        <joint name="left_finger_joint" value="0.02" />
+        <joint name="right_finger_joint" value="0.02" />
+    </group_state>
+    <group_state name="open" group="gripper">
+        <joint name="left_finger_joint" value="0.0" />
+        <joint name="right_finger_joint" value="0.0" />
+    </group_state>
+
+    <!-- End effector definition -->
+    <end_effector name="gripper_eef" parent_link="link6" group="gripper" parent_group="igus_rebel_arm" />
+
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="igus_7th_axis" />
+
+    <!-- Collision disables -->
+    <disable_collisions link1="igus_7th_axis" link2="base_tile" reason="Adjacent" />
+    <disable_collisions link1="igus_7th_axis" link2="base_link" reason="Never" />
+    <disable_collisions link1="base_tile" link2="base_link" reason="Adjacent" />
+    <disable_collisions link1="base_link" link2="motor1" reason="Adjacent" />
+    <disable_collisions link1="motor1" link2="link1" reason="Adjacent" />
+    <disable_collisions link1="motor2" link2="link1" reason="Adjacent" />
+    <disable_collisions link1="motor2" link2="link2" reason="Adjacent" />
+    <disable_collisions link1="motor3" link2="link2" reason="Adjacent" />
+    <disable_collisions link1="motor3" link2="link3" reason="Adjacent" />
+    <disable_collisions link1="motor4" link2="link3" reason="Adjacent" />
+    <disable_collisions link1="motor4" link2="link4" reason="Adjacent" />
+    <disable_collisions link1="motor5" link2="link4" reason="Adjacent" />
+    <disable_collisions link1="motor5" link2="link5" reason="Adjacent" />
+    <disable_collisions link1="link5" link2="link6" reason="Adjacent" />
+    <disable_collisions link1="link6" link2="gripper_mount" reason="Adjacent" />
+    <disable_collisions link1="gripper_mount" link2="left_finger" reason="Adjacent" />
+    <disable_collisions link1="gripper_mount" link2="right_finger" reason="Adjacent" />
+    <disable_collisions link1="left_finger" link2="right_finger" reason="Never" />
+</robot>
