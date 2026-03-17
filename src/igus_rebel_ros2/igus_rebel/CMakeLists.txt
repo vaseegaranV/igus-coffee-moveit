@@ -18,6 +18,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(igus_rebel_msgs REQUIRED)
 find_package(geometry_msgs)
 find_package(moveit_ros_planning_interface)
+find_package(moveit_task_constructor_core REQUIRED)
 
 find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
@@ -39,6 +40,7 @@ add_library(${PROJECT_NAME} SHARED
 add_executable(igus_moveit src/igus_moveit.cpp)
 add_executable(igus_rail_moveit src/igus_rail_moveit.cpp)
 add_executable(end_effector_movement src/end_effector_movement.cpp)
+add_executable(igus_rebel_pick_and_place src/igus_rebel_pick_and_place.cpp)
 
 target_link_libraries(${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} PUBLIC)
@@ -51,6 +53,7 @@ ament_target_dependencies(${PROJECT_NAME}
 ament_target_dependencies(igus_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
 ament_target_dependencies(igus_rail_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
 ament_target_dependencies(end_effector_movement geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
+ament_target_dependencies(igus_rebel_pick_and_place geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs moveit_task_constructor_core)
 
 
 pluginlib_export_plugin_description_file(hardware_interface rebel.xml)
@@ -66,6 +69,7 @@ install(TARGETS
     igus_moveit
     igus_rail_moveit
     end_effector_movement
+    igus_rebel_pick_and_place
     DESTINATION lib/${PROJECT_NAME}) 
 
 # Install the plugin description xml file

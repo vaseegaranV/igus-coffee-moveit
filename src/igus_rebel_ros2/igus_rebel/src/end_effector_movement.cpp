@@ -50,7 +50,7 @@ int main(int argc, char **argv){
     poses[4].orientation.w = 1.0;
 
     int wait_times[] = {10, 10, 5, 5, 5};
-    bool gripper_open = true;  // alternates open/close each pose
+    bool gripper_open = true;
 
     while (rclcpp::ok()){
         for (int i = 0; i < 5; i++){
@@ -63,6 +63,12 @@ int main(int argc, char **argv){
                 RCLCPP_INFO(node_->get_logger(), "Closing gripper");
                 gripper.setNamedTarget("closed");
             }
+            
+        
+            move_group.setPoseTarget(poses[i]);
+
+        
+            move_group.move();
             gripper.move();
             gripper_open = !gripper_open;  // alternate next time
 
