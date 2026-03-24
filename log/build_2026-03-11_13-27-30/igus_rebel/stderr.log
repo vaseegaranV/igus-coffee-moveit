@@ -1,0 +1,13 @@
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:70:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveGroup[m[K’ has not been declared
+   70 |             moveit::planning_interface::[01;31m[KMoveGroup[m[K::Plan my_plan;
+      |                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:71:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+   71 |             bool success = move_group.plan([01;31m[Kmy_plan[m[K);
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:71:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |             bool [01;35m[Ksuccess[m[K = move_group.plan(my_plan);
+      |                  [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/end_effector_movement.dir/build.make:76: CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/end_effector_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

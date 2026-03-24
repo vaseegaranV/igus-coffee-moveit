@@ -1,0 +1,7 @@
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/task_constructor/task.h: No such file or directory
+    4 | #include [01;31m[K<moveit/task_constructor/task.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/igus_rebel_pick_and_place.dir/build.make:76: CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/igus_rebel_pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

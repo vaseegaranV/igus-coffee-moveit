@@ -1,0 +1,8 @@
+<launch>
+  <arg name="model" default="$(find igus_rebel_description)/urdf/igus_rebel_robot2.urdf.xacro"/>
+  <arg name="gui" default="false" />
+
+  <!-- Robot Model -->
+  <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
+
+</launch>

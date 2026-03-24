@@ -1,0 +1,44 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/igus_moveit.dir/src/igus_moveit.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/igus_rail_moveit.dir/src/igus_rail_moveit.cpp.o[0m
+[ 75%] Built target igus_rebel
+In file included from [01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_moveit.cpp:3[m[K:
+[01m[K/home/vasee22/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rail_moveit.cpp:3[m[K:
+[01m[K/home/vasee22/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[ 87%] [32m[1mLinking CXX executable igus_moveit[0m
+[ 87%] Built target igus_moveit
+[100%] [32m[1mLinking CXX executable igus_rail_moveit[0m
+[100%] Built target igus_rail_moveit
+-- Install configuration: "Debug"
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/rebel.xml
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/libigus_rebel.so
+-- Set non-toolchain portion of runtime path of "/home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/libigus_rebel.so" to ""
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/igus_rebel/igus_moveit
+-- Set non-toolchain portion of runtime path of "/home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/igus_rebel/igus_moveit" to ""
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/igus_rebel/igus_rail_moveit
+-- Set non-toolchain portion of runtime path of "/home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/lib/igus_rebel/igus_rail_moveit" to ""
+-- Up-to-date: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/rebel.xml
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel//config
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel//config/controller.yaml
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel//launch
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel//launch/rebel.launch.py
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/ament_index/resource_index/package_run_dependencies/igus_rebel
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/ament_index/resource_index/parent_prefix_path/igus_rebel
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.sh
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.dsv
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/environment/path.sh
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/environment/path.dsv
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/local_setup.bash
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/local_setup.sh
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/local_setup.zsh
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/local_setup.dsv
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/package.dsv
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/ament_index/resource_index/packages/igus_rebel
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/igus_rebel
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig.cmake
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig-version.cmake
+-- Installing: /home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel/share/igus_rebel/package.xml

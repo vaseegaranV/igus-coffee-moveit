@@ -1,0 +1,241 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "igus_rebel_msgs/srv/SetDigitalOutput",
+      "fields": [
+        {
+          "name": "request_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Response"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "event_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Event"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "igus_rebel_msgs/msg/DigitalOutput",
+        "fields": [
+          {
+            "name": "output",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "is_on",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Request",
+        "fields": [
+          {
+            "name": "output",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "igus_rebel_msgs/msg/DigitalOutput"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Response",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "igus_rebel_msgs/srv/SetDigitalOutput",
+      "hash_string": "RIHS01_471dee032fa237fe89de95ffebbce82dbf980d4675dbdaacc55ad614f1de62ce"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "igus_rebel_msgs/msg/DigitalOutput",
+      "hash_string": "RIHS01_9e6ecf2679ca56d07e041ac6254ac29d6493105e771e31d276e14ff8e5508c47"
+    },
+    {
+      "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Event",
+      "hash_string": "RIHS01_4ee237d92ecf9aa3d669ae1edcbc7ba78d13a60cec2c1b58731c38cb448421c8"
+    },
+    {
+      "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Request",
+      "hash_string": "RIHS01_a3197ff895784c31a6f0ef5aec19a36c724b57fdfb85190773e153017861d88e"
+    },
+    {
+      "type_name": "igus_rebel_msgs/srv/SetDigitalOutput_Response",
+      "hash_string": "RIHS01_3bbc8094d1e07088b87fbf546e4769f995477ce584a39adb247cf157d8167a96"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/igus_rebel_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/igus_rebel_msgs/msg/detail/digital_output__type_support.c.o"
+  "CMakeFiles/igus_rebel_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/igus_rebel_msgs/msg/detail/digital_output__type_support.c.o.d"
+  "CMakeFiles/igus_rebel_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/igus_rebel_msgs/srv/detail/set_digital_output__type_support.c.o"
+  "CMakeFiles/igus_rebel_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/igus_rebel_msgs/srv/detail/set_digital_output__type_support.c.o.d"
+  "libigus_rebel_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libigus_rebel_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/igus_rebel_msgs/msg/detail/digital_output__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/igus_rebel_msgs/msg/detail/digital_output__type_support.c"
+  "rosidl_typesupport_introspection_c/igus_rebel_msgs/srv/detail/set_digital_output__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/igus_rebel_msgs/srv/detail/set_digital_output__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/igus_rebel_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,63 @@
+[ 33%] Built target igus_rebel
+[ 83%] Built target end_effector_movement
+[ 83%] Built target igus_moveit
+[ 83%] Built target igus_rail_moveit
+[ 91%] [32mBuilding CXX object CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.o[0m
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::[01;32m[KcreateTask[m[K()[m[K’:
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:183:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::task_constructor::stages::ModifyPlanningScene::allowCollisions(const char [7], <brace-enclosed initializer list>, bool)[m[K’
+  183 |       [01;31m[Kstage->allowCollisions("object", {"motor4", "motor5", "link4", "link5"}, true)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h:52[m[K,
+                 from [01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:6[m[K:
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:157:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(planning_scene::PlanningScene&, const CollisionMatrixPairs&, bool)[m[K’
+  157 |         void [01;36m[KallowCollisions[m[K(planning_scene::PlanningScene& scene, const CollisionMatrixPairs& pairs, bool invert);
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:157:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [7][m[K’ to ‘[01m[Kplanning_scene::PlanningScene&[m[K’
+  157 |         void allowCollisions([01;36m[Kplanning_scene::PlanningScene& scene[m[K, const CollisionMatrixPairs& pairs, bool invert);
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:116:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2, class E1, class E2> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const T1&, const T2&, bool)[m[K’
+  116 |         inline void [01;36m[KallowCollisions[m[K(const T1& first, const T2& second, bool enable_collision) {
+      |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:116:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:183:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT2[m[K’
+  183 |       [01;36m[Kstage->allowCollisions("object", {"motor4", "motor5", "link4", "link5"}, true)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:122:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class E> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const T&, bool)[m[K’
+  122 |         inline void [01;36m[KallowCollisions[m[K(const std::string& first, const T& second, bool enable_collision) {
+      |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:122:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:183:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+  183 |       [01;36m[Kstage->allowCollisions("object", {"motor4", "motor5", "link4", "link5"}, true)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:128:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class E> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const char*, const T&, bool)[m[K’
+  128 |         inline void [01;36m[KallowCollisions[m[K(const char* first, const T& second, bool enable_collision) {
+      |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:128:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:183:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+  183 |       [01;36m[Kstage->allowCollisions("object", {"motor4", "motor5", "link4", "link5"}, true)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:102:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const Names&, const Names&, bool)[m[K’
+  102 |         void [01;36m[KallowCollisions[m[K(const Names& first, const Names& second, bool allow);
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:102:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [7][m[K’ to ‘[01m[Kconst moveit::task_constructor::stages::ModifyPlanningScene::Names&[m[K’ {aka ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&[m[K’}
+  102 |         void allowCollisions([01;36m[Kconst Names& first[m[K, const Names& second, bool allow);
+      |                              [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:104:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const std::string&, bool)[m[K’
+  104 |         void [01;36m[KallowCollisions[m[K(const std::string& first, const std::string& second, bool allow) {
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:104:75:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  104 |         void allowCollisions(const std::string& first, [01;36m[Kconst std::string& second[m[K, bool allow) {
+      |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:108:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, bool)[m[K’
+  108 |         void [01;36m[KallowCollisions[m[K(const std::string& object, bool allow) { allowCollisions(Names({ object }), Names(), allow); }
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:108:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:132:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const moveit::core::JointModelGroup&, bool)[m[K’
+  132 |         void [01;36m[KallowCollisions[m[K(const std::string& first, const moveit::core::JointModelGroup& jmg, bool allow);
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/ws_moveit/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:132:93:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup&[m[K’
+  132 |         void allowCollisions(const std::string& first, [01;36m[Kconst moveit::core::JointModelGroup& jmg[m[K, bool allow);
+      |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/igus_rebel_pick_and_place.dir/build.make:76: CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/igus_rebel_pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,82 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50 # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    rebel_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController 
+
+rebel_arm_controller:
+  ros__parameters:
+    joints:
+      - rail_slider
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+    
+    allow_nonzero_velocity_at_trajectory_end: true
+
+    goal_time_tolerance: 5.0
+
+    constraints:
+      stopped_velocity_tolerance: 0.05
+      goal_time: 5.0
+      rail_slider:
+        goal: 0.05
+        trajectory: 0.1
+      joint1:
+        goal: 0.05
+        trajectory: 0.1
+      joint2:
+        goal: 0.05
+        trajectory: 0.1
+      joint3:
+        goal: 0.05
+        trajectory: 0.1
+      joint4:
+        goal: 0.05
+        trajectory: 0.1
+      joint5:
+        goal: 0.05
+        trajectory: 0.1
+      joint6:
+        goal: 0.05
+        trajectory: 0.1
+
+    gains:
+      rail_slider: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint1: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint2: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint3: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint4: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint5: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+      joint6: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
+  
+gripper_controller:
+  ros__parameters:
+    joints:
+      - left_finger_joint
+      - right_finger_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    gains:
+      left_finger_joint:  { p: 10.0, d: 2.0, i: 0.01, i_clamp: 0.5 }
+      right_finger_joint: { p: 10.0, d: 2.0, i: 0.01, i_clamp: 0.5 }

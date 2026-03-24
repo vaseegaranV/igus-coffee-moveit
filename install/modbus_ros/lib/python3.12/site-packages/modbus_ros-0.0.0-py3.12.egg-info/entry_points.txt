@@ -1,0 +1,2 @@
+[console_scripts]
+modbus_publisher = modbus_ros.modbus_publisher:main

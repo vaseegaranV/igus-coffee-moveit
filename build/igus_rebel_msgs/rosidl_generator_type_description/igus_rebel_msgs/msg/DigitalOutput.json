@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "igus_rebel_msgs/msg/DigitalOutput",
+      "fields": [
+        {
+          "name": "output",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "is_on",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "igus_rebel_msgs/msg/DigitalOutput",
+      "hash_string": "RIHS01_9e6ecf2679ca56d07e041ac6254ac29d6493105e771e31d276e14ff8e5508c47"
+    }
+  ]
+}

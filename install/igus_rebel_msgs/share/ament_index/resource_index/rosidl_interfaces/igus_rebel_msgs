@@ -1,0 +1,4 @@
+msg/DigitalOutput.idl
+msg/DigitalOutput.msg
+srv/SetDigitalOutput.idl
+srv/SetDigitalOutput.srv
