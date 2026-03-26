@@ -29,7 +29,7 @@ def generate_launch_description():
 
     pick_place_demo = Node(
         package='igus_rebel',
-        executable='igus_rebel_pick_and_place',
+        executable='pick_and_place',
         output="screen",
         parameters=[
             moveit_config,

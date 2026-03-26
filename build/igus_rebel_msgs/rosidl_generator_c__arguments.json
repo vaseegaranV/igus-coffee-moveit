@@ -1,14 +1,14 @@
 {
   "package_name": "igus_rebel_msgs",
-  "output_dir": "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_c/igus_rebel_msgs",
+  "output_dir": "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_c/igus_rebel_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:msg/DigitalOutput.idl",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:srv/SetDigitalOutput.idl"
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:msg/DigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:srv/SetDigitalOutput.idl"
   ],
   "ros_interface_files": [
-    "/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs/msg/DigitalOutput.msg",
-    "/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs/srv/SetDigitalOutput.srv"
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs/msg/DigitalOutput.msg",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs/srv/SetDigitalOutput.srv"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -35,14 +35,14 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/msg/DigitalOutput.idl",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/srv/SetDigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/msg/DigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/srv/SetDigitalOutput.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/DigitalOutput.idl:/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_type_description/igus_rebel_msgs/msg/DigitalOutput.json",
-    "srv/SetDigitalOutput.idl:/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_type_description/igus_rebel_msgs/srv/SetDigitalOutput.json"
+    "msg/DigitalOutput.idl:/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_type_description/igus_rebel_msgs/msg/DigitalOutput.json",
+    "srv/SetDigitalOutput.idl:/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_generator_type_description/igus_rebel_msgs/srv/SetDigitalOutput.json"
   ]
 }

@@ -72,16 +72,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_finger:          # ADD THIS
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_finger:         # ADD THIS
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         flange:
           Alpha: 1
           Show Axes: false
@@ -160,16 +150,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           gripper_mount:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          left_finger:          # ADD THIS
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          right_finger:         # ADD THIS
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -258,16 +238,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           gripper_mount:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          left_finger:          # ADD THIS
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          right_finger:         # ADD THIS
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -367,16 +337,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           gripper_mount:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          left_finger:          # ADD THIS
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          right_finger:         # ADD THIS
             Alpha: 1
             Show Axes: false
             Show Trail: false

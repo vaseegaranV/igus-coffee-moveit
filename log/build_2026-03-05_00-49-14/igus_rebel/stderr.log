@@ -1,7 +1,0 @@
-[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
-[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/end_effector_movement.cpp:30:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
-   30 |     [01;31m[Kstd[m[K::vector<geometry_msgs::msg::Pose> poses(5);
-      |     [01;31m[K^~~[m[K
-gmake[2]: *** [CMakeFiles/end_effector_movement.dir/build.make:76: CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/end_effector_movement.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

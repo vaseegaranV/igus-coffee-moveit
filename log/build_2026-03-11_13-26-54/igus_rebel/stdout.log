@@ -1,5 +1,0 @@
-[ 33%] Built target igus_rebel
-[ 75%] Built target igus_moveit
-[ 75%] Built target igus_rail_moveit
-[ 75%] [32mBuilding CXX object CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.o[0m
-[ 91%] Built target igus_rebel_pick_and_place

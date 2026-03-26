@@ -1,7 +1,7 @@
 {
   "package_name": "igus_rebel_msgs",
   "non_idl_tuples": [
-    "/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs:msg/DigitalOutput.msg",
-    "/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs:srv/SetDigitalOutput.srv"
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs:msg/DigitalOutput.msg",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel_msgs:srv/SetDigitalOutput.srv"
   ]
 }

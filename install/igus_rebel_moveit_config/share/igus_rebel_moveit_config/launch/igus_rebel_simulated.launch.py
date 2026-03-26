@@ -82,13 +82,6 @@ def generate_launch_description():
         executable="igus_moveit",
         output="both",
     )
-
-    # ros_tcp_endpoint = Node(
-    #     package="ros_tcp_endpoint",
-    #     executable="default_server_endpoint",
-    #     output="both",
-    # )
-
     
     return LaunchDescription([
         debug_arg,
@@ -101,7 +94,6 @@ def generate_launch_description():
         gazebo_launch,
         robot_state_pub_node,
         moveit_launch,
-        # ros_tcp_endpoint,
         # TimerAction(period=20.0, actions=[igus_moveit]),
     ])
     

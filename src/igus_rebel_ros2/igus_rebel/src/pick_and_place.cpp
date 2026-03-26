@@ -1,5 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit_msgs/msg/robot_state.hpp>
+#include <moveit_msgs/msg/constraints.hpp>
 #include <moveit/planning_scene/planning_scene.hpp>
 #include <moveit/planning_scene_interface/planning_scene_interface.hpp>
 #include <moveit/task_constructor/task.h>
@@ -25,6 +26,21 @@
 
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("mtc_igus");
 namespace mtc = moveit::task_constructor;
+
+moveit_msgs::msg::Constraints makeUprightConstraint(const std::string& link_name)
+{
+   moveit_msgs::msg::Constraints constraints;
+   moveit_msgs::msg::OrientationConstraint oc;
+   oc.header.frame_id = "world";
+   oc.link_name = link_name;
+   oc.orientation.w = 1.0;        // identity = match world frame (upright)
+   oc.absolute_x_axis_tolerance = 1.0;   // ~23 deg tilt tolerance
+   oc.absolute_y_axis_tolerance = 1.0;   // ~23 deg tilt tolerance
+   oc.absolute_z_axis_tolerance = M_PI;  // free to spin around Z (yaw)
+   oc.weight = 1.0;
+   constraints.orientation_constraints.push_back(oc);
+   return constraints;
+}
 
 class MTCTaskNode
 {
@@ -68,7 +84,7 @@ void MTCTaskNode::setupPlanningScene()
   pose.position.x = 0.7;
   pose.position.y = -0.3;
   // z = half the cylinder height so it sits on the floor plane
-  pose.position.z = 0.06;
+  pose.position.z = 0.5;
   pose.orientation.w = 1.0;
   object.pose = pose;
 
@@ -168,6 +184,8 @@ mtc::Task MTCTaskNode::createTask()
   cartesian_planner->setMaxVelocityScalingFactor(0.05);
   cartesian_planner->setMaxAccelerationScalingFactor(0.05);
   cartesian_planner->setStepSize(.01);
+
+  const auto upright = makeUprightConstraint(hand_frame);
 
   // ---------------------------------------------------------------
   // PICK
@@ -280,6 +298,7 @@ mtc::Task MTCTaskNode::createTask()
     stage->setMinMaxDistance(0.05, 0.15);
     stage->setIKFrame(hand_frame);
     stage->properties().set("marker_ns", "lift_object");
+    //stage->setPathConstraints(upright);
     geometry_msgs::msg::Vector3Stamped vec;
     vec.header.frame_id = "world";
     vec.vector.z = 1.0;
@@ -300,6 +319,7 @@ mtc::Task MTCTaskNode::createTask()
         mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
     stage->setTimeout(5.0);
     stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    //stage->setPathConstraints(upright);
     task.add(std::move(stage));
   }
 
@@ -308,6 +328,20 @@ mtc::Task MTCTaskNode::createTask()
   task.properties().exposeTo(place->properties(), { "eef", "group", "ik_frame" });
   place->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group", "ik_frame" });
 
+  // ADD THIS FIRST - approach place
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach place", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.01, 0.10);
+    stage->setIKFrame(hand_frame);
+    stage->properties().set("marker_ns", "approach_place");
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = -1.0;
+    stage->setDirection(vec);
+    place->insert(std::move(stage));
+  }
+
   // Stage 5a: Generate place pose + ComputeIK
   {
     geometry_msgs::msg::PoseStamped place_pose;
@@ -315,7 +349,7 @@ mtc::Task MTCTaskNode::createTask()
     place_pose.pose.position.x = 0.1;
     place_pose.pose.position.y = -0.3;
     // z = half cup height so it rests on the surface
-    place_pose.pose.position.z = 0.06;
+    place_pose.pose.position.z = 0.5;
     place_pose.pose.orientation.w = 1.0;
 
     auto stage = std::make_unique<mtc::stages::GeneratePlacePose>("generate place pose");
@@ -342,6 +376,7 @@ mtc::Task MTCTaskNode::createTask()
     stage->setMinMaxDistance(0.03, 0.10);
     stage->setIKFrame(hand_frame);
     stage->properties().set("marker_ns", "lower_cup");
+    //stage->setPathConstraints(upright);
     geometry_msgs::msg::Vector3Stamped vec;
     vec.header.frame_id = "world";
     vec.vector.z = -1.0;  // move down to set cup on surface
@@ -369,7 +404,7 @@ mtc::Task MTCTaskNode::createTask()
     vec.header.frame_id = "world";
     // Retreat in -X (away from the place position).
     // Change to Y or adjust sign depending on your scene layout.
-    vec.vector.z = -0.05;
+    vec.vector.z = -0.02;
     stage->setDirection(vec);
     place->insert(std::move(stage));
   }
@@ -383,7 +418,7 @@ mtc::Task MTCTaskNode::createTask()
 
     geometry_msgs::msg::Vector3Stamped vec;
     vec.header.frame_id = "world";
-    vec.vector.x = -1.0;
+    vec.vector.x = 1.0;
 
     stage->setDirection(vec);
     place->insert(std::move(stage));

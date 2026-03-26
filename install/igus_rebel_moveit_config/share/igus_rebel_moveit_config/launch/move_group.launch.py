@@ -127,11 +127,10 @@ def opaque_func(context, *args, **kwargs):
             "publish_transforms_updates": True,
         },
         ompl_context,
-        {"trajectory_execution.allowed_start_tolerance": 0.05},
     ]
 
     # Concatenate all dictionaries together, else moveitpy won't read all parameters
-    moveit_args = dict({"capabilities": "move_group/ExecuteTaskSolutionCapability"})
+    moveit_args = dict()
     for d in moveit_args_not_concatenated:
         moveit_args.update(d)
                         

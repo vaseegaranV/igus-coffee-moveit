@@ -1,10 +1,10 @@
 {
   "package_name": "igus_rebel_msgs",
-  "output_dir": "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_typesupport_introspection_cpp/igus_rebel_msgs",
+  "output_dir": "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_typesupport_introspection_cpp/igus_rebel_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:msg/DigitalOutput.idl",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:srv/SetDigitalOutput.idl"
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:msg/DigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs:srv/SetDigitalOutput.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -20,8 +20,8 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/msg/DigitalOutput.idl",
-    "/home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/srv/SetDigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/msg/DigitalOutput.idl",
+    "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/srv/SetDigitalOutput.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"

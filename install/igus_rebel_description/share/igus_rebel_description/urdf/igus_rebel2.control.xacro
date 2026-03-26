@@ -37,8 +37,6 @@
             <xacro:joint_control joint="joint4" />
             <xacro:joint_control joint="joint5" />
             <xacro:joint_control joint="joint6" />
-            <xacro:joint_control joint="left_finger_joint" />   <!-- ADD THIS -->
-            <xacro:joint_control joint="right_finger_joint" />
         </ros2_control>
         <xacro:if value="${hardware_protocol == 'gazebo'}">
             <gazebo>

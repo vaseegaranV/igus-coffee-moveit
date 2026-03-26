@@ -1,0 +1,37 @@
+[0.845s] Invoking command in '/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/modbus_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modbus_ros build --build-base /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build install --record /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/install.log --single-version-externally-managed install_data
+[1.123s] running egg_info
+[1.124s] creating ../../build/modbus_ros/modbus_ros.egg-info
+[1.142s] writing ../../build/modbus_ros/modbus_ros.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ../../build/modbus_ros/modbus_ros.egg-info/dependency_links.txt
+[1.142s] writing entry points to ../../build/modbus_ros/modbus_ros.egg-info/entry_points.txt
+[1.143s] writing requirements to ../../build/modbus_ros/modbus_ros.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/modbus_ros/modbus_ros.egg-info/top_level.txt
+[1.143s] writing manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+[1.181s] reading manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.182s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build
+[1.182s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib
+[1.182s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib/modbus_ros
+[1.182s] copying modbus_ros/__init__.py -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib/modbus_ros
+[1.182s] copying modbus_ros/modbus_publisher.py -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib/modbus_ros
+[1.182s] running install
+[1.187s] running install_lib
+[1.206s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+[1.206s] copying /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib/modbus_ros/__init__.py -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+[1.206s] copying /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build/lib/modbus_ros/modbus_publisher.py -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+[1.207s] byte-compiling /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros/__init__.py to __init__.cpython-312.pyc
+[1.207s] byte-compiling /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros/modbus_publisher.py to modbus_publisher.cpython-312.pyc
+[1.208s] running install_data
+[1.208s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/share/ament_index
+[1.208s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/share/ament_index/resource_index
+[1.208s] creating /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/share/ament_index/resource_index/packages
+[1.208s] copying resource/modbus_ros -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/share/ament_index/resource_index/packages
+[1.208s] copying package.xml -> /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/share/modbus_ros
+[1.208s] running install_egg_info
+[1.228s] Copying ../../build/modbus_ros/modbus_ros.egg-info to /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages/modbus_ros-0.0.0-py3.12.egg-info
+[1.229s] running install_scripts
+[1.359s] Installing modbus_publisher script to /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/modbus_ros
+[1.359s] writing list of installed files to '/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/install.log'
+[1.385s] Invoked command in '/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/modbus_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/modbus_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modbus_ros build --build-base /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/build install --record /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/modbus_ros/install.log --single-version-externally-managed install_data

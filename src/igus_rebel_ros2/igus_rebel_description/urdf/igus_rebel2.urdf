@@ -19,7 +19,7 @@
         xyz="0 0.05 0.01"
         rpy = "0 0 0"/>
         <geometry>
-          <box size = "1.51 0.42 0.23"/>
+          <box size = "1.51 1.02 0.23"/>
         </geometry>
     </collision>
     <inertial>

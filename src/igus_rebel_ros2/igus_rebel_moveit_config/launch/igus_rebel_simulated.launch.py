@@ -108,16 +108,16 @@ def generate_launch_description():
         }
     }
 
-    # pick_place_demo = Node(
-    #     package='igus_rebel',
-    #     executable='pick_and_place',
-    #     output="screen",
-    #     parameters=[
-    #         moveit_config,
-    #         ompl_fix,
-    #         {'use_sim_time': True},
-    #     ],
-    # )
+    pick_place_demo = Node(
+         package='igus_rebel',
+         executable='pick_and_place',
+         output="screen",
+         parameters=[
+             moveit_config,
+             ompl_fix,
+             {'use_sim_time': True},
+         ],
+    )
 
     return LaunchDescription([
         debug_arg,
@@ -131,6 +131,6 @@ def generate_launch_description():
         robot_state_pub_node,
         moveit_launch,
         # Wait 25s for Gazebo + move_group to be fully ready before executing
-        #TimerAction(period=25.0, actions=[pick_place_demo]),
+        TimerAction(period=25.0, actions=[pick_place_demo]),
     ])
     

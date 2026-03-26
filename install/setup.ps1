@@ -23,6 +23,7 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/jazzy\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/vasee22/COAR-ROS2-Workspace-main/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/vasee22/ws_moveit/install\local_setup.ps1"
 
 # source this prefix

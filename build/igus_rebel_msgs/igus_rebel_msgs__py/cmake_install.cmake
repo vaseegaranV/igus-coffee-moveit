@@ -1,8 +1,8 @@
-# Install script for directory: /home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/igus_rebel_msgs__py
+# Install script for directory: /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel_msgs/igus_rebel_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vasee22/COAR-ROS2-Workspace-main/install/igus_rebel_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/install/igus_rebel_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

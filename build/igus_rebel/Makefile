@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel
+CMAKE_SOURCE_DIR = /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel
+CMAKE_BINARY_DIR = /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel/CMakeFiles /home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel/CMakeFiles /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/COAR-ROS2-Workspace-main/build/igus_rebel/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/build/igus_rebel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -237,30 +237,17 @@ igus_rail_moveit/fast:
 .PHONY : igus_rail_moveit/fast
 
 #=============================================================================
-# Target rules for targets named end_effector_movement
+# Target rules for targets named pick_and_place
 
 # Build rule for target.
-end_effector_movement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 end_effector_movement
-.PHONY : end_effector_movement
+pick_and_place: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pick_and_place
+.PHONY : pick_and_place
 
 # fast build rule for target.
-end_effector_movement/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/end_effector_movement.dir/build.make CMakeFiles/end_effector_movement.dir/build
-.PHONY : end_effector_movement/fast
-
-#=============================================================================
-# Target rules for targets named igus_rebel_pick_and_place
-
-# Build rule for target.
-igus_rebel_pick_and_place: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igus_rebel_pick_and_place
-.PHONY : igus_rebel_pick_and_place
-
-# fast build rule for target.
-igus_rebel_pick_and_place/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rebel_pick_and_place.dir/build.make CMakeFiles/igus_rebel_pick_and_place.dir/build
-.PHONY : igus_rebel_pick_and_place/fast
+pick_and_place/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/build
+.PHONY : pick_and_place/fast
 
 src/CriMessages.o: src/CriMessages.cpp.o
 .PHONY : src/CriMessages.o
@@ -334,30 +321,6 @@ src/RebelSocket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rebel.dir/build.make CMakeFiles/igus_rebel.dir/src/RebelSocket.cpp.s
 .PHONY : src/RebelSocket.cpp.s
 
-src/end_effector_movement.o: src/end_effector_movement.cpp.o
-.PHONY : src/end_effector_movement.o
-
-# target to build an object file
-src/end_effector_movement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/end_effector_movement.dir/build.make CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.o
-.PHONY : src/end_effector_movement.cpp.o
-
-src/end_effector_movement.i: src/end_effector_movement.cpp.i
-.PHONY : src/end_effector_movement.i
-
-# target to preprocess a source file
-src/end_effector_movement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/end_effector_movement.dir/build.make CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.i
-.PHONY : src/end_effector_movement.cpp.i
-
-src/end_effector_movement.s: src/end_effector_movement.cpp.s
-.PHONY : src/end_effector_movement.s
-
-# target to generate assembly for a file
-src/end_effector_movement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/end_effector_movement.dir/build.make CMakeFiles/end_effector_movement.dir/src/end_effector_movement.cpp.s
-.PHONY : src/end_effector_movement.cpp.s
-
 src/igus_moveit.o: src/igus_moveit.cpp.o
 .PHONY : src/igus_moveit.o
 
@@ -406,29 +369,29 @@ src/igus_rail_moveit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rail_moveit.dir/build.make CMakeFiles/igus_rail_moveit.dir/src/igus_rail_moveit.cpp.s
 .PHONY : src/igus_rail_moveit.cpp.s
 
-src/igus_rebel_pick_and_place.o: src/igus_rebel_pick_and_place.cpp.o
-.PHONY : src/igus_rebel_pick_and_place.o
+src/pick_and_place.o: src/pick_and_place.cpp.o
+.PHONY : src/pick_and_place.o
 
 # target to build an object file
-src/igus_rebel_pick_and_place.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rebel_pick_and_place.dir/build.make CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.o
-.PHONY : src/igus_rebel_pick_and_place.cpp.o
+src/pick_and_place.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o
+.PHONY : src/pick_and_place.cpp.o
 
-src/igus_rebel_pick_and_place.i: src/igus_rebel_pick_and_place.cpp.i
-.PHONY : src/igus_rebel_pick_and_place.i
+src/pick_and_place.i: src/pick_and_place.cpp.i
+.PHONY : src/pick_and_place.i
 
 # target to preprocess a source file
-src/igus_rebel_pick_and_place.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rebel_pick_and_place.dir/build.make CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.i
-.PHONY : src/igus_rebel_pick_and_place.cpp.i
+src/pick_and_place.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.i
+.PHONY : src/pick_and_place.cpp.i
 
-src/igus_rebel_pick_and_place.s: src/igus_rebel_pick_and_place.cpp.s
-.PHONY : src/igus_rebel_pick_and_place.s
+src/pick_and_place.s: src/pick_and_place.cpp.s
+.PHONY : src/pick_and_place.s
 
 # target to generate assembly for a file
-src/igus_rebel_pick_and_place.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/igus_rebel_pick_and_place.dir/build.make CMakeFiles/igus_rebel_pick_and_place.dir/src/igus_rebel_pick_and_place.cpp.s
-.PHONY : src/igus_rebel_pick_and_place.cpp.s
+src/pick_and_place.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.s
+.PHONY : src/pick_and_place.cpp.s
 
 # Help Target
 help:
@@ -445,11 +408,10 @@ help:
 	@echo "... test"
 	@echo "... igus_rebel_uninstall"
 	@echo "... uninstall"
-	@echo "... end_effector_movement"
 	@echo "... igus_moveit"
 	@echo "... igus_rail_moveit"
 	@echo "... igus_rebel"
-	@echo "... igus_rebel_pick_and_place"
+	@echo "... pick_and_place"
 	@echo "... src/CriMessages.o"
 	@echo "... src/CriMessages.i"
 	@echo "... src/CriMessages.s"
@@ -459,18 +421,15 @@ help:
 	@echo "... src/RebelSocket.o"
 	@echo "... src/RebelSocket.i"
 	@echo "... src/RebelSocket.s"
-	@echo "... src/end_effector_movement.o"
-	@echo "... src/end_effector_movement.i"
-	@echo "... src/end_effector_movement.s"
 	@echo "... src/igus_moveit.o"
 	@echo "... src/igus_moveit.i"
 	@echo "... src/igus_moveit.s"
 	@echo "... src/igus_rail_moveit.o"
 	@echo "... src/igus_rail_moveit.i"
 	@echo "... src/igus_rail_moveit.s"
-	@echo "... src/igus_rebel_pick_and_place.o"
-	@echo "... src/igus_rebel_pick_and_place.i"
-	@echo "... src/igus_rebel_pick_and_place.s"
+	@echo "... src/pick_and_place.o"
+	@echo "... src/pick_and_place.i"
+	@echo "... src/pick_and_place.s"
 .PHONY : help
 
 

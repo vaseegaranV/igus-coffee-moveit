@@ -1,4 +1,0 @@
-[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::[01;32m[KcreateTask[m[K()[m[K’:
-[01m[K/home/vasee22/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/igus_rebel_pick_and_place.cpp:124:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khome_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  124 |   const auto& [01;35m[Khome_pose[m[K          = "home";
-      |               [01;35m[K^~~~~~~~~[m[K
