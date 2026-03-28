@@ -83,6 +83,15 @@ COFFEE_MACHINE = {
     "z":  _table_surface_z + 0.450 / 2,      # base sits on table surface
 }
 
+NO_GO_ZONE = {
+    "size_x": 2.00,
+    "size_y": 0.35,
+    "size_z": 0.13,
+    "x":  0.00,
+    "y": -0.32,                              # towards back wall
+    "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
+}
+
 FRAME_ID = "world"   # change to "base_link" if that is your fixed frame
 
 
@@ -214,6 +223,13 @@ class CoffeeCellEnvironment(Node):
             px=cm["x"], py=cm["y"], pz=cm["z"],
         ))
 
+        ngz = NO_GO_ZONE
+        objects.append(box_object(
+            "no_go_zone", FRAME_ID,
+            sx=ngz["size_x"], sy=ngz["size_y"], sz=ngz["size_z"],
+            px=ngz["x"], py=ngz["y"], pz=ngz["z"],
+        ))
+
         # ── Colours ────────────────────────────────────────────────────
         colors = [
             self._make_color("wall_front",     0.7, 0.7, 0.7, 0.4),
@@ -222,6 +238,7 @@ class CoffeeCellEnvironment(Node):
             self._make_color("ceiling",        0.8, 0.8, 0.9, 0.3),
             self._make_color("welding_table",  0.3, 0.3, 0.35, 0.9),
             self._make_color("coffee_machine", 0.2, 0.6, 0.2,  0.9),
+            self._make_color("no_go_zone", 0.1, 0.6, 0.7,  0.5),
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────

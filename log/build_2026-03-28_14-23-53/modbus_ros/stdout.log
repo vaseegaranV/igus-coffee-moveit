@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/modbus_ros/modbus_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/modbus_ros/modbus_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/modbus_ros/modbus_ros.egg-info/entry_points.txt
+writing requirements to ../../build/modbus_ros/modbus_ros.egg-info/requires.txt
+writing top-level names to ../../build/modbus_ros/modbus_ros.egg-info/top_level.txt
+reading manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/modbus_ros/modbus_ros.egg-info to /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros-0.0.0-py3.12.egg-info
+running install_scripts
+Installing modbus_publisher script to /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/modbus_ros
+writing list of installed files to '/home/vasee22/igus-coffee-moveit/build/modbus_ros/install.log'
