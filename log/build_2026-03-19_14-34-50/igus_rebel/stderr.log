@@ -1,5 +1,0 @@
-[01m[K/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/Rebel.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type Igus::Rebel::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
-[01m[K/home/vasee22/COAR-ROS2-Workspace-mai/COAR-ROS2-Workspace-main/src/igus_rebel_ros2/igus_rebel/src/Rebel.cpp:665:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  665 | _type Rebel::write(const rclcpp::Time&, [01;35m[Kconst rclcpp::Duration &period[m[K)
-      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
-

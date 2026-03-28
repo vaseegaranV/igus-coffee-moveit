@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dc17c826b1cb9fe4ff42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "igus_rebel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "igus_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-igus_moveit-d761724f77e86c18bc46.json",
+					"name" : "igus_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "igus_rail_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-igus_rail_moveit-131107ec0bfd96a05e29.json",
+					"name" : "igus_rail_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "igus_rebel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-igus_rebel-5225d66a9ad7f4147d5e.json",
+					"name" : "igus_rebel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "igus_rebel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-igus_rebel_uninstall-0a16461fafed820d9821.json",
+					"name" : "igus_rebel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place-a36c977f2005cd86679f.json",
+					"name" : "pick_and_place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "random_pose_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-random_pose_node-7f1825b9c3bb3b86de40.json",
+					"name" : "random_pose_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c65626e09a3caa2fe992.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vasee22/igus-coffee-moveit/build/igus_rebel",
+		"source" : "/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

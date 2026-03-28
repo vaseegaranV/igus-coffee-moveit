@@ -96,6 +96,8 @@ void MTCTaskNode::doTask()
 {
   task_ = createTask();
 
+  task_.enableIntrospection();
+
   try
   {
     task_.init();
@@ -111,7 +113,14 @@ void MTCTaskNode::doTask()
     RCLCPP_ERROR_STREAM(LOGGER, "Task planning failed");
     return;
   }
-  task_.introspection().publishSolution(*task_.solutions().front());
+
+    // publish ALL solutions (better than just front)
+  for (const auto& sol : task_.solutions()) {
+    task_.introspection().publishSolution(*sol);
+  }
+
+  // 🔥 ADD THIS: wait so RViz can see it
+  rclcpp::sleep_for(std::chrono::seconds(10));
 
   auto result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS)
@@ -195,6 +204,14 @@ mtc::Task MTCTaskNode::createTask()
   auto stage_state_current = std::make_unique<mtc::stages::CurrentState>("current");
   current_state_ptr = stage_state_current.get();
   task.add(std::move(stage_state_current));
+
+  // 2. Stage: Allow collision between the rail and the front wall
+  {
+      auto allow_collision = std::make_unique<mtc::stages::ModifyPlanningScene>("allow rail/wall collision");
+      // This allows the 'igus_7th_axis' link to overlap with the 'wall_front' collision object
+      allow_collision->allowCollisions("wall_front", "igus_7th_axis", true);
+      task.add(std::move(allow_collision));
+  }
 
   // Stage 2: Connect to pick
   auto stage_move_to_pick = std::make_unique<mtc::stages::Connect>(

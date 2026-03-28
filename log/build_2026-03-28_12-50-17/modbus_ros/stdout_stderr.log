@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/modbus_ros/modbus_ros.egg-info
+writing ../../build/modbus_ros/modbus_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/modbus_ros/modbus_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/modbus_ros/modbus_ros.egg-info/entry_points.txt
+writing requirements to ../../build/modbus_ros/modbus_ros.egg-info/requires.txt
+writing top-level names to ../../build/modbus_ros/modbus_ros.egg-info/top_level.txt
+writing manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/modbus_ros/modbus_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vasee22/igus-coffee-moveit/build/modbus_ros/build
+creating /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib
+creating /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib/modbus_ros
+copying modbus_ros/__init__.py -> /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib/modbus_ros
+copying modbus_ros/modbus_publisher.py -> /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib/modbus_ros
+running install
+running install_lib
+creating /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+copying /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib/modbus_ros/__init__.py -> /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+copying /home/vasee22/igus-coffee-moveit/build/modbus_ros/build/lib/modbus_ros/modbus_publisher.py -> /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros
+byte-compiling /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros/modbus_publisher.py to modbus_publisher.cpython-312.pyc
+running install_data
+creating /home/vasee22/igus-coffee-moveit/install/modbus_ros/share/ament_index
+creating /home/vasee22/igus-coffee-moveit/install/modbus_ros/share/ament_index/resource_index
+creating /home/vasee22/igus-coffee-moveit/install/modbus_ros/share/ament_index/resource_index/packages
+copying resource/modbus_ros -> /home/vasee22/igus-coffee-moveit/install/modbus_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/vasee22/igus-coffee-moveit/install/modbus_ros/share/modbus_ros
+running install_egg_info
+Copying ../../build/modbus_ros/modbus_ros.egg-info to /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages/modbus_ros-0.0.0-py3.12.egg-info
+running install_scripts
+Installing modbus_publisher script to /home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/modbus_ros
+writing list of installed files to '/home/vasee22/igus-coffee-moveit/build/modbus_ros/install.log'

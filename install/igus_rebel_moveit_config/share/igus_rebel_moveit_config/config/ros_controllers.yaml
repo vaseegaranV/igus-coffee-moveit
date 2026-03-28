@@ -35,25 +35,25 @@ rebel_arm_controller:
       goal_time: 5.0
       rail_slider:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint1:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint2:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint3:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint4:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint5:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
       joint6:
         goal: 0.05
-        trajectory: 0.1
+        trajectory: 0.15
 
     gains:
       rail_slider: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }

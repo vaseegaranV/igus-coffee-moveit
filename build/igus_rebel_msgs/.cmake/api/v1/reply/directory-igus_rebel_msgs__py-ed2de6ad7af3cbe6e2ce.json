@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "igus_rebel_msgs__py",
+		"source" : "/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__py"
+	}
+}

@@ -83,6 +83,42 @@ def generate_launch_description():
         output="both",
     )
     
+    from moveit_configs_utils import MoveItConfigsBuilder
+    moveit_config = (
+        MoveItConfigsBuilder("igus_rebel")
+        .robot_description_semantic(file_path="config/igus_rebel2.srdf")
+        .planning_pipelines(pipelines=["ompl", "pilz_industrial_motion_planner"])
+        .to_dict()
+    )
+
+    ompl_fix = {
+        "ompl": {
+            "planning_plugins": ["ompl_interface/OMPLPlanner"],
+            "request_adapters": [
+                "default_planning_request_adapters/ResolveConstraintFrames",
+                "default_planning_request_adapters/ValidateWorkspaceBounds",
+                "default_planning_request_adapters/CheckStartStateBounds",
+                "default_planning_request_adapters/CheckStartStateCollision",
+            ],
+            "response_adapters": [
+                "default_planning_response_adapters/AddTimeOptimalParameterization",
+                "default_planning_response_adapters/ValidateSolution",
+                "default_planning_response_adapters/DisplayMotionPath",
+            ],
+        }
+    }
+
+    # pick_place_demo = Node(
+    #      package='igus_rebel',
+    #      executable='pick_and_place',
+    #      output="screen",
+    #      parameters=[
+    #          moveit_config,
+    #          ompl_fix,
+    #          {'use_sim_time': True},
+    #      ],
+    # )
+
     return LaunchDescription([
         debug_arg,
         load_robot_description_arg,
@@ -94,6 +130,7 @@ def generate_launch_description():
         gazebo_launch,
         robot_state_pub_node,
         moveit_launch,
-        # TimerAction(period=20.0, actions=[igus_moveit]),
+        # Wait 25s for Gazebo + move_group to be fully ready before executing
+        #TimerAction(period=25.0, actions=[pick_place_demo]),
     ])
     

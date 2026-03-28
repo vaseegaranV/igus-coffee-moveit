@@ -1,0 +1,117 @@
+[0.015s] Invoking command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel -DCMAKE_INSTALL_PREFIX=/home/vasee22/igus-coffee-moveit/install/igus_rebel
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.164s] -- The CXX compiler identification is GNU 13.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.718s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.898s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.981s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.008s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.140s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.145s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.252s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.285s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.450s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.452s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.467s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.507s] -- Found igus_rebel_msgs: 0.0.0 (/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/cmake)
+[1.524s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.685s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.994s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.068s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.086s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.125s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.197s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.197s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.366s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.403s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.420s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.442s] -- Found moveit_task_constructor_core: 0.1.4 (/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[2.481s] -- Found hardware_interface: 4.42.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[2.542s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.687s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.687s] -- Configured cppcheck include dirs: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include
+[2.688s] -- Configured cppcheck exclude dirs and/or files: 
+[2.688s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.688s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.689s] -- Added test 'lint_cmake' to check CMake code style
+[2.690s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.691s] -- Added test 'uncrustify' to check C / C++ code style
+[2.691s] -- Configured uncrustify additional arguments: 
+[2.692s] -- Added test 'xmllint' to check XML markup files
+[2.693s] -- Configuring done (2.7s)
+[2.782s] -- Generating done (0.1s)
+[2.799s] -- Build files have been written to: /home/vasee22/igus-coffee-moveit/build/igus_rebel
+[2.820s] Invoked command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel' returned '0': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel -DCMAKE_INSTALL_PREFIX=/home/vasee22/igus-coffee-moveit/install/igus_rebel
+[2.821s] Invoking command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/igus_rebel.dir/src/RebelSocket.cpp.o[0m
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/igus_moveit.dir/src/igus_moveit.cpp.o[0m
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/igus_rebel.dir/src/Rebel.cpp.o[0m
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/igus_rebel.dir/src/CriMessages.cpp.o[0m
+[2.904s] [ 58%] [32mBuilding CXX object CMakeFiles/igus_rail_moveit.dir/src/igus_rail_moveit.cpp.o[0m
+[2.905s] [ 58%] [32mBuilding CXX object CMakeFiles/random_pose_node.dir/src/random_poses.cpp.o[0m
+[5.031s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/Rebel.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type Igus::Rebel::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.031s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/Rebel.cpp:665:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.031s]   665 | _type Rebel::write(const rclcpp::Time&, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[5.032s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.032s] 
+[7.187s] [ 66%] [32m[1mLinking CXX shared library libigus_rebel.so[0m
+[7.797s] [ 66%] Built target igus_rebel
+[8.466s] [ 75%] [32m[1mLinking CXX executable random_pose_node[0m
+[8.802s] [ 75%] Built target random_pose_node
+[8.886s] [ 83%] [32m[1mLinking CXX executable igus_moveit[0m
+[9.250s] [ 83%] Built target igus_moveit
+[12.402s] [ 91%] [32m[1mLinking CXX executable pick_and_place[0m
+[12.773s] [ 91%] Built target pick_and_place
+[14.219s] [100%] [32m[1mLinking CXX executable igus_rail_moveit[0m
+[14.968s] [100%] Built target igus_rail_moveit
+[14.985s] Invoked command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel' returned '0': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24
+[14.987s] Invoking command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vasee22/igus-coffee-moveit/build/igus_rebel
+[15.000s] -- Install configuration: ""
+[15.000s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/rebel.xml
+[15.000s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/libigus_rebel.so
+[15.003s] -- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/libigus_rebel.so" to ""
+[15.003s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_moveit
+[15.005s] -- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_moveit" to ""
+[15.005s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_rail_moveit
+[15.012s] -- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_rail_moveit" to ""
+[15.012s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/pick_and_place
+[15.014s] -- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/pick_and_place" to ""
+[15.014s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/random_pose_node
+[15.015s] -- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/random_pose_node" to ""
+[15.015s] -- Up-to-date: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/rebel.xml
+[15.015s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//config
+[15.015s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//config/controller.yaml
+[15.015s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch
+[15.015s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch/pick_and_place.launch.py
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch/rebel.launch.py
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/package_run_dependencies/igus_rebel
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/parent_prefix_path/igus_rebel
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.sh
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.dsv
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/path.sh
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/path.dsv
+[15.016s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.bash
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.sh
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.zsh
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.dsv
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/package.dsv
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/packages/igus_rebel
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/igus_rebel
+[15.017s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig.cmake
+[15.018s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig-version.cmake
+[15.018s] -- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/package.xml
+[15.021s] Invoked command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel' returned '0': AMENT_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vasee22/igus-coffee-moveit/build/igus_rebel
