@@ -38,6 +38,10 @@ from moveit_msgs.msg import CollisionObject, PlanningScene
 from std_msgs.msg import Header, ColorRGBA
 from moveit_msgs.msg import ObjectColor
 
+from shape_msgs.msg import Mesh, MeshTriangle
+from geometry_msgs.msg import Point as GeoPoint
+import trimesh
+
 
 # ---------------------------------------------------------------------------
 # Dimensions — all in metres
@@ -92,6 +96,15 @@ NO_GO_ZONE = {
     "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
 }
 
+COFFEE_CUP = {
+    "size_x": 2.00,
+    "size_y": 0.35,
+    "size_z": 0.13,
+    "x":  0.00,
+    "y": -0.32,                              # towards back wall
+    "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
+}
+
 FRAME_ID = "world"   # change to "base_link" if that is your fixed frame
 
 
@@ -128,6 +141,37 @@ def rgba(r: float, g: float, b: float, a: float = 0.6) -> ColorRGBA:
     c = ColorRGBA()
     c.r, c.g, c.b, c.a = r, g, b, a
     return c
+
+def mesh_object(object_id, frame_id, stl_path, px, py, pz, qx, qy, qz, qw, scale=1.0):
+    mesh_data = trimesh.load(stl_path)
+    
+    obj = CollisionObject()
+    obj.header = Header()
+    obj.header.frame_id = frame_id
+    obj.id = object_id
+    obj.operation = CollisionObject.ADD
+
+    ros_mesh = Mesh()
+    
+    # vertices
+    for v in mesh_data.vertices:
+        p = GeoPoint()
+        p.x, p.y, p.z = float(v[0]) * scale, float(v[1]) * scale, float(v[2]) * scale
+        ros_mesh.vertices.append(p)
+    
+    # triangles
+    for f in mesh_data.faces:
+        t = MeshTriangle()
+        t.vertex_indices = [int(f[0]), int(f[1]), int(f[2])]
+        ros_mesh.triangles.append(t)
+
+    pose = Pose()
+    pose.position = Point(x=px, y=py, z=pz)
+    pose.orientation = Quaternion(x=qx, y=qy, z=qz, w=qw)
+
+    obj.meshes = [ros_mesh]
+    obj.mesh_poses = [pose]
+    return obj
 
 
 # ---------------------------------------------------------------------------
@@ -223,6 +267,15 @@ class CoffeeCellEnvironment(Node):
             px=cm["x"], py=cm["y"], pz=cm["z"],
         ))
 
+        objects.append(mesh_object(
+            "object", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/coffee_cup.stl",
+            px=0.700,
+            py=-0.300,
+            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+        ))
+
         ngz = NO_GO_ZONE
         objects.append(box_object(
             "no_go_zone", FRAME_ID,
@@ -251,13 +304,21 @@ class CoffeeCellEnvironment(Node):
         self.get_logger().info(
             f"Published {len(objects)} collision objects to /planning_scene"
         )
+
         for obj in objects:
-            p = obj.primitive_poses[0].position
-            s = obj.primitives[0].dimensions
-            self.get_logger().info(
-                f"  [{obj.id}]  size=({s[0]:.2f}, {s[1]:.2f}, {s[2]:.2f})  "
-                f"pos=({p.x:.2f}, {p.y:.2f}, {p.z:.2f})"
-            )
+            if obj.primitives:
+                p = obj.primitive_poses[0].position
+                s = obj.primitives[0].dimensions
+                self.get_logger().info(
+                    f"  [{obj.id}]  size=({s[0]:.2f}, {s[1]:.2f}, {s[2]:.2f})  "
+                    f"pos=({p.x:.2f}, {p.y:.2f}, {p.z:.2f})"
+                )
+            elif obj.meshes:
+                p = obj.mesh_poses[0].position
+                self.get_logger().info(
+                    f"  [{obj.id}]  (mesh)  "
+                    f"pos=({p.x:.2f}, {p.y:.2f}, {p.z:.2f})"
+                )
 
     # ------------------------------------------------------------------
     @staticmethod
