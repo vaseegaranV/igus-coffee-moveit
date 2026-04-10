@@ -313,10 +313,10 @@ class CoffeeCellEnvironment(Node):
             self._make_color("ceiling",        0.8, 0.8, 0.9, 0.3),
             self._make_color("welding_table",  0.3, 0.3, 0.35, 0.9),
             self._make_color("coffee_machine", 0.2, 0.6, 0.2,  0.9),
-            self._make_color("no_go_zone", 0.1, 0.6, 0.7,  0.5),
+            self._make_color("no_go_zone",     0.1, 0.6, 0.7,  0.5),
             self._make_color("grinder",        0.3, 0.8, 0.9, 0.9),
-            self._make_color("tool_station",        0.7, 0.1, 0.8, 0.9),
-            self._make_color("cup_holder",        0.3, 0.5, 0.9, 0.9)
+            self._make_color("tool_station",   0.7, 0.1, 0.8, 0.9),
+            self._make_color("cup_holder",     0.3, 0.5, 0.9, 0.9)
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────

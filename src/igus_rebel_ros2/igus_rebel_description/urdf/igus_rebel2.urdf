@@ -763,7 +763,8 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 3.14159 0"/>
       <geometry>
-        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/vacuum_gripper.stl"/>
+        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/CylinderJoint.stl"
+              scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="grey">
         <color rgba="0.5 0.5 0.5 1.0"/> <!-- Light grey with full opacity -->
@@ -772,13 +773,14 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 3.14159 0"/>
       <geometry>
-        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/vacuum_gripper.stl"/>
+        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/CylinderJoint.stl"
+              scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
 
   <joint name="gripper_fixed_joint" type="fixed">
-    <origin xyz="0 0 0.053" rpy="0 0 0"/> <!-- Adjust to position the gripper correctly -->
+    <origin xyz="0 0 0.053" rpy="-1.57079632679 0 0"/> <!-- Adjust to position the gripper correctly -->
     <parent link="link6"/> <!-- Replace with your last link's name if different -->
     <child link="gripper_link"/>
   </joint>
