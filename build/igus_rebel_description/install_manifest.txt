@@ -1,5 +1,8 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/launch/display.launch.archive
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/launch/igus_rebel_robot.launch.archive
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/CoffeeMachine.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/CoffeeCupHolder.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Coffee Grinder.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/coffee_cup.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel/Diffuse Map.001.png
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel/Robolink_RebeL_002_2.dae
@@ -52,9 +55,11 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/link5.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/motor2.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/IGUS7AXIS_1000.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/CylinderJoint.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/motor1.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/Igus_7thaxis.dae
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/simplified_motor4.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Tool Station.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes1/robolink_rebel/Robolink_RebeL_002_2.dae
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes1/robolink_rebel/Robolink_RebeL_001.dae
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes1/robolink_rebel/Diffuse_Map.png

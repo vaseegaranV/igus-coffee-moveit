@@ -382,7 +382,7 @@ mtc::Task MTCTaskNode::createTask()
     {
       auto stage = std::make_unique<mtc::stages::MoveRelative>("backward", cartesian_planner);
       stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.05, 0.15);
+      stage->setMinMaxDistance(0.03, 0.06);
       stage->setIKFrame(hand_frame);
       stage->properties().set("marker_ns", "backward");
       geometry_msgs::msg::Vector3Stamped vec;
@@ -401,7 +401,7 @@ mtc::Task MTCTaskNode::createTask()
       stage->properties().set("marker_ns", "post_place_lift");
       geometry_msgs::msg::Vector3Stamped vec;
       vec.header.frame_id = "world";
-      vec.vector.z = 1.0;
+      vec.vector.z = 1.1;
       stage->setDirection(vec);
       place->insert(std::move(stage));
     }

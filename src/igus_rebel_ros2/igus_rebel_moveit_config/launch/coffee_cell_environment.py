@@ -96,15 +96,6 @@ NO_GO_ZONE = {
     "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
 }
 
-COFFEE_CUP = {
-    "size_x": 2.00,
-    "size_y": 0.35,
-    "size_z": 0.13,
-    "x":  0.00,
-    "y": -0.32,                              # towards back wall
-    "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
-}
-
 FRAME_ID = "world"   # change to "base_link" if that is your fixed frame
 
 
@@ -258,15 +249,6 @@ class CoffeeCellEnvironment(Node):
             px=0.0, py=0.0, pz=TABLE["cz"],
         ))
 
-        # ── Coffee machine placeholder ─────────────────────────────────
-        # Sits on the table surface → base at Z=0.100, centre at Z=0.325
-        cm = COFFEE_MACHINE
-        objects.append(box_object(
-            "coffee_machine", FRAME_ID,
-            sx=cm["size_x"], sy=cm["size_y"], sz=cm["size_z"],
-            px=cm["x"], py=cm["y"], pz=cm["z"],
-        ))
-
         objects.append(mesh_object(
             "object", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/coffee_cup.stl",
@@ -283,6 +265,46 @@ class CoffeeCellEnvironment(Node):
             px=ngz["x"], py=ngz["y"], pz=ngz["z"],
         ))
 
+        objects.append(mesh_object(
+            "grinder", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Coffee Grinder.stl",
+            px=0.300,
+            py=-0.300,
+            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            scale=0.001,
+        ))
+
+        objects.append(mesh_object(
+            "coffee_machine", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/CoffeeMachine.stl",
+            px=-0.100,
+            py=-0.300,
+            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            scale=0.001,
+        ))
+
+        objects.append(mesh_object(
+            "tool_station", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Tool Station.stl",
+            px=-0.400,
+            py=-0.300,
+            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            scale=0.001,
+        ))
+
+        objects.append(mesh_object(
+            "cup_holder", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/CoffeeCupHolder.stl",
+            px=-0.600,
+            py=-0.300,
+            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            scale=0.001,
+        ))
+
         # ── Colours ────────────────────────────────────────────────────
         colors = [
             self._make_color("wall_front",     0.7, 0.7, 0.7, 0.4),
@@ -292,6 +314,9 @@ class CoffeeCellEnvironment(Node):
             self._make_color("welding_table",  0.3, 0.3, 0.35, 0.9),
             self._make_color("coffee_machine", 0.2, 0.6, 0.2,  0.9),
             self._make_color("no_go_zone", 0.1, 0.6, 0.7,  0.5),
+            self._make_color("grinder",        0.3, 0.8, 0.9, 0.9),
+            self._make_color("tool_station",        0.7, 0.1, 0.8, 0.9),
+            self._make_color("cup_holder",        0.3, 0.5, 0.9, 0.9)
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────
