@@ -4,7 +4,9 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/gazebo.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/igus_rebel_simulated.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/igus_rebel_motion_planner.launch.py
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/environment.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/coffee_cell_environment.py
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/position_adjuster.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/moveit.rviz
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/config/pilz_cartesian_limits.yaml
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/config/initial_positions.yaml

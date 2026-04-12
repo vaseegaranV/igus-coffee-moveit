@@ -1,36 +1,21 @@
 #!/usr/bin/env python3
 """
-coffee_cell_environment.py
+coffee_cell_environment.py (Parameter-driven version)
 
-Publishes collision objects to the MoveIt2 Planning Scene:
-  - 3 cell walls (back + left + right — front/operator face is open)
-  - 1 ceiling panel
-  - 1 welding table top (2000×1000×100mm, sitting on the floor inside the cell)
-  - 1 coffee machine placeholder block (on the table surface)
+Publishes collision objects to the MoveIt2 Planning Scene.
+Object positions are read from ROS parameters, allowing real-time updates
+from the position_adjuster.py script.
 
-Real-world dimensions taken from:
-  Cell drawing (KJN job 74942):  2000mm W × 1000mm D × 1587mm H
-  Frame profile:                 45×45mm aluminium throughout
-  Welding table:                 2000mm × 1000mm × 100mm plasma nitrided top
-
-Z coordinate convention (matches physical cell):
-  Z = 0.000  →  floor / base of cell walls
-  Z = 0.100  →  top of welding table = robot base mounting plane
-  Z = 1.587  →  top of cell (ceiling underside)
-
-The cell walls sit on the floor.  The welding table sits inside the cell
-on the floor.  The robot URDF origin (Z=0 in world frame) should be set
-to the table surface, i.e. 0.100m above the floor.  If your URDF places
-the robot base at the world origin (0,0,0) you may need to add a static
-transform: floor → robot_base  with  z = 0.100.
-
-Usage (after sourcing ROS 2 + workspace):
-    python3 coffee_cell_environment.py
+Usage:
+    Terminal 1: ros2 launch your_moveit_config demo.launch.py
+    Terminal 2: python3 coffee_cell_environment.py
+    Terminal 3: python3 position_adjuster.py  (to adjust positions interactively)
 """
 
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy
+from rcl_interfaces.msg import SetParametersResult
 
 from geometry_msgs.msg import Pose, Point, Quaternion
 from shape_msgs.msg import SolidPrimitive
@@ -47,60 +32,42 @@ import trimesh
 # Dimensions — all in metres
 # ---------------------------------------------------------------------------
 
-# Cell enclosure (from PDF drawing, job 74942)
+# Cell enclosure
 CELL = {
-    "width":  2.000,   # X — left / right  (2000mm)
-    "depth":  1.000,   # Y — back to open front  (1000mm)
-    "height": 1.587,   # Z — floor to ceiling  (1587mm)
-    "wall_t": 0.045,   # aluminium profile section  (45mm)
+    "width":  2.000,
+    "depth":  1.000,
+    "height": 1.587,
+    "wall_t": 0.045,
 }
 
-# The rail (igus_7th_axis) sits at Z=0 in the world frame per /tf_static.
-# The physical rail + base plate sits on the welding table surface.
-# We estimate the rail+base assembly is ~120mm tall, so the table surface
-# is at Z = -0.120 and the floor is at Z = -0.220 (table top - table thickness).
-#
-# Tweak FLOOR_Z if the floor doesn't visually align in RViz — move it in
-# steps of 0.01 until it sits flush with the bottom of the rail.
-RAIL_BASE_Z  = 0.0     # world Z of the igus_7th_axis frame (from /tf_static)
-RAIL_HEIGHT  = 0.120   # estimated rail + base plate height (m) — adjust if needed
+RAIL_BASE_Z  = 0.0
+RAIL_HEIGHT  = 0.120
 
 TABLE = {
     "size_x": 2.000,
     "size_y": 1.000,
-    "size_z": 0.100,   # 100mm thick welding table top
+    "size_z": 0.100,
 }
-# Table top surface sits just below the rail base
-TABLE["cz"] = RAIL_BASE_Z - RAIL_HEIGHT - TABLE["size_z"] / 2  # = -0.170
+TABLE["cz"] = RAIL_BASE_Z - RAIL_HEIGHT - TABLE["size_z"] / 2
 
-# Floor sits on the underside of the table
-FLOOR_Z = RAIL_BASE_Z - RAIL_HEIGHT - TABLE["size_z"]  # = -0.220
+FLOOR_Z = RAIL_BASE_Z - RAIL_HEIGHT - TABLE["size_z"]
 
-# Coffee machine placeholder — sits on the table surface
-_table_surface_z = RAIL_BASE_Z - RAIL_HEIGHT  # = -0.120
-COFFEE_MACHINE = {
-    "size_x": 0.350,
-    "size_y": 0.300,
-    "size_z": 0.450,
-    "x":  0.700,
-    "y": -0.300,                              # towards back wall
-    "z":  _table_surface_z + 0.450 / 2,      # base sits on table surface
-}
+_table_surface_z = RAIL_BASE_Z - RAIL_HEIGHT
 
 NO_GO_ZONE = {
     "size_x": 2.00,
     "size_y": 0.35,
     "size_z": 0.13,
     "x":  0.00,
-    "y": -0.32,                              # towards back wall
-    "z":  _table_surface_z + 0.13 / 2,      # base sits on table surface
+    "y": -0.32,
+    "z":  _table_surface_z + 0.13 / 2,
 }
 
-FRAME_ID = "world"   # change to "base_link" if that is your fixed frame
+FRAME_ID = "world"
 
 
 # ---------------------------------------------------------------------------
-# Helper
+# Helper Functions
 # ---------------------------------------------------------------------------
 
 def box_object(object_id: str, frame_id: str,
@@ -117,7 +84,7 @@ def box_object(object_id: str, frame_id: str,
 
     box = SolidPrimitive()
     box.type = SolidPrimitive.BOX
-    box.dimensions = [sx, sy, sz]  # [X, Y, Z]
+    box.dimensions = [sx, sy, sz]
 
     pose = Pose()
     pose.position = Point(x=px, y=py, z=pz)
@@ -132,6 +99,7 @@ def rgba(r: float, g: float, b: float, a: float = 0.6) -> ColorRGBA:
     c = ColorRGBA()
     c.r, c.g, c.b, c.a = r, g, b, a
     return c
+
 
 def mesh_object(object_id, frame_id, stl_path, px, py, pz, qx, qy, qz, qw, scale=1.0):
     mesh_data = trimesh.load(stl_path)
@@ -174,7 +142,24 @@ class CoffeeCellEnvironment(Node):
     def __init__(self):
         super().__init__("coffee_cell_environment")
 
-        # Latched publisher so RViz / move_group pick it up even if they start later
+        # Declare parameters for object positions (defaults)
+        self.declare_parameter('grinder_x', -0.126)
+        self.declare_parameter('grinder_y', -0.300)
+        self.declare_parameter('grinder_z', 0.010)
+        
+        self.declare_parameter('coffee_machine_x', 0.419)
+        self.declare_parameter('coffee_machine_y', -0.316)
+        self.declare_parameter('coffee_machine_z', 0.010)
+        
+        self.declare_parameter('tool_station_x', -0.670)
+        self.declare_parameter('tool_station_y', -0.300)
+        self.declare_parameter('tool_station_z', 0.210)
+        
+        self.declare_parameter('cup_holder_x', -0.469)
+        self.declare_parameter('cup_holder_y', -0.351)
+        self.declare_parameter('cup_holder_z', 0.210)
+
+        # Latched publisher
         latch_qos = QoSProfile(
             depth=1,
             durability=DurabilityPolicy.TRANSIENT_LOCAL,
@@ -186,45 +171,72 @@ class CoffeeCellEnvironment(Node):
             latch_qos,
         )
 
-        # Small delay then publish once (move_group must be up first)
-        self._timer = self.create_timer(2.0, self._publish_environment)
+        # Publish initial scene after delay
+        self._timer = self.create_timer(2.0, self._initial_publish)
+        
+        # Set up parameter callback for live updates
+        self.add_on_set_parameters_callback(self._parameter_callback)
+        
         self.get_logger().info("CoffeeCellEnvironment node started – will publish in 2 s")
 
-    # ------------------------------------------------------------------
+    def _initial_publish(self):
+        """Initial scene publish"""
+        self._timer.cancel()
+        self._publish_environment()
+        
+        # Set up periodic republish to catch parameter updates
+        self._update_timer = self.create_timer(0.5, self._publish_environment)
+
+    def _parameter_callback(self, params):
+        """Called when parameters are updated"""
+        # Republish scene whenever parameters change
+        self._publish_environment()
+        return SetParametersResult(successful=True)
+
     def _publish_environment(self):
         """Build all collision objects and send them in one PlanningScene msg."""
-        self._timer.cancel()   # fire only once
+        
+        # Read current parameter values
+        grinder_x = self.get_parameter('grinder_x').value
+        grinder_y = self.get_parameter('grinder_y').value
+        grinder_z = self.get_parameter('grinder_z').value
+        
+        coffee_machine_x = self.get_parameter('coffee_machine_x').value
+        coffee_machine_y = self.get_parameter('coffee_machine_y').value
+        coffee_machine_z = self.get_parameter('coffee_machine_z').value
+        
+        tool_station_x = self.get_parameter('tool_station_x').value
+        tool_station_y = self.get_parameter('tool_station_y').value
+        tool_station_z = self.get_parameter('tool_station_z').value
+        
+        cup_holder_x = self.get_parameter('cup_holder_x').value
+        cup_holder_y = self.get_parameter('cup_holder_y').value
+        cup_holder_z = self.get_parameter('cup_holder_z').value
 
-        w  = CELL["width"]    # 2.000 m
-        d  = CELL["depth"]    # 1.000 m
-        h  = CELL["height"]   # 1.587 m
-        t  = CELL["wall_t"]   # 0.045 m  (45mm profile)
-        hw = w / 2.0          # 1.000 m
-        hd = d / 2.0          # 0.500 m
+        w  = CELL["width"]
+        d  = CELL["depth"]
+        h  = CELL["height"]
+        t  = CELL["wall_t"]
+        hw = w / 2.0
+        hd = d / 2.0
 
-        # Cell walls rise from the floor upward
-        # Centre Z = FLOOR_Z + h/2
         wall_cz = FLOOR_Z + h / 2.0
 
         objects: list[CollisionObject] = []
 
-        # ── Walls (back/−Y face omitted — open side) ───────────────────
-
-        # Front wall  (+Y face)
+        # ── Walls ──────────────────────────────────────────────────────
         objects.append(box_object(
             "wall_front", FRAME_ID,
             sx=w, sy=t, sz=h,
             px=0.0, py=hd + t / 2, pz=wall_cz,
         ))
 
-        # Left wall  (−X face)
         objects.append(box_object(
             "wall_left", FRAME_ID,
             sx=t, sy=d, sz=h,
             px=-(hw + t / 2), py=0.0, pz=wall_cz,
         ))
 
-        # Right wall  (+X face)
         objects.append(box_object(
             "wall_right", FRAME_ID,
             sx=t, sy=d, sz=h,
@@ -232,7 +244,6 @@ class CoffeeCellEnvironment(Node):
         ))
 
         # ── Ceiling ────────────────────────────────────────────────────
-        # Top of cell walls = FLOOR_Z + h = h.  Ceiling panel centre = h + t/2
         ceiling_z = FLOOR_Z + h + t / 2
         objects.append(box_object(
             "ceiling", FRAME_ID,
@@ -240,24 +251,24 @@ class CoffeeCellEnvironment(Node):
             px=0.0, py=0.0, pz=ceiling_z,
         ))
 
-        # ── Welding table top ──────────────────────────────────────────
-        # Sits on the floor inside the cell.
-        # Floor = Z=0, table top surface = Z=0.100, centre = Z=0.050
+        # ── Welding table ──────────────────────────────────────────────
         objects.append(box_object(
             "welding_table", FRAME_ID,
             sx=TABLE["size_x"], sy=TABLE["size_y"], sz=TABLE["size_z"],
             px=0.0, py=0.0, pz=TABLE["cz"],
         ))
 
+        # ── Coffee cup (static position) ───────────────────────────────
         objects.append(mesh_object(
             "object", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/coffee_cup.stl",
             px=0.700,
             py=-0.300,
-            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
-            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            pz=_table_surface_z + 0.7,
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,
         ))
 
+        # ── No-go zone ─────────────────────────────────────────────────
         ngz = NO_GO_ZONE
         objects.append(box_object(
             "no_go_zone", FRAME_ID,
@@ -265,43 +276,44 @@ class CoffeeCellEnvironment(Node):
             px=ngz["x"], py=ngz["y"], pz=ngz["z"],
         ))
 
+        # ── Dynamic objects (from parameters) ─────────────────────────
         objects.append(mesh_object(
             "grinder", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Coffee Grinder.stl",
-            px=0.300,
-            py=-0.300,
-            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
-            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            px=grinder_x,
+            py=grinder_y,
+            pz=grinder_z,
+            qx=0.0, qy=0.0, qz=1.0, qw=0.0,
             scale=0.001,
         ))
 
         objects.append(mesh_object(
             "coffee_machine", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/CoffeeMachine.stl",
-            px=-0.100,
-            py=-0.300,
-            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
-            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            px=coffee_machine_x,
+            py=coffee_machine_y,
+            pz=coffee_machine_z,
+            qx=0.0, qy=0.0, qz=0.0, qw=1.0,
             scale=0.001,
         ))
 
         objects.append(mesh_object(
             "tool_station", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Tool Station.stl",
-            px=-0.400,
-            py=-0.300,
-            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
-            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            px=tool_station_x,
+            py=tool_station_y,
+            pz=tool_station_z,
+            qx=0.0, qy=0.0, qz=0.7071, qw=0.7071,
             scale=0.001,
         ))
 
         objects.append(mesh_object(
             "cup_holder", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/CoffeeCupHolder.stl",
-            px=-0.600,
-            py=-0.300,
-            pz=_table_surface_z + 0.7,  # swap 0.090 for your actual cup height
-            qx=0.0, qy=0.0, qz=0.0, qw=1.0,  # 180° about X
+            px=cup_holder_x,
+            py=cup_holder_y,
+            pz=cup_holder_z,
+            qx=0.0, qy=0.0, qz=-0.7071, qw=0.7071,
             scale=0.001,
         ))
 
@@ -312,40 +324,22 @@ class CoffeeCellEnvironment(Node):
             self._make_color("wall_right",     0.7, 0.7, 0.7, 0.4),
             self._make_color("ceiling",        0.8, 0.8, 0.9, 0.3),
             self._make_color("welding_table",  0.3, 0.3, 0.35, 0.9),
-            self._make_color("coffee_machine", 0.2, 0.6, 0.2,  0.9),
-            self._make_color("no_go_zone",     0.1, 0.6, 0.7,  0.5),
-            self._make_color("grinder",        0.3, 0.8, 0.9, 0.9),
-            self._make_color("tool_station",   0.7, 0.1, 0.8, 0.9),
-            self._make_color("cup_holder",     0.3, 0.5, 0.9, 0.9)
+            self._make_color("object",         0.9, 0.7, 0.3, 1.0),
+            self._make_color("no_go_zone",     0.1, 0.6, 0.7, 0.5),
+            self._make_color("grinder",        0.3, 0.8, 0.9, 1.0),
+            self._make_color("coffee_machine", 0.2, 0.6, 0.2, 1.0),
+            self._make_color("tool_station",   0.7, 0.1, 0.8, 1.0),
+            self._make_color("cup_holder",     0.1, 0.1, 0.1, 0.7 )
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────
         scene_msg = PlanningScene()
-        scene_msg.is_diff = True   # merge with existing scene
+        scene_msg.is_diff = True
         scene_msg.world.collision_objects = objects
         scene_msg.object_colors = colors
 
         self._scene_pub.publish(scene_msg)
-        self.get_logger().info(
-            f"Published {len(objects)} collision objects to /planning_scene"
-        )
 
-        for obj in objects:
-            if obj.primitives:
-                p = obj.primitive_poses[0].position
-                s = obj.primitives[0].dimensions
-                self.get_logger().info(
-                    f"  [{obj.id}]  size=({s[0]:.2f}, {s[1]:.2f}, {s[2]:.2f})  "
-                    f"pos=({p.x:.2f}, {p.y:.2f}, {p.z:.2f})"
-                )
-            elif obj.meshes:
-                p = obj.mesh_poses[0].position
-                self.get_logger().info(
-                    f"  [{obj.id}]  (mesh)  "
-                    f"pos=({p.x:.2f}, {p.y:.2f}, {p.z:.2f})"
-                )
-
-    # ------------------------------------------------------------------
     @staticmethod
     def _make_color(object_id: str, r: float, g: float, b: float,
                     a: float = 0.5) -> ObjectColor:
