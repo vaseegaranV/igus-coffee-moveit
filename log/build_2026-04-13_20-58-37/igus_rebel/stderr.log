@@ -1,0 +1,10 @@
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreateTask[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:80:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface[m[K’ has not been declared
+   80 |     moveit::[01;31m[Kplanning_interface[m[K::PlanningSceneInterface psi;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsi[m[K’ was not declared in this scope
+   92 |     [01;31m[Kpsi[m[K.applyPlanningScene(scene_msg);
+      |     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

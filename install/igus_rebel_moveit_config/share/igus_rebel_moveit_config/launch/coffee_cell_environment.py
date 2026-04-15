@@ -143,7 +143,7 @@ class CoffeeCellEnvironment(Node):
         super().__init__("coffee_cell_environment")
 
         # Declare parameters for object positions (defaults)
-        self.declare_parameter('grinder_x', -0.126)
+        self.declare_parameter('grinder_x', 0.000)
         self.declare_parameter('grinder_y', -0.300)
         self.declare_parameter('grinder_z', 0.010)
         
@@ -177,7 +177,7 @@ class CoffeeCellEnvironment(Node):
         # Set up parameter callback for live updates
         self.add_on_set_parameters_callback(self._parameter_callback)
         
-        self.get_logger().info("CoffeeCellEnvironment node started – will publish in 2 s")
+        self.get_logger().info("CoffeeCellEnvironment node started will publish in 2 s")
 
     def _initial_publish(self):
         """Initial scene publish"""
@@ -329,7 +329,7 @@ class CoffeeCellEnvironment(Node):
             self._make_color("grinder",        0.3, 0.8, 0.9, 1.0),
             self._make_color("coffee_machine", 0.2, 0.6, 0.2, 1.0),
             self._make_color("tool_station",   0.7, 0.1, 0.8, 1.0),
-            self._make_color("cup_holder",     0.1, 0.1, 0.1, 0.7 )
+            self._make_color("cup_holder",     0.1, 0.1, 0.1, 0.5 )
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────

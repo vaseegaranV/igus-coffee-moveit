@@ -1,0 +1,122 @@
+[0.007s] Invoking command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel': CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/igus-coffee-moveit/install/igus_rebel:/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config:/home/vasee22/igus-coffee-moveit/install/igus_rebel_description:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/igus-coffee-moveit/install/modbus_ros:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:/home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24
+[0.050s] [ 83%] Built target random_pose_node
+[0.050s] [ 83%] Built target igus_moveit
+[0.050s] [ 83%] Built target igus_rail_moveit
+[0.050s] [ 83%] Built target igus_rebel
+[0.058s] [ 91%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[2.762s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreatePickCupTask[m[K()[m[K’:
+[2.762s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:744:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::task_constructor::stages::ModifyPlanningScene::allowCollisions(const char [7], <brace-enclosed initializer list>, bool)[m[K’
+[2.762s]   744 |       [01;31m[Kstage->allowCollisions("object", {[m[K
+[2.762s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.762s]   745 | [01;31m[K        "gripper_link",[m[K
+[2.762s]       |         [01;31m[K~~~~~~~~~~~~~~~[m[K      
+[2.763s]   746 | [01;31m[K        "link5",[m[K
+[2.763s]       |         [01;31m[K~~~~~~~~[m[K             
+[2.763s]   747 | [01;31m[K        "link6",[m[K
+[2.763s]       |         [01;31m[K~~~~~~~~[m[K             
+[2.763s]   748 | [01;31m[K        "cup_holder"[m[K
+[2.763s]       |         [01;31m[K~~~~~~~~~~~~[m[K         
+[2.763s]   749 | [01;31m[K      }, true)[m[K;
+[2.763s]       |       [01;31m[K~~~~~~~~[m[K               
+[2.763s] In file included from [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h:52[m[K,
+[2.763s]                  from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:4[m[K:
+[2.764s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:157:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(planning_scene::PlanningScene&, const CollisionMatrixPairs&, bool)[m[K’
+[2.764s]   157 |         void [01;36m[KallowCollisions[m[K(planning_scene::PlanningScene& scene, const CollisionMatrixPairs& pairs, bool invert);
+[2.764s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.764s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:157:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [7][m[K’ to ‘[01m[Kplanning_scene::PlanningScene&[m[K’
+[2.764s]   157 |         void allowCollisions([01;36m[Kplanning_scene::PlanningScene& scene[m[K, const CollisionMatrixPairs& pairs, bool invert);
+[2.764s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.764s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:116:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2, class E1, class E2> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const T1&, const T2&, bool)[m[K’
+[2.764s]   116 |         inline void [01;36m[KallowCollisions[m[K(const T1& first, const T2& second, bool enable_collision) {
+[2.764s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.764s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:116:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.765s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:744:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT2[m[K’
+[2.765s]   744 |       [01;36m[Kstage->allowCollisions("object", {[m[K
+[2.765s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.765s]   745 | [01;36m[K        "gripper_link",[m[K
+[2.765s]       |         [01;36m[K~~~~~~~~~~~~~~~[m[K      
+[2.765s]   746 | [01;36m[K        "link5",[m[K
+[2.765s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.765s]   747 | [01;36m[K        "link6",[m[K
+[2.765s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.765s]   748 | [01;36m[K        "cup_holder"[m[K
+[2.765s]       |         [01;36m[K~~~~~~~~~~~~[m[K         
+[2.766s]   749 | [01;36m[K      }, true)[m[K;
+[2.766s]       |       [01;36m[K~~~~~~~~[m[K               
+[2.766s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:122:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class E> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const T&, bool)[m[K’
+[2.766s]   122 |         inline void [01;36m[KallowCollisions[m[K(const std::string& first, const T& second, bool enable_collision) {
+[2.766s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.766s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:122:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.766s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:744:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[2.766s]   744 |       [01;36m[Kstage->allowCollisions("object", {[m[K
+[2.766s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.766s]   745 | [01;36m[K        "gripper_link",[m[K
+[2.766s]       |         [01;36m[K~~~~~~~~~~~~~~~[m[K      
+[2.766s]   746 | [01;36m[K        "link5",[m[K
+[2.766s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.766s]   747 | [01;36m[K        "link6",[m[K
+[2.767s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.767s]   748 | [01;36m[K        "cup_holder"[m[K
+[2.767s]       |         [01;36m[K~~~~~~~~~~~~[m[K         
+[2.767s]   749 | [01;36m[K      }, true)[m[K;
+[2.767s]       |       [01;36m[K~~~~~~~~[m[K               
+[2.767s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:128:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class E> void moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const char*, const T&, bool)[m[K’
+[2.767s]   128 |         inline void [01;36m[KallowCollisions[m[K(const char* first, const T& second, bool enable_collision) {
+[2.767s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.767s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:128:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.767s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:744:29:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KT[m[K’
+[2.767s]   744 |       [01;36m[Kstage->allowCollisions("object", {[m[K
+[2.767s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.767s]   745 | [01;36m[K        "gripper_link",[m[K
+[2.767s]       |         [01;36m[K~~~~~~~~~~~~~~~[m[K      
+[2.767s]   746 | [01;36m[K        "link5",[m[K
+[2.767s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.767s]   747 | [01;36m[K        "link6",[m[K
+[2.767s]       |         [01;36m[K~~~~~~~~[m[K             
+[2.768s]   748 | [01;36m[K        "cup_holder"[m[K
+[2.768s]       |         [01;36m[K~~~~~~~~~~~~[m[K         
+[2.768s]   749 | [01;36m[K      }, true)[m[K;
+[2.768s]       |       [01;36m[K~~~~~~~~[m[K               
+[2.768s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:102:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const Names&, const Names&, bool)[m[K’
+[2.768s]   102 |         void [01;36m[KallowCollisions[m[K(const Names& first, const Names& second, bool allow);
+[2.768s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.768s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:102:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [7][m[K’ to ‘[01m[Kconst moveit::task_constructor::stages::ModifyPlanningScene::Names&[m[K’ {aka ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&[m[K’}
+[2.768s]   102 |         void allowCollisions([01;36m[Kconst Names& first[m[K, const Names& second, bool allow);
+[2.768s]       |                              [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[2.768s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:104:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const std::string&, bool)[m[K’
+[2.768s]   104 |         void [01;36m[KallowCollisions[m[K(const std::string& first, const std::string& second, bool allow) {
+[2.768s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.768s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:104:75:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[2.768s]   104 |         void allowCollisions(const std::string& first, [01;36m[Kconst std::string& second[m[K, bool allow) {
+[2.768s]       |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.768s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:108:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, bool)[m[K’
+[2.769s]   108 |         void [01;36m[KallowCollisions[m[K(const std::string& object, bool allow) { allowCollisions(Names({ object }), Names(), allow); }
+[2.769s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.769s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:108:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.769s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:132:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KallowCollisions[m[K(const std::string&, const moveit::core::JointModelGroup&, bool)[m[K’
+[2.769s]   132 |         void [01;36m[KallowCollisions[m[K(const std::string& first, const moveit::core::JointModelGroup& jmg, bool allow);
+[2.769s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.769s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:132:93:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup&[m[K’
+[2.769s]   132 |         void allowCollisions(const std::string& first, [01;36m[Kconst moveit::core::JointModelGroup& jmg[m[K, bool allow);
+[2.769s]       |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.769s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:798:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::task_constructor::stages::ModifyPlanningScene::attachObject(const char [7], const std::string&, <brace-enclosed initializer list>)[m[K’
+[2.769s]   798 |       [01;31m[Kstage->attachObject("object", hand_frame, {[m[K
+[2.769s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.769s]   799 | [01;31m[K        "gripper_link",[m[K
+[2.769s]       |         [01;31m[K~~~~~~~~~~~~~~~[m[K   
+[2.769s]   800 | [01;31m[K        "link5",[m[K
+[2.769s]       |         [01;31m[K~~~~~~~~[m[K          
+[2.769s]   801 | [01;31m[K        "link6",[m[K
+[2.770s]       |         [01;31m[K~~~~~~~~[m[K          
+[2.770s]   802 | [01;31m[K        "cup_holder"[m[K
+[2.770s]       |         [01;31m[K~~~~~~~~~~~~[m[K      
+[2.770s]   803 | [01;31m[K      })[m[K;
+[2.770s]       |       [01;31m[K~~[m[K                  
+[2.770s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:160:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::task_constructor::stages::ModifyPlanningScene::[01;32m[KattachObject[m[K(const std::string&, const std::string&)[m[K’
+[2.770s]   160 | inline void [01;36m[KModifyPlanningScene[m[K::attachObject(const std::string& object, const std::string& link) {
+[2.770s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.770s] [01m[K/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h:160:13:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[4.691s] gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Error 1
+[4.691s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+[4.692s] gmake: *** [Makefile:146: all] Error 2
+[4.695s] Invoked command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel' returned '2': CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/igus-coffee-moveit/install/igus_rebel:/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config:/home/vasee22/igus-coffee-moveit/install/igus_rebel_description:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/igus-coffee-moveit/install/modbus_ros:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:/home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24

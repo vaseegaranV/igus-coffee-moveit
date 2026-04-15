@@ -1,0 +1,12 @@
+[ 50%] Built target random_pose_node
+[ 50%] Built target igus_rebel
+[ 83%] Built target igus_rail_moveit
+[ 83%] Built target igus_moveit
+[ 91%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreatePickCupTask[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:769:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::task_constructor::stages::GenerateGraspPose[m[K’ has no member named ‘[01m[KallowCollisions[m[K’
+  769 |       stage->[01;31m[KallowCollisions[m[K("object", {"cup_holder", "gripper_link"}, true);
+      |              [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

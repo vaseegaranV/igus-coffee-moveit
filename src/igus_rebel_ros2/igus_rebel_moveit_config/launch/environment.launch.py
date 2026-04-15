@@ -113,10 +113,10 @@ def generate_launch_description():
         arguments=["--display-config", LaunchConfiguration('rviz_config')]
     )
 
-    coffee_cell_env_process = ExecuteProcess(
-        cmd=['python3', '/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_moveit_config/launch/coffee_cell_environment.py'],
-        output='screen'
-    )
+    # coffee_cell_env_process = ExecuteProcess(
+    #     cmd=['python3', '/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_moveit_config/launch/coffee_cell_environment.py'],
+    #     output='screen'
+    # )
 
     return LaunchDescription([
         debug_arg,
@@ -130,5 +130,5 @@ def generate_launch_description():
         robot_state_pub_node,    # Publishes TF
         moveit_launch,           # MoveIt planning
         rviz_node,               # Visualization
-        coffee_cell_env_process,
+        #coffee_cell_env_process,
     ])

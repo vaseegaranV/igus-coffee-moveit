@@ -143,7 +143,7 @@ class CoffeeCellEnvironment(Node):
         super().__init__("coffee_cell_environment")
 
         # Declare parameters for object positions (defaults)
-        self.declare_parameter('grinder_x', -0.126)
+        self.declare_parameter('grinder_x', 0.000)
         self.declare_parameter('grinder_y', -0.300)
         self.declare_parameter('grinder_z', 0.010)
         

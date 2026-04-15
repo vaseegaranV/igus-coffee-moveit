@@ -53,7 +53,7 @@ are defined
         <chain base_link="world" tip_link="link6" />
     </group>
 
-    <group name="vacuum_gripper">
+    <group name="female_connector">
         <link name="gripper_link" />
     </group>
     <!--GROUP
@@ -78,7 +78,7 @@ are defined
         <joint name="joint6" value="0" />
     </group_state>
 
-    <end_effector name="vacuum_eef" parent_link="link6" group="vacuum_gripper" parent_group="igus_rebel_arm" />
+    <end_effector name="female_connector_eef" parent_link="link6" group="female_connector" parent_group="igus_rebel_arm" />
     <!--VIRTUAL
     JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame
     of reference (considered fixed with respect to the robot)-->

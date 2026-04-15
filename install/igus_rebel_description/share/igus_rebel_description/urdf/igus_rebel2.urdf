@@ -771,10 +771,9 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 3.14159 0"/>
+      <origin xyz="0 -0.065 0" rpy="0 1.57 1.57"/>  <!-- Center at half height -->
       <geometry>
-        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/CylinderJoint.stl"
-              scale="0.001 0.001 0.001"/>
+        <mesh filename="file://$(find igus_rebel_description)/meshes/robolink_rebel2/collisionMesh.stl"/>
       </geometry>
     </collision>
   </link>
