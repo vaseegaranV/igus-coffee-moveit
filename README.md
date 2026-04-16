@@ -39,5 +39,9 @@ To adjust object positions interactively, uncomment the second-to-last line in `
 ```python
 coffee_cell_env_process,  # Uncomment this line
 ```
+```bash
+cd ~/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/scripts
+python3 position_adjuster.py
+```
 
 Then relaunch the environment.
