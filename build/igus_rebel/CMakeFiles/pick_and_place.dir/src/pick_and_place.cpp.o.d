@@ -1,6 +1,7 @@
 CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o: \
  /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp \
  /usr/include/stdc-predef.h \
+ /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

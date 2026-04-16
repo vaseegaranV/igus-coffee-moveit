@@ -14,7 +14,7 @@ Usage:
     6. Press 'q' when done
 
 Controls:
-    1-4: Select object (1=grinder, 2=coffee_machine, 3=tool_station, 4=cup_holder)
+    1-5: Select object (1=grinder, 2=coffee_machine, 3=tool_station, 4=cup_holder, 5=coffee_cup)
     Arrow keys: Move in X/Y plane
     u/j: Move up/down in Z
     +/-: Increase/decrease step size
@@ -41,6 +41,7 @@ INITIAL_POSITIONS = {
     'coffee_machine': {'x': -0.100, 'y': -0.300, 'z': _table_surface_z + 0.05},
     'tool_station': {'x': -0.400, 'y': -0.300, 'z': _table_surface_z + 0.05},
     'cup_holder': {'x': -0.600, 'y': -0.300, 'z': _table_surface_z + 0.05},
+    'coffee_cup': {'x': 0.700, 'y': -0.300, 'z': _table_surface_z + 0.7},
 }
 
 
@@ -158,7 +159,7 @@ class PositionAdjuster(Node):
         print("\n\n" + "="*70)
         print("CURRENT POSITIONS:")
         print("="*70)
-        for name in ['grinder', 'coffee_machine', 'tool_station', 'cup_holder']:
+        for name in ['grinder', 'coffee_machine', 'tool_station', 'cup_holder', 'coffee_cup']:
             pos = self.positions[name]
             print(f"{name:20s}: px={pos['x']:7.3f}, py={pos['y']:7.3f}, pz={pos['z']:7.3f}")
         print("="*70 + "\n")
@@ -171,7 +172,7 @@ class PositionAdjuster(Node):
         print("\n" + "="*70)
         print("INTERACTIVE POSITION ADJUSTER")
         print("="*70)
-        print("Objects: 1=grinder  2=coffee_machine  3=tool_station  4=cup_holder")
+        print("Objects: 1=grinder  2=coffee_machine  3=tool_station  4=cup_holder  5=coffee_cup")
         print("Move:    ← → ↑ ↓ (X/Y plane)    u/j (Z up/down)")
         print("Step:    + (bigger)  - (smaller)")
         print("Other:   r (reset)  p (print)  q (quit)")
@@ -197,6 +198,9 @@ class PositionAdjuster(Node):
                         self.print_current_position()
                     elif ch == '4':
                         self.current_obj = 'cup_holder'
+                        self.print_current_position()
+                    elif ch == '5':
+                        self.current_obj = 'coffee_cup'
                         self.print_current_position()
                     elif ch == '\x1b':  # Escape sequence (arrow keys)
                         next1 = sys.stdin.read(1)

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o"
   "CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o.d"
+  "CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o"
+  "CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o.d"
   "pick_and_place"
   "pick_and_place.pdb"
 )

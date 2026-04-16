@@ -158,6 +158,10 @@ class CoffeeCellEnvironment(Node):
         self.declare_parameter('cup_holder_x', -0.469)
         self.declare_parameter('cup_holder_y', -0.351)
         self.declare_parameter('cup_holder_z', 0.210)
+        
+        self.declare_parameter('coffee_cup_x', 0.700)
+        self.declare_parameter('coffee_cup_y', -0.300)
+        self.declare_parameter('coffee_cup_z', _table_surface_z + 0.7)
 
         # Latched publisher
         latch_qos = QoSProfile(
@@ -212,6 +216,10 @@ class CoffeeCellEnvironment(Node):
         cup_holder_x = self.get_parameter('cup_holder_x').value
         cup_holder_y = self.get_parameter('cup_holder_y').value
         cup_holder_z = self.get_parameter('cup_holder_z').value
+        
+        coffee_cup_x = self.get_parameter('coffee_cup_x').value
+        coffee_cup_y = self.get_parameter('coffee_cup_y').value
+        coffee_cup_z = self.get_parameter('coffee_cup_z').value
 
         w  = CELL["width"]
         d  = CELL["depth"]
@@ -258,13 +266,13 @@ class CoffeeCellEnvironment(Node):
             px=0.0, py=0.0, pz=TABLE["cz"],
         ))
 
-        # ── Coffee cup (static position) ───────────────────────────────
+        # ── Coffee cup (dynamic position from parameters) ──────────────
         objects.append(mesh_object(
             "object", FRAME_ID,
             stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/coffee_cup.stl",
-            px=0.700,
-            py=-0.300,
-            pz=_table_surface_z + 0.7,
+            px=coffee_cup_x,
+            py=coffee_cup_y,
+            pz=coffee_cup_z,
             qx=0.0, qy=0.0, qz=0.0, qw=1.0,
         ))
 

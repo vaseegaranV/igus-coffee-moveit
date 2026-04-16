@@ -1,0 +1,27 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp:4[m[K,
+                 from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:1[m[K:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:[m[K In member function ‘[01m[Kvoid SimpleTask::[01;32m[KsetupPlanningScene[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+    9 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Setting up planning scene...");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:9:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Setting up planning scene...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:404:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  404 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Adding %zu collision objects with colors to planning scene...", collision_objects.size());
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:404:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  404 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Adding %zu collision objects with colors to planning scene...", collision_objects.size());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:409:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  409 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Planning scene setup complete!");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:409:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  409 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning scene setup complete!");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:90: CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

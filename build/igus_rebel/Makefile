@@ -430,6 +430,30 @@ src/random_poses.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_pose_node.dir/build.make CMakeFiles/random_pose_node.dir/src/random_poses.cpp.s
 .PHONY : src/random_poses.cpp.s
 
+src/setup_environment.o: src/setup_environment.cpp.o
+.PHONY : src/setup_environment.o
+
+# target to build an object file
+src/setup_environment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o
+.PHONY : src/setup_environment.cpp.o
+
+src/setup_environment.i: src/setup_environment.cpp.i
+.PHONY : src/setup_environment.i
+
+# target to preprocess a source file
+src/setup_environment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.i
+.PHONY : src/setup_environment.cpp.i
+
+src/setup_environment.s: src/setup_environment.cpp.s
+.PHONY : src/setup_environment.s
+
+# target to generate assembly for a file
+src/setup_environment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.s
+.PHONY : src/setup_environment.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -471,6 +495,9 @@ help:
 	@echo "... src/random_poses.o"
 	@echo "... src/random_poses.i"
 	@echo "... src/random_poses.s"
+	@echo "... src/setup_environment.o"
+	@echo "... src/setup_environment.i"
+	@echo "... src/setup_environment.s"
 .PHONY : help
 
 

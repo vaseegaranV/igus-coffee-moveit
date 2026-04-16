@@ -39,7 +39,13 @@ add_library(${PROJECT_NAME} SHARED
 
 add_executable(igus_moveit src/igus_moveit.cpp)
 add_executable(igus_rail_moveit src/igus_rail_moveit.cpp)
-add_executable(pick_and_place src/pick_and_place.cpp)
+
+# FIXED: Both .cpp files are part of ONE executable
+add_executable(pick_and_place 
+  src/pick_and_place.cpp
+  src/setup_environment.cpp
+)
+
 add_executable(random_pose_node src/random_poses.cpp)
 
 
@@ -54,6 +60,7 @@ ament_target_dependencies(${PROJECT_NAME}
 ament_target_dependencies(igus_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
 ament_target_dependencies(igus_rail_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
 ament_target_dependencies(pick_and_place geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs moveit_task_constructor_core)
+# REMOVED: setup_environment line - it's now part of pick_and_place
 ament_target_dependencies(random_pose_node rclcpp moveit_ros_planning_interface)
 
 pluginlib_export_plugin_description_file(hardware_interface rebel.xml)
@@ -65,6 +72,7 @@ install(TARGETS ${PROJECT_NAME}
   RUNTIME DESTINATION bin
 )
 
+# FIXED: Removed setup_environment from install
 install(TARGETS 
     igus_moveit
     igus_rail_moveit
@@ -88,12 +96,7 @@ install(DIRECTORY
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
