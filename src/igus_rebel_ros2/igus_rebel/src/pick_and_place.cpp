@@ -60,13 +60,17 @@ void SimpleTask::doTask()
   RCLCPP_INFO(LOGGER, "Both tasks completed successfully!");
 }
 
+
+
+
 mtc::Task SimpleTask::createPickupCupHolderTask()
 {
+
   mtc::Task task;
   task.stages()->setName("pick cup holder");
   task.loadRobotModel(node_);
   task.enableIntrospection(true);
-  
+
   // Robot configuration
   const std::string arm_group_name = "igus_rebel_arm";
   const std::string eef_name = "female_connector_eef";
@@ -75,7 +79,7 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
   task.setProperty("group", arm_group_name);
   task.setProperty("eef", eef_name);
   task.setProperty("ik_frame", hand_frame);
-  
+
   // Sampling planner for joint-space movements
   auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
   sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
@@ -87,6 +91,8 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
   cartesian_planner->setMaxAccelerationScalingFactor(0.02);
   cartesian_planner->setStepSize(0.01);
   
+
+
   mtc::Stage* current_state_ptr = nullptr;
   
   // Stage 1: Get current robot state
@@ -106,6 +112,8 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
     task.add(std::move(stage));
   }
   
+
+  
   // Stage 3: Pick cup holder sequence
   {
     auto grasp_holder = std::make_unique<mtc::SerialContainer>("pick cup holder");
@@ -124,7 +132,7 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
     {
       auto stage = std::make_unique<mtc::stages::MoveRelative>("approach holder", cartesian_planner);
       stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.05, 0.10);
+      stage->setMinMaxDistance(0.05, 0.051);
       stage->setIKFrame(hand_frame);
       
       geometry_msgs::msg::Vector3Stamped vec;
@@ -220,6 +228,9 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
   return task;
 }
 
+
+
+
 mtc::Task SimpleTask::createPickCupTask()
 {
   mtc::Task task;
@@ -235,7 +246,7 @@ mtc::Task SimpleTask::createPickCupTask()
   task.setProperty("group", arm_group_name);
   task.setProperty("eef", eef_name);
   task.setProperty("ik_frame", hand_frame);
-  
+
   // Sampling planner for joint-space movements
   auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
   sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
@@ -247,6 +258,8 @@ mtc::Task SimpleTask::createPickCupTask()
   cartesian_planner->setMaxAccelerationScalingFactor(0.1);
   cartesian_planner->setStepSize(0.01);
   
+
+
   mtc::Stage* current_state_ptr = nullptr;
 
   // Stage 1: Get current robot state (with cup holder attached)

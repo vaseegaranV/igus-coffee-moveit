@@ -211,9 +211,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.300;
+        pose.position.x = 0.700;
         pose.position.y = -0.300;
-        pose.position.z = 0.335;
+        pose.position.z = _table_surface_z + 0.7;
         pose.orientation.w = 1.0;
         
         cup.meshes.push_back(mesh_msg);
