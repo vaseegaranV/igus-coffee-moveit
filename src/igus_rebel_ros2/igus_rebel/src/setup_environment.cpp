@@ -193,6 +193,36 @@ void SimpleTask::setupPlanningScene()  // Implementation
         no_go_color.color.a = 0.5;
         object_colors.push_back(no_go_color);
     }
+
+    // ── Plate ─────────────────────────────────────────────────────────
+    {
+        moveit_msgs::msg::CollisionObject plate;
+        plate.header.frame_id = "world";
+        plate.id = "plate";
+        
+        shape_msgs::msg::SolidPrimitive primitive;
+        primitive.type = primitive.CYLINDER;
+        primitive.dimensions = {0.040, 0.10};
+        
+        geometry_msgs::msg::Pose pose;
+        pose.position.x = 0.700;
+        pose.position.y = -0.300;
+        pose.position.z = _table_surface_z + 0.660;
+        pose.orientation.w = 1.0;
+        
+        plate.primitives.push_back(primitive);
+        plate.primitive_poses.push_back(pose);
+        plate.operation = plate.ADD;
+        collision_objects.push_back(plate);
+        
+        moveit_msgs::msg::ObjectColor plate_col;
+        plate_col.id = "plate";
+        plate_col.color.r = 0.1;
+        plate_col.color.g = 0.6;
+        plate_col.color.b = 0.7;
+        plate_col.color.a = 0.5;
+        object_colors.push_back(plate_col);
+    }
     
     // ── Coffee cup (mesh) ──────────────────────────────────────────────────
     {

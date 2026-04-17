@@ -46,7 +46,7 @@ void SimpleTask::doTask()
   RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
   task_ = createPickCupTask();
   task_.init();
-  if (!task_.plan(10)) {
+  if (!task_.plan(20)) {
     RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
     return;
   }
@@ -132,7 +132,7 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
     {
       auto stage = std::make_unique<mtc::stages::MoveRelative>("approach holder", cartesian_planner);
       stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.05, 0.051);
+      stage->setMinMaxDistance(0.05, 0.10);
       stage->setIKFrame(hand_frame);
       
       geometry_msgs::msg::Vector3Stamped vec;
@@ -238,7 +238,6 @@ mtc::Task SimpleTask::createPickCupTask()
   task.loadRobotModel(node_);
   task.enableIntrospection(true);
 
-  // Robot configuration
   const std::string arm_group_name = "igus_rebel_arm";
   const std::string eef_name = "female_connector_eef";
   const std::string hand_frame = "gripper_link";
@@ -247,29 +246,25 @@ mtc::Task SimpleTask::createPickCupTask()
   task.setProperty("eef", eef_name);
   task.setProperty("ik_frame", hand_frame);
 
-  // Sampling planner for joint-space movements
   auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
   sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
   sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
   
-  // Cartesian planner for straight-line movements
   auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
   cartesian_planner->setMaxVelocityScalingFactor(0.1);
   cartesian_planner->setMaxAccelerationScalingFactor(0.1);
   cartesian_planner->setStepSize(0.01);
-  
-
 
   mtc::Stage* current_state_ptr = nullptr;
 
-  // Stage 1: Get current robot state (with cup holder attached)
+  // Get current robot state (with cup holder attached)
   {
     auto stage = std::make_unique<mtc::stages::CurrentState>("current");
     current_state_ptr = stage.get();
     task.add(std::move(stage));
   }
 
-  // Stage 2: Move to coffee cup area
+  // Move to coffee cup area
   {
     auto stage = std::make_unique<mtc::stages::Connect>(
         "move to cup",
@@ -279,101 +274,93 @@ mtc::Task SimpleTask::createPickCupTask()
     task.add(std::move(stage));
   }
 
-  // Stage 3: Pick coffee cup sequence
+  // Approach coffee cup along +Z axis in gripper frame
   {
-    auto grasp = std::make_unique<mtc::SerialContainer>("pick coffee cup");
-    task.properties().exposeTo(grasp->properties(), { "eef", "group", "ik_frame" });
-    grasp->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group", "ik_frame" });
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.0, 0.10);
+    stage->setIKFrame(hand_frame);
     
-    // Allow collisions between coffee cup and gripper/cup_holder
-    {
-      auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collision");
-      stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
-      stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
-      grasp->insert(std::move(stage));
-    }
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = hand_frame;
+    vec.vector.x = 1.0;
+    stage->setDirection(vec);
     
-    // Approach coffee cup along +Z axis in gripper frame
-    {
-      auto stage = std::make_unique<mtc::stages::MoveRelative>("approach cup", cartesian_planner);
-      stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.001, 0.10);
-      stage->setIKFrame(hand_frame);
-      
-      geometry_msgs::msg::Vector3Stamped vec;
-      vec.header.frame_id = hand_frame;
-      vec.vector.z = 1.0;
-      stage->setDirection(vec);
-      
-      grasp->insert(std::move(stage));
-    }
-    
-    // Generate grasp pose for coffee cup
-    {
-      auto stage = std::make_unique<mtc::stages::GenerateGraspPose>("generate cup grasp");
-      stage->properties().configureInitFrom(mtc::Stage::PARENT);
-      stage->properties().set("marker_ns", "cup_grasp");
-      stage->setObject("object");
-      stage->setAngleDelta(M_PI / 6);
-      stage->setMonitoredStage(current_state_ptr);
-      
-      moveit_msgs::msg::RobotState pregrasp_state;
-      pregrasp_state.is_diff = true;
-      stage->setPreGraspPose(pregrasp_state);
-      
-      // Transform: offset -0.13m in Y, rotate 90° about Y for cup insertion
-      Eigen::Isometry3d grasp_transform = Eigen::Isometry3d::Identity();
-      grasp_transform.translation().y() = -0.13;
-      grasp_transform.rotate(Eigen::AngleAxisd(90 * M_PI / 180.0, Eigen::Vector3d::UnitY()));
-      
-      auto wrapper = std::make_unique<mtc::stages::ComputeIK>("cup grasp IK", std::move(stage));
-      wrapper->setMaxIKSolutions(8);
-      wrapper->setMinSolutionDistance(1.0);
-      wrapper->setIKFrame(grasp_transform, hand_frame);
-      wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
-      wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
-      
-      grasp->insert(std::move(wrapper));
-    }
+    task.add(std::move(stage));
+  }
 
-    // Lift cup slightly along world +Z before attaching
-    {
-      auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup", cartesian_planner);
-      stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.07, 0.09);
-      stage->setIKFrame(hand_frame);
-      
-      geometry_msgs::msg::Vector3Stamped vec;
-      vec.header.frame_id = "world";
-      vec.vector.z = 1.0;
-      stage->setDirection(vec);
-      
-      grasp->insert(std::move(stage));
-    }
+  // Generate grasp pose and compute IK for coffee cup
+  {
+    auto stage = std::make_unique<mtc::stages::GenerateGraspPose>("generate cup grasp");
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    stage->properties().set("marker_ns", "cup_grasp");
+    stage->setObject("object");
+    stage->setAngleDelta(M_PI / 6);
+    stage->setMonitoredStage(current_state_ptr);
     
-    // Attach coffee cup to gripper
-    {
-      auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("attach cup");
-      stage->attachObject("object", hand_frame);
-      grasp->insert(std::move(stage));
-    }
+    moveit_msgs::msg::RobotState pregrasp_state;
+    pregrasp_state.is_diff = true;
+    stage->setPreGraspPose(pregrasp_state);
     
-    // Lift cup further along world +Z after attaching
-    {
-      auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup", cartesian_planner);
-      stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-      stage->setMinMaxDistance(0.05, 0.10);
-      stage->setIKFrame(hand_frame);
-      
-      geometry_msgs::msg::Vector3Stamped vec;
-      vec.header.frame_id = "world";
-      vec.vector.z = 1.0;
-      stage->setDirection(vec);
-      
-      grasp->insert(std::move(stage));
-    }
+    Eigen::Isometry3d grasp_transform = Eigen::Isometry3d::Identity();
+    grasp_transform.translation().y() = -0.13;
+    grasp_transform.translation().x() = -0.06;
+    grasp_transform.rotate(Eigen::AngleAxisd(90 * M_PI / 180.0, Eigen::Vector3d::UnitY()));
     
-    task.add(std::move(grasp));
+    auto wrapper = std::make_unique<mtc::stages::ComputeIK>("cup grasp IK", std::move(stage));
+    wrapper->setMaxIKSolutions(8);
+    wrapper->setMinSolutionDistance(1.0);
+    wrapper->setIKFrame(grasp_transform, hand_frame);
+    wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+    wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+    wrapper->setIgnoreCollisions(true);
+    
+    task.add(std::move(wrapper));
+  }
+
+  // Allow collisions between coffee cup and gripper/cup_holder
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+    stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
+    stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
+    task.add(std::move(stage));
+  }
+
+  // Lift cup slightly along world +Z before attaching
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.07, 0.09);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
+  }
+
+  // Attach coffee cup to gripper
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("attach cup");
+    stage->attachObject("object", hand_frame);
+    task.add(std::move(stage));
+  }
+
+  // Lift cup further along world +Z after attaching
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup higher", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.05, 0.10);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
   }
 
   return task;
