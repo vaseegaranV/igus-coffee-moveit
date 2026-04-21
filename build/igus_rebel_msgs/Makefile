@@ -418,6 +418,19 @@ igus_rebel_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__py/CMakeFiles/igus_rebel_msgs__py.dir/build.make /home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__py/CMakeFiles/igus_rebel_msgs__py.dir/build
 .PHONY : igus_rebel_msgs__py/fast
 
+#=============================================================================
+# Target rules for targets named igus_rebel_msgs__rs
+
+# Build rule for target.
+igus_rebel_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 igus_rebel_msgs__rs
+.PHONY : igus_rebel_msgs__rs
+
+# fast build rule for target.
+igus_rebel_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__rs/CMakeFiles/igus_rebel_msgs__rs.dir/build.make /home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__rs/CMakeFiles/igus_rebel_msgs__rs.dir/build
+.PHONY : igus_rebel_msgs__rs/fast
+
 rosidl_generator_c/igus_rebel_msgs/msg/detail/digital_output__description.o: rosidl_generator_c/igus_rebel_msgs/msg/detail/digital_output__description.c.o
 .PHONY : rosidl_generator_c/igus_rebel_msgs/msg/detail/digital_output__description.o
 
@@ -989,6 +1002,7 @@ help:
 	@echo "... igus_rebel_msgs__cpp"
 	@echo "... igus_rebel_msgs__py"
 	@echo "... igus_rebel_msgs__rosidl_generator_type_description"
+	@echo "... igus_rebel_msgs__rs"
 	@echo "... igus_rebel_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... igus_rebel_msgs__rosidl_generator_c"

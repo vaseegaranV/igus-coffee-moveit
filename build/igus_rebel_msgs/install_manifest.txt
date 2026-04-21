@@ -74,6 +74,14 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages/igus_rebel_msgs/igus_rebel_msgs_s__rosidl_typesupport_introspection_c.so
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages/igus_rebel_msgs/igus_rebel_msgs_s__rosidl_typesupport_c.so
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/libigus_rebel_msgs__rosidl_generator_py.so
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/ament_index/resource_index/rust_packages/igus_rebel_msgs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/src/lib.rs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/src/msg.rs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/src/srv.rs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/src/msg/rmw.rs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/src/srv/rmw.rs
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/Cargo.toml
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/rust/build.rs
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/msg/DigitalOutput.idl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/srv/SetDigitalOutput.idl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/share/igus_rebel_msgs/msg/DigitalOutput.msg

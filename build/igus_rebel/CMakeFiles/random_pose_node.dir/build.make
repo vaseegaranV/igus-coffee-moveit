@@ -343,7 +343,7 @@ random_pose_node: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_f
 random_pose_node: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 random_pose_node: /opt/ros/jazzy/lib/librmw.so
 random_pose_node: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-random_pose_node: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
+random_pose_node: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 random_pose_node: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 random_pose_node: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 random_pose_node: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so

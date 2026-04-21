@@ -381,7 +381,7 @@ pick_and_place: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 pick_and_place: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 pick_and_place: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 pick_and_place: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
-pick_and_place: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
+pick_and_place: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 pick_and_place: /opt/ros/jazzy/lib/librmw.so
 pick_and_place: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
 pick_and_place: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

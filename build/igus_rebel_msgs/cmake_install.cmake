@@ -367,6 +367,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/igus_rebel_msgs")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/igus_rebel_msgs" TYPE DIRECTORY FILES "/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/rosidl_generator_rs/igus_rebel_msgs/rust")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/igus_rebel_msgs/msg" TYPE FILE FILES "/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/rosidl_adapter/igus_rebel_msgs/msg/DigitalOutput.idl")
 endif()
 
@@ -676,6 +684,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__py/cmake_install.cmake")
+  include("/home/vasee22/igus-coffee-moveit/build/igus_rebel_msgs/igus_rebel_msgs__rs/cmake_install.cmake")
 
 endif()
 

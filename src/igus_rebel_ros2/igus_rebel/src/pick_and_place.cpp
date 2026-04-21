@@ -304,6 +304,7 @@ mtc::Task SimpleTask::createPickCupTask()
     
     Eigen::Isometry3d grasp_transform = Eigen::Isometry3d::Identity();
     grasp_transform.translation().y() = -0.13;
+    grasp_transform.translation().x() = -0.02;
     grasp_transform.rotate(Eigen::AngleAxisd(90 * M_PI / 180.0, Eigen::Vector3d::UnitY()));
     
     auto wrapper = std::make_unique<mtc::stages::ComputeIK>("cup grasp IK", std::move(stage));
@@ -328,7 +329,7 @@ mtc::Task SimpleTask::createPickCupTask()
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.07, 0.09);
+    stage->setMinMaxDistance(0.05, 0.07);
     stage->setIKFrame(hand_frame);
     
     geometry_msgs::msg::Vector3Stamped vec;

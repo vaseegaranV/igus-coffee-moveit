@@ -1,8 +1,0 @@
-In file included from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:9[m[K:
-[01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
-   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
-      |                                                                             [01;36m[K^[m[K
-[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreateTask[m[K()[m[K’:
-[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:413:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-  413 | [01;35m[K}[m[K
-      | [01;35m[K^[m[K

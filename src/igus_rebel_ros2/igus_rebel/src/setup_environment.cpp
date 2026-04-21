@@ -194,35 +194,35 @@ void SimpleTask::setupPlanningScene()  // Implementation
         object_colors.push_back(no_go_color);
     }
 
-    // // ── Plate ─────────────────────────────────────────────────────────
-    // {
-    //     moveit_msgs::msg::CollisionObject plate;
-    //     plate.header.frame_id = "world";
-    //     plate.id = "plate";
+    // ── Plate ─────────────────────────────────────────────────────────
+    {
+         moveit_msgs::msg::CollisionObject plate;
+         plate.header.frame_id = "world";
+         plate.id = "plate";
         
-    //     shape_msgs::msg::SolidPrimitive primitive;
-    //     primitive.type = primitive.CYLINDER;
-    //     primitive.dimensions = {0.040, 0.10};
+         shape_msgs::msg::SolidPrimitive primitive;
+         primitive.type = primitive.CYLINDER;
+         primitive.dimensions = {0.040, 0.10};
         
-    //     geometry_msgs::msg::Pose pose;
-    //     pose.position.x = 0.700;
-    //     pose.position.y = -0.300;
-    //     pose.position.z = _table_surface_z + 0.660;
-    //     pose.orientation.w = 1.0;
+         geometry_msgs::msg::Pose pose;
+         pose.position.x = 0.700;
+         pose.position.y = -0.300;
+         pose.position.z = _table_surface_z + 0.675;
+         pose.orientation.w = 1.0;
         
-    //     plate.primitives.push_back(primitive);
-    //     plate.primitive_poses.push_back(pose);
-    //     plate.operation = plate.ADD;
-    //     collision_objects.push_back(plate);
+         plate.primitives.push_back(primitive);
+         plate.primitive_poses.push_back(pose);
+         plate.operation = plate.ADD;
+         collision_objects.push_back(plate);
         
-    //     moveit_msgs::msg::ObjectColor plate_col;
-    //     plate_col.id = "plate";
-    //     plate_col.color.r = 0.1;
-    //     plate_col.color.g = 0.6;
-    //     plate_col.color.b = 0.7;
-    //     plate_col.color.a = 0.5;
-    //     object_colors.push_back(plate_col);
-    // }
+         moveit_msgs::msg::ObjectColor plate_col;
+         plate_col.id = "plate";
+         plate_col.color.r = 0.1;
+         plate_col.color.g = 0.6;
+         plate_col.color.b = 0.7;
+         plate_col.color.a = 0.5;
+         object_colors.push_back(plate_col);
+    }
     
     // ── Coffee cup (mesh) ──────────────────────────────────────────────────
     {
@@ -253,9 +253,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         
         moveit_msgs::msg::ObjectColor cup_color;
         cup_color.id = "object";
-        cup_color.color.r = 0.9;
+        cup_color.color.r = 0.2;
         cup_color.color.g = 0.7;
-        cup_color.color.b = 0.3;
+        cup_color.color.b = 0.9;
         cup_color.color.a = 1.0;
         object_colors.push_back(cup_color);
         

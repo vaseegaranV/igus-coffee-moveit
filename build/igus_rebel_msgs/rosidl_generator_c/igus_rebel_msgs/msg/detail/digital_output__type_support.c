@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "igus_rebel_msgs/msg/detail/digital_output__type_support.h"
 #include "igus_rebel_msgs/msg/detail/digital_output__struct.h"
 #include "igus_rebel_msgs/msg/detail/digital_output__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "igus_rebel_msgs/msg/detail/digital_output__type_support.h"
 
 #ifdef __cplusplus
 extern "C"
