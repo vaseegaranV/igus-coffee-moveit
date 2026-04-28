@@ -326,8 +326,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         geometry_msgs::msg::Pose pose;
         pose.position.x = 0.419;
         pose.position.y = -0.316;
-        pose.position.z = 0.010;
+        pose.position.z = 0.115; //0.01
         pose.orientation.w = 1.0;
+
         
         coffee_machine.meshes.push_back(mesh_msg);
         coffee_machine.mesh_poses.push_back(pose);
@@ -431,6 +432,94 @@ void SimpleTask::setupPlanningScene()  // Implementation
         delete mesh;
         }
     }
+
+    // ── Portafilter (mesh) ──────────────────────────────────────────────────
+    {
+        moveit_msgs::msg::CollisionObject portafilter;
+        portafilter.header.frame_id = "world";
+        portafilter.id = "portafilter";
+        
+        shapes::Mesh* mesh = shapes::createMeshFromResource(
+            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Portafilter.stl",
+            Eigen::Vector3d(0.001, 0.001, 0.001));
+        
+        if (mesh)
+        {
+        shape_msgs::msg::Mesh mesh_msg;
+        shapes::ShapeMsg mesh_msg_variant;
+        shapes::constructMsgFromShape(mesh, mesh_msg_variant);
+        mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
+        
+        geometry_msgs::msg::Pose pose;
+        pose.position.x = -0.600;
+        pose.position.y = -0.247;
+        pose.position.z = 0.209;
+        pose.orientation.x = 0.0;
+        pose.orientation.y = 0.0;
+        pose.orientation.z = 0.7071;
+        pose.orientation.w = 0.7071;
+        
+        portafilter.meshes.push_back(mesh_msg);
+        portafilter.mesh_poses.push_back(pose);
+        portafilter.operation = portafilter.ADD;
+        collision_objects.push_back(portafilter);
+        
+        moveit_msgs::msg::ObjectColor portafilter_color;
+        portafilter_color.id = "portafilter";
+        portafilter_color.color.r = 0.1;
+        portafilter_color.color.g = 0.1;
+        portafilter_color.color.b = 0.1;
+        portafilter_color.color.a = 0.5;
+        object_colors.push_back(portafilter_color);
+        
+        delete mesh;
+        }
+    }
+
+    // ── Delivery Station (mesh) ──────────────────────────────────────────────────
+    {
+        moveit_msgs::msg::CollisionObject delivery_station;
+        delivery_station.header.frame_id = "world";
+        delivery_station.id = "delivery_station";
+        
+        shapes::Mesh* mesh = shapes::createMeshFromResource(
+            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/DeliveryStation.stl",
+            Eigen::Vector3d(0.001, 0.001, 0.001));
+        
+        if (mesh)
+        {
+        shape_msgs::msg::Mesh mesh_msg;
+        shapes::ShapeMsg mesh_msg_variant;
+        shapes::constructMsgFromShape(mesh, mesh_msg_variant);
+        mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
+        
+        geometry_msgs::msg::Pose pose;
+        pose.position.x = 0.000;
+        pose.position.y = -0.340;
+        pose.position.z = 0.550;
+        pose.orientation.x = 0.0;
+        pose.orientation.y = 0.0;
+        pose.orientation.z = 0.0;
+        pose.orientation.w = 0.0;
+        
+        delivery_station.meshes.push_back(mesh_msg);
+        delivery_station.mesh_poses.push_back(pose);
+        delivery_station.operation = delivery_station.ADD;
+        collision_objects.push_back(delivery_station);
+        
+        moveit_msgs::msg::ObjectColor delivery_station_color;
+        delivery_station_color.id = "delivery_station";
+        delivery_station_color.color.r = 0.8;
+        delivery_station_color.color.g = 0.1;
+        delivery_station_color.color.b = 0.3;
+        delivery_station_color.color.a = 1.0;
+        object_colors.push_back(delivery_station_color);
+        
+        delete mesh;
+        }
+    }
+
+    
     
     // ── Add all objects to planning scene with colors ──────────────────────
     RCLCPP_INFO(LOGGER, "Adding %zu collision objects with colors to planning scene...", collision_objects.size());

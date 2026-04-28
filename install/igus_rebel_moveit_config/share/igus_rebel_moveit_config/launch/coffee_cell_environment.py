@@ -163,6 +163,14 @@ class CoffeeCellEnvironment(Node):
         self.declare_parameter('coffee_cup_y', -0.300)
         self.declare_parameter('coffee_cup_z', _table_surface_z + 0.7)
 
+        self.declare_parameter('portafilter_x', -0.800)
+        self.declare_parameter('portafilter_y', -0.300)
+        self.declare_parameter('portafilter_z', _table_surface_z + 0.7)
+
+        self.declare_parameter('delivery_station_x', -0.800)
+        self.declare_parameter('delivery_station_y', -0.300)
+        self.declare_parameter('delivery_station_z', _table_surface_z + 0.7)
+
         # Latched publisher
         latch_qos = QoSProfile(
             depth=1,
@@ -220,6 +228,14 @@ class CoffeeCellEnvironment(Node):
         coffee_cup_x = self.get_parameter('coffee_cup_x').value
         coffee_cup_y = self.get_parameter('coffee_cup_y').value
         coffee_cup_z = self.get_parameter('coffee_cup_z').value
+
+        portafilter_x = self.get_parameter('portafilter_x').value
+        portafilter_y = self.get_parameter('portafilter_y').value
+        portafilter_z = self.get_parameter('portafilter_z').value
+
+        delivery_station_x = self.get_parameter('delivery_station_x').value
+        delivery_station_y = self.get_parameter('delivery_station_y').value
+        delivery_station_z = self.get_parameter('delivery_station_z').value
 
         w  = CELL["width"]
         d  = CELL["depth"]
@@ -325,6 +341,26 @@ class CoffeeCellEnvironment(Node):
             scale=0.001,
         ))
 
+        objects.append(mesh_object(
+            "portafilter", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Portafilter.stl",
+            px=portafilter_x,
+            py=portafilter_y,
+            pz=portafilter_z,
+            qx=0.0, qy=0.0, qz=0.7071, qw=0.7071,
+            scale=0.001,
+        ))
+
+        objects.append(mesh_object(
+            "delivery_station", FRAME_ID,
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/DeliveryStation.stl",
+            px=delivery_station_x,
+            py=delivery_station_y,
+            pz=delivery_station_z,
+            qx=0.0, qy=0.0, qz=0.7071, qw=0.7071,
+            scale=0.001,
+        ))
+
         # ── Colours ────────────────────────────────────────────────────
         colors = [
             self._make_color("wall_front",     0.7, 0.7, 0.7, 0.4),
@@ -337,7 +373,9 @@ class CoffeeCellEnvironment(Node):
             self._make_color("grinder",        0.3, 0.8, 0.9, 1.0),
             self._make_color("coffee_machine", 0.2, 0.6, 0.2, 1.0),
             self._make_color("tool_station",   0.7, 0.1, 0.8, 1.0),
-            self._make_color("cup_holder",     0.1, 0.1, 0.1, 0.5 )
+            self._make_color("cup_holder",     0.1, 0.1, 0.1, 0.5 ),
+            self._make_color("portafilter",     0.1, 0.1, 0.1, 0.5 ),
+            self._make_color("delivery_station",        0.3, 0.8, 0.9, 1.0)
         ]
 
         # ── Pack into PlanningScene ────────────────────────────────────

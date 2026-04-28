@@ -2,19 +2,8 @@
 """
 Position Adjuster - Keyboard control to adjust object positions via ROS parameters
 
-This script lets you move objects around using keyboard controls.
-The positions are published as ROS parameters that coffee_cell_environment.py reads.
-
-Usage:
-    1. Launch MoveIt + RViz
-    2. Run coffee_cell_environment.py (it will subscribe to parameter updates)
-    3. Run this script: python3 position_adjuster.py
-    4. Use keyboard to move objects - they update in RViz in real-time
-    5. Press 'p' to print final positions
-    6. Press 'q' when done
-
 Controls:
-    1-5: Select object (1=grinder, 2=coffee_machine, 3=tool_station, 4=cup_holder, 5=coffee_cup)
+    1-7: Select object (1=grinder, 2=coffee_machine, 3=tool_station, 4=cup_holder, 5=coffee_cup, 6=portafilter, 7=delivery_station)
     Arrow keys: Move in X/Y plane
     u/j: Move up/down in Z
     +/-: Increase/decrease step size
@@ -33,15 +22,16 @@ import tty
 import select
 
 
-# Starting positions (initial guesses)
 _table_surface_z = -0.120
 
 INITIAL_POSITIONS = {
-    'grinder': {'x': 0.300, 'y': -0.300, 'z': _table_surface_z + 0.05},
-    'coffee_machine': {'x': -0.100, 'y': -0.300, 'z': _table_surface_z + 0.05},
-    'tool_station': {'x': -0.400, 'y': -0.300, 'z': _table_surface_z + 0.05},
-    'cup_holder': {'x': -0.600, 'y': -0.300, 'z': _table_surface_z + 0.05},
-    'coffee_cup': {'x': 0.700, 'y': -0.300, 'z': _table_surface_z + 0.7},
+    'grinder':          {'x':  0.000, 'y': -0.300, 'z': 0.010},
+    'coffee_machine':   {'x':  0.419, 'y': -0.316, 'z': 0.010},
+    'tool_station':     {'x': -0.670, 'y': -0.300, 'z': 0.210},
+    'cup_holder':       {'x': -0.469, 'y': -0.351, 'z': 0.210},
+    'coffee_cup':       {'x':  0.700, 'y': -0.300, 'z': _table_surface_z + 0.7},
+    'portafilter':      {'x': -0.800, 'y': -0.300, 'z': _table_surface_z + 0.7},
+    'delivery_station': {'x': -0.800, 'y': -0.300, 'z': _table_surface_z + 0.7},
 }
 
 
@@ -49,26 +39,18 @@ class PositionAdjuster(Node):
     def __init__(self):
         super().__init__('position_adjuster')
         
-        # Current positions (deep copy)
         self.positions = {}
         for name, data in INITIAL_POSITIONS.items():
-            self.positions[name] = {
-                'x': data['x'],
-                'y': data['y'],
-                'z': data['z']
-            }
+            self.positions[name] = {'x': data['x'], 'y': data['y'], 'z': data['z']}
         
-        # State
         self.current_obj = 'grinder'
-        self.step = 0.01  # 1cm steps
+        self.step = 0.01
         
-        # Client to set parameters on the coffee_cell_environment node
         self.param_client = self.create_client(
             SetParameters,
             '/coffee_cell_environment/set_parameters'
         )
         
-        # Wait for the service
         self.get_logger().info("Waiting for coffee_cell_environment node...")
         while not self.param_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("Waiting for /coffee_cell_environment/set_parameters service...")
@@ -78,11 +60,9 @@ class PositionAdjuster(Node):
         self.get_logger().info("Ready for keyboard input!")
         
     def publish_all_positions(self):
-        """Publish all object positions as parameters"""
         request = SetParameters.Request()
         
         for obj_name, pos in self.positions.items():
-            # Create parameter for each coordinate
             for coord in ['x', 'y', 'z']:
                 param = Parameter()
                 param.name = f'{obj_name}_{coord}'
@@ -91,22 +71,17 @@ class PositionAdjuster(Node):
                 param.value.double_value = pos[coord]
                 request.parameters.append(param)
         
-        # Send the request
         future = self.param_client.call_async(request)
         rclpy.spin_until_future_complete(self, future, timeout_sec=1.0)
         
-        if future.result() is not None:
-            pass  # Success
-        else:
+        if future.result() is None:
             self.get_logger().warn("Failed to set parameters")
     
     def move_current(self, dx=0.0, dy=0.0, dz=0.0):
-        """Move current object by delta and publish update"""
         self.positions[self.current_obj]['x'] += dx
         self.positions[self.current_obj]['y'] += dy
         self.positions[self.current_obj]['z'] += dz
         
-        # Publish just this object's parameters
         request = SetParameters.Request()
         pos = self.positions[self.current_obj]
         
@@ -120,17 +95,12 @@ class PositionAdjuster(Node):
         
         future = self.param_client.call_async(request)
         rclpy.spin_until_future_complete(self, future, timeout_sec=0.5)
-        
         self.print_current_position()
     
     def reset_current(self):
-        """Reset current object to initial position"""
         init = INITIAL_POSITIONS[self.current_obj]
-        self.positions[self.current_obj]['x'] = init['x']
-        self.positions[self.current_obj]['y'] = init['y']
-        self.positions[self.current_obj]['z'] = init['z']
+        self.positions[self.current_obj] = {'x': init['x'], 'y': init['y'], 'z': init['z']}
         
-        # Publish update
         request = SetParameters.Request()
         pos = self.positions[self.current_obj]
         
@@ -149,30 +119,28 @@ class PositionAdjuster(Node):
         self.print_current_position()
     
     def print_current_position(self):
-        """Print current object's position"""
         pos = self.positions[self.current_obj]
-        print(f"\r[{self.current_obj:15s}] x={pos['x']:7.3f} y={pos['y']:7.3f} z={pos['z']:7.3f} | step={self.step:.3f}m    ",
+        print(f"\r[{self.current_obj:20s}] x={pos['x']:7.3f} y={pos['y']:7.3f} z={pos['z']:7.3f} | step={self.step:.3f}m    ",
               end='', flush=True)
     
     def print_all_positions(self):
-        """Print all positions"""
         print("\n\n" + "="*70)
         print("CURRENT POSITIONS:")
         print("="*70)
-        for name in ['grinder', 'coffee_machine', 'tool_station', 'cup_holder', 'coffee_cup']:
+        for name in ['grinder', 'coffee_machine', 'tool_station', 'cup_holder', 'coffee_cup', 'portafilter', 'delivery_station']:
             pos = self.positions[name]
             print(f"{name:20s}: px={pos['x']:7.3f}, py={pos['y']:7.3f}, pz={pos['z']:7.3f}")
         print("="*70 + "\n")
     
     def run_keyboard_loop(self):
-        """Main keyboard input loop"""
         fd = sys.stdin.fileno()
         old_settings = termios.tcgetattr(fd)
         
         print("\n" + "="*70)
         print("INTERACTIVE POSITION ADJUSTER")
         print("="*70)
-        print("Objects: 1=grinder  2=coffee_machine  3=tool_station  4=cup_holder  5=coffee_cup")
+        print("Objects: 1=grinder  2=coffee_machine  3=tool_station  4=cup_holder")
+        print("         5=coffee_cup  6=portafilter  7=delivery_station")
         print("Move:    ← → ↑ ↓ (X/Y plane)    u/j (Z up/down)")
         print("Step:    + (bigger)  - (smaller)")
         print("Other:   r (reset)  p (print)  q (quit)")
@@ -202,17 +170,23 @@ class PositionAdjuster(Node):
                     elif ch == '5':
                         self.current_obj = 'coffee_cup'
                         self.print_current_position()
-                    elif ch == '\x1b':  # Escape sequence (arrow keys)
+                    elif ch == '6':
+                        self.current_obj = 'portafilter'
+                        self.print_current_position()
+                    elif ch == '7':
+                        self.current_obj = 'delivery_station'
+                        self.print_current_position()
+                    elif ch == '\x1b':
                         next1 = sys.stdin.read(1)
                         if next1 == '[':
                             next2 = sys.stdin.read(1)
-                            if next2 == 'A':  # Up arrow
+                            if next2 == 'A':
                                 self.move_current(dy=self.step)
-                            elif next2 == 'B':  # Down arrow
+                            elif next2 == 'B':
                                 self.move_current(dy=-self.step)
-                            elif next2 == 'C':  # Right arrow
+                            elif next2 == 'C':
                                 self.move_current(dx=self.step)
-                            elif next2 == 'D':  # Left arrow
+                            elif next2 == 'D':
                                 self.move_current(dx=-self.step)
                     elif ch == 'u':
                         self.move_current(dz=self.step)

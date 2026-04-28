@@ -56,11 +56,37 @@ void SimpleTask::doTask()
     RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
     return;
   }
+
+  RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
+  task_ = createMoveToCoffeeMachine();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
+    return;
+  }
+
+  // RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
+  // task_ = createPlaceCupHolderTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
+  //   return;
+  // }
   
-  RCLCPP_INFO(LOGGER, "Both tasks completed successfully!");
+  RCLCPP_INFO(LOGGER, "All tasks completed successfully!");
 }
-
-
 
 
 mtc::Task SimpleTask::createPickupCupHolderTask()
@@ -229,8 +255,6 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
 }
 
 
-
-
 mtc::Task SimpleTask::createPickCupTask()
 {
   mtc::Task task;
@@ -364,6 +388,376 @@ mtc::Task SimpleTask::createPickCupTask()
 
   return task;
 }
+
+
+mtc::Task SimpleTask::createMoveToCoffeeMachine()
+{
+  mtc::Task task;
+  task.stages()->setName("place cup at machine");
+  task.loadRobotModel(node_);
+  task.enableIntrospection(true);
+ 
+  const std::string arm_group_name = "igus_rebel_arm";
+  const std::string eef_name       = "female_connector_eef";
+  const std::string hand_frame     = "gripper_link";
+ 
+  task.setProperty("group", arm_group_name);
+  task.setProperty("eef", eef_name);
+  task.setProperty("ik_frame", hand_frame);
+ 
+  // ── Tunable placement target (world frame) ─────────────────────────────
+  // Coffee machine origin: (0.419, -0.316, 0.010)
+  const double MACHINE_X        = 0.419;
+  const double MACHINE_Y        = -0.316;
+  const double PLACE_X_OFFSET   = -0.1;     // along world X relative to machine
+  const double PLACE_Y_OFFSET   = 0.207;   // negative = pushed back into machine
+  const double PLACE_Z          = 0.24;    // cup base height — tune
+ 
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+ 
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(0.05);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.05);
+  cartesian_planner->setStepSize(0.01);
+ 
+  mtc::Stage* current_state_ptr = nullptr;
+ 
+  // Current state (cup + holder already attached to gripper)
+  {
+    auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+    current_state_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+ 
+  // Allow cup & holder to collide with the coffee machine during placement
+  mtc::Stage* allow_collisions_ptr = nullptr;
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup/holder vs coffee_machine");
+    stage->allowCollisions("object",     std::vector<std::string>{"coffee_machine"}, true);
+    //stage->allowCollisions("cup_holder", std::vector<std::string>{"coffee_machine"}, true);
+    stage->allowCollisions("object",     std::vector<std::string>{"cup_holder"}, true);
+    allow_collisions_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+ 
+  // Move to pre-place pose near the machine
+  {
+    auto stage = std::make_unique<mtc::stages::Connect>(
+        "move to machine",
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+    stage->setTimeout(5.0);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    task.add(std::move(stage));
+  }
+ 
+  // Generate place pose by sampling orientations around the cup's attached frame
+  {
+    auto stage = std::make_unique<mtc::stages::GeneratePlacePose>("generate place pose");
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    stage->properties().set("marker_ns", "place_pose");
+    stage->setObject("object");                       // the attached coffee cup
+    stage->setMonitoredStage(allow_collisions_ptr);   // monitor AFTER collisions allowed
+ 
+    // Where the cup itself should end up in world
+    geometry_msgs::msg::PoseStamped target;
+    target.header.frame_id = "world";
+    target.pose.position.x = MACHINE_X + PLACE_X_OFFSET;
+    target.pose.position.y = MACHINE_Y + PLACE_Y_OFFSET;
+    target.pose.position.z = PLACE_Z;
+ 
+    // Wrist orientation copied from `tf2_echo world gripper_link` after task 2
+    target.pose.orientation.x =  0.354;
+    target.pose.orientation.y = -0.612;
+    target.pose.orientation.z =  0.354;
+    target.pose.orientation.w =  0.612;
+ 
+    stage->setPose(target);
+ 
+    auto wrapper = std::make_unique<mtc::stages::ComputeIK>("place pose IK", std::move(stage));
+    wrapper->setMaxIKSolutions(8);
+    wrapper->setMinSolutionDistance(1.0);
+    wrapper->setIKFrame(hand_frame);
+    wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+    wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+ 
+    task.add(std::move(wrapper));
+  }
+ 
+  // Insert cup — slide toward the machine in world -Y
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("insert cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.005, 0.06);
+    stage->setIKFrame(hand_frame);
+ 
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.y = -1.0;
+    stage->setDirection(vec);
+ 
+    task.add(std::move(stage));
+  }
+ 
+  // Detach the coffee cup — leave it at the machine
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach cup");
+    stage->detachObject("object", hand_frame);
+    task.add(std::move(stage));
+  }
+ 
+  // Retreat — move back along world +Y
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat from machine", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.02, 0.10);
+    stage->setIKFrame(hand_frame);
+ 
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.y = 1.0;
+    stage->setDirection(vec);
+ 
+    task.add(std::move(stage));
+  }
+ 
+  // Small lift clear of the machine before ending
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lift clear", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.03, 0.12);
+    stage->setIKFrame(hand_frame);
+ 
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+ 
+    task.add(std::move(stage));
+  }
+ 
+  return task;
+}
+
+mtc::Task SimpleTask::createPlaceCupHolderTask()
+{
+  mtc::Task task;
+  task.stages()->setName("place cup holder");
+  task.loadRobotModel(node_);
+  task.enableIntrospection(true);
+
+  const std::string arm_group_name = "igus_rebel_arm";
+  const std::string eef_name = "female_connector_eef";
+  const std::string hand_frame = "gripper_link";
+  
+  task.setProperty("group", arm_group_name);
+  task.setProperty("eef", eef_name);
+  task.setProperty("ik_frame", hand_frame);
+
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+  
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(0.02);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.02);
+  cartesian_planner->setStepSize(0.01);
+
+  mtc::Stage* current_state_ptr = nullptr;
+
+  // Get current robot state (with cup holder attached)
+  {
+    auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+    current_state_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+
+  // Allow collisions for approach to tool station
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/station collisions");
+    stage->allowCollisions("cup_holder", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("cup_holder", std::vector<std::string>{"tool_station"}, true);
+    task.add(std::move(stage));
+  }
+
+  // Move to tool station area
+  {
+    auto stage = std::make_unique<mtc::stages::Connect>(
+        "move to tool station",
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+    stage->setTimeout(5.0);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    task.add(std::move(stage));
+  }
+
+  // Generate place pose at the tool station dock point
+  {
+      auto stage = std::make_unique<mtc::stages::GeneratePose>("generate place pose");
+      stage->properties().configureInitFrom(mtc::Stage::PARENT);
+      stage->setMonitoredStage(current_state_ptr);
+
+      geometry_msgs::msg::PoseStamped target_pose;
+      target_pose.header.frame_id = "world";
+      target_pose.pose.position.x = -0.469;  // tool station dock position
+      target_pose.pose.position.y = -0.351;
+      target_pose.pose.position.z = 0.440;
+      // same orientation as when you picked it up
+      target_pose.pose.orientation.x = 0.0;
+      target_pose.pose.orientation.y = 0.0;
+      target_pose.pose.orientation.z = 0.0;
+      target_pose.pose.orientation.w = 1.0;
+
+      stage->setPose(target_pose);
+
+      auto wrapper = std::make_unique<mtc::stages::ComputeIK>("place IK", std::move(stage));
+      wrapper->setMaxIKSolutions(8);
+      wrapper->setMinSolutionDistance(1.0);
+      wrapper->setIKFrame(hand_frame);
+      wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+      wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+      wrapper->setIgnoreCollisions(true);
+
+      task.add(std::move(wrapper));
+  }
+
+  // Approach tool station along -X axis (reverse of retreat)
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach station", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.0, 0.10);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = hand_frame;
+    vec.vector.x = -1.0;  // reverse of retreat
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Detach cup holder from gripper
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach cup holder");
+    stage->detachObject("cup_holder", hand_frame);
+    task.add(std::move(stage));
+  }
+
+  // Twist unlock: rotate joint6 by -60° to disengage bayonet
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("twist unlock", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+
+    std::map<std::string, double> joint_deltas;
+    joint_deltas["joint6"] = M_PI / 3.0;  // reverse of twist lock
+    stage->setDirection(joint_deltas);
+    stage->setMinMaxDistance(0.0, M_PI / 3.0);
+
+    task.add(std::move(stage));
+  }
+
+  // Retreat along +Y axis (reverse of approach)
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.05, 0.10);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = hand_frame;
+    vec.vector.y = 1.0;  // reverse of approach
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  return task;
+}
+
+// mtc::Task SimpleTask::createMoveToCoffeeMachine()
+// {
+//   mtc::Task task;
+//   task.stages()->setName("move cup to machine");
+//   task.loadRobotModel(node_);
+//   task.enableIntrospection(true);
+
+//   const std::string arm_group_name = "igus_rebel_arm";
+//   const std::string eef_name = "female_connector_eef";
+//   const std::string hand_frame = "gripper_link";
+  
+//   task.setProperty("group", arm_group_name);
+//   task.setProperty("eef", eef_name);
+//   task.setProperty("ik_frame", hand_frame);
+
+//   auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+//   sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+//   sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+  
+//   auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+//   cartesian_planner->setMaxVelocityScalingFactor(0.1);
+//   cartesian_planner->setMaxAccelerationScalingFactor(0.1);
+//   cartesian_planner->setStepSize(0.01);
+
+//   mtc::Stage* current_state_ptr = nullptr;
+
+//   // Get current robot state (with cup holder attached)
+//   {
+//     auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+//     current_state_ptr = stage.get();
+//     task.add(std::move(stage));
+//   }
+
+//   // Move to coffee cup area
+//   {
+//     auto stage = std::make_unique<mtc::stages::Connect>(
+//         "move to cup",
+//         mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+//     stage->setTimeout(5.0);
+//     stage->properties().configureInitFrom(mtc::Stage::PARENT);
+//     task.add(std::move(stage));
+//   }
+
+//   // Allow collisions between coffee cup and gripper/cup_holder
+//   {
+//     auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+//     stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
+//     stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
+//     stage->allowCollisions("coffee_machine", std::vector<std::string>{"gripper_link"}, true);
+
+//     task.add(std::move(stage));
+//   }
+
+//   {
+//     auto stage = std::make_unique<mtc::stages::GeneratePose>("generate delivery pose");
+//     stage->properties().configureInitFrom(mtc::Stage::PARENT);
+//     stage->setMonitoredStage(current_state_ptr);
+
+//     // Define exact pose in world frame
+//     geometry_msgs::msg::PoseStamped target_pose;
+//     target_pose.header.frame_id = "world";
+//     target_pose.pose.position.x = 0.0;   // ← exact world coords
+//     target_pose.pose.position.y = -0.22;
+//     target_pose.pose.position.z = 0.690;
+//     target_pose.pose.orientation.x = 0.0;
+//     target_pose.pose.orientation.y = -0.7071;
+//     target_pose.pose.orientation.z = 0.0;
+//     target_pose.pose.orientation.w = 0.7071;
+
+//     stage->setPose(target_pose);
+
+//     auto wrapper = std::make_unique<mtc::stages::ComputeIK>("delivery IK", std::move(stage));
+//     wrapper->setMaxIKSolutions(8);
+//     wrapper->setMinSolutionDistance(1.0);
+//     wrapper->setIKFrame(hand_frame);
+//     wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+//     wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+//     wrapper->setIgnoreCollisions(true);
+
+//     task.add(std::move(wrapper));
+//   }
+  
+//   return task;
+// }
 
 int main(int argc, char** argv)
 {

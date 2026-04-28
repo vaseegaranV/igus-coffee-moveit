@@ -17,6 +17,8 @@ private:
   void setupPlanningScene();
   mtc::Task createPickupCupHolderTask();
   mtc::Task createPickCupTask();
+  mtc::Task createMoveToCoffeeMachine();
+  mtc::Task createPlaceCupHolderTask();
   mtc::Task task_;
   rclcpp::Node::SharedPtr node_;
 };
