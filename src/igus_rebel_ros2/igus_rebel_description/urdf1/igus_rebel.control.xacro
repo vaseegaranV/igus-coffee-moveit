@@ -14,7 +14,6 @@
                 </actuator>
             </transmission>
         </xacro:macro>
-        <xacro:arm_control transmission="${arm_id}_tran_0" joint="rail_slider" motor="${arm_id}_motor_0"/>
         <xacro:arm_control transmission="${arm_id}_tran_1" joint="joint1" motor="${arm_id}_motor_1"/>
         <xacro:arm_control transmission="${arm_id}_tran_2" joint="joint2" motor="${arm_id}_motor_2"/>
         <xacro:arm_control transmission="${arm_id}_tran_3" joint="joint3" motor="${arm_id}_motor_3"/>

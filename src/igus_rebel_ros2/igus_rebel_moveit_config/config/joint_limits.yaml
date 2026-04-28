@@ -3,11 +3,6 @@
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 # robot_description_planning:
 joint_limits:
-  rail_slider:
-    has_velocity_limits: true
-    max_velocity: 2.16
-    has_acceleration_limits: true
-    max_acceleration: 10.0
   joint1:
     has_velocity_limits: true
     max_velocity: 2.16

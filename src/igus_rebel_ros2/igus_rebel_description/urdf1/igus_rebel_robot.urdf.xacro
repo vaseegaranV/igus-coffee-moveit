@@ -3,9 +3,8 @@
        name="igus_rebel" >
 
   <xacro:arg name="hardware_protocol" default="rebel"/>
-  <!-- igus_rebel -->
+  
   <xacro:include filename="$(find igus_rebel_description)/urdf/igus_rebel2.urdf" />
-
   <xacro:include filename="$(find igus_rebel_description)/urdf/igus_rebel2.control.xacro"/>
   <xacro:igus_rebel_control arm_id="igus_rebel" hardware_protocol="$(arg hardware_protocol)"/>
   
@@ -13,8 +12,7 @@
 
   <joint name="world_joint" type="fixed">
     <parent link="world" />
-    <child link = "igus_7th_axis" />
-    <!-- <child link = "base_link" /> -->
+    <child link="base_link" />
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
   </joint>
 

@@ -14,7 +14,6 @@ rebel_arm_controller:
   action_ns: follow_joint_trajectory
   default: true
   joints:
-    - rail_slider
     - joint1
     - joint2
     - joint3

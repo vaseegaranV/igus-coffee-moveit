@@ -27,10 +27,9 @@
                     <plugin>Igus/Rebel</plugin>
                 </xacro:if>
                 <parameters>
-                    <param name="update_rate">100</param> <!-- Change to desired rate (Hz) -->
+                    <param name="update_rate">100</param>
                 </parameters>
             </hardware>
-            <xacro:joint_control joint="rail_slider" />
             <xacro:joint_control joint="joint1" />
             <xacro:joint_control joint="joint2" />
             <xacro:joint_control joint="joint3" />
