@@ -11,7 +11,6 @@ controller_manager:
 rebel_arm_controller:
   ros__parameters:
     joints:
-      - rail_slider
       - joint1
       - joint2
       - joint3
@@ -27,7 +26,6 @@ rebel_arm_controller:
       - velocity
 
     gains:
-      rail_slider: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
       joint1: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
       joint2: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }
       joint3: { p: 100.0, d: 1.0, i: 0.02, i_clamp: 1.0, ff_velocity_scale: 1.0 }

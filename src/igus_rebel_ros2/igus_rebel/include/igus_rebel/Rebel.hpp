@@ -83,7 +83,6 @@ namespace Igus
 
     public:
         const std::vector<std::string> JOINT_NAME = {
-            "rail_slider", 
             "joint1", "joint2", "joint3", "joint4", "joint5", "joint6"};
 
         // pi / 180

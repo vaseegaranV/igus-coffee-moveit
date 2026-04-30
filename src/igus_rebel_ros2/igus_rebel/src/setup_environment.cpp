@@ -194,35 +194,35 @@ void SimpleTask::setupPlanningScene()  // Implementation
         object_colors.push_back(no_go_color);
     }
 
-    // ── Plate ─────────────────────────────────────────────────────────
-    {
-         moveit_msgs::msg::CollisionObject plate;
-         plate.header.frame_id = "world";
-         plate.id = "plate";
+    // // ── Plate ─────────────────────────────────────────────────────────
+    // {
+    //      moveit_msgs::msg::CollisionObject plate;
+    //      plate.header.frame_id = "world";
+    //      plate.id = "plate";
         
-         shape_msgs::msg::SolidPrimitive primitive;
-         primitive.type = primitive.CYLINDER;
-         primitive.dimensions = {0.040, 0.10};
+    //      shape_msgs::msg::SolidPrimitive primitive;
+    //      primitive.type = primitive.CYLINDER;
+    //      primitive.dimensions = {0.040, 0.10};
         
-         geometry_msgs::msg::Pose pose;
-         pose.position.x = 0.700;
-         pose.position.y = -0.300;
-         pose.position.z = _table_surface_z + 0.675;
-         pose.orientation.w = 1.0;
+    //      geometry_msgs::msg::Pose pose;
+    //      pose.position.x = 0.500;
+    //      pose.position.y = -0.300;
+    //      pose.position.z = _table_surface_z + 0.675;
+    //      pose.orientation.w = 1.0;
         
-         plate.primitives.push_back(primitive);
-         plate.primitive_poses.push_back(pose);
-         plate.operation = plate.ADD;
-         collision_objects.push_back(plate);
+    //      plate.primitives.push_back(primitive);
+    //      plate.primitive_poses.push_back(pose);
+    //      plate.operation = plate.ADD;
+    //      collision_objects.push_back(plate);
         
-         moveit_msgs::msg::ObjectColor plate_col;
-         plate_col.id = "plate";
-         plate_col.color.r = 0.1;
-         plate_col.color.g = 0.6;
-         plate_col.color.b = 0.7;
-         plate_col.color.a = 0.5;
-         object_colors.push_back(plate_col);
-    }
+    //      moveit_msgs::msg::ObjectColor plate_col;
+    //      plate_col.id = "plate";
+    //      plate_col.color.r = 0.1;
+    //      plate_col.color.g = 0.6;
+    //      plate_col.color.b = 0.7;
+    //      plate_col.color.a = 0.5;
+    //      object_colors.push_back(plate_col);
+    // }
     
     // ── Coffee cup (mesh) ──────────────────────────────────────────────────
     {
@@ -241,7 +241,7 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.700;
+        pose.position.x = 0.500;
         pose.position.y = -0.300;
         pose.position.z = _table_surface_z + 0.7;
         pose.orientation.w = 1.0;
@@ -281,7 +281,7 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.000;
+        pose.position.x = 0.400;
         pose.position.y = -0.300;
         pose.position.z = 0.010;
         pose.orientation.x = 0.0;
@@ -324,7 +324,7 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.419;
+        pose.position.x = 0.619;
         pose.position.y = -0.316;
         pose.position.z = 0.115; //0.01
         pose.orientation.w = 1.0;
@@ -365,9 +365,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = -0.670;
-        pose.position.y = -0.300;
-        pose.position.z = 0.210;
+        pose.position.x = -0.711;
+        pose.position.y = -0.278;
+        pose.position.z = 0.346;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = 0.7071;
@@ -408,9 +408,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = -0.469;
-        pose.position.y = -0.351;
-        pose.position.z = 0.210;
+        pose.position.x = -0.523;
+        pose.position.y = -0.330;
+        pose.position.z = 0.348;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = -0.7071;
@@ -494,9 +494,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.000;
-        pose.position.y = -0.340;
-        pose.position.z = 0.550;
+        pose.position.x = 0.200;
+        pose.position.y = -0.440;
+        pose.position.z = 0.110;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = 0.0;

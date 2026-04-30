@@ -151,13 +151,13 @@ class CoffeeCellEnvironment(Node):
         self.declare_parameter('coffee_machine_y', -0.316)
         self.declare_parameter('coffee_machine_z', 0.010)
         
-        self.declare_parameter('tool_station_x', -0.670)
-        self.declare_parameter('tool_station_y', -0.300)
-        self.declare_parameter('tool_station_z', 0.210)
+        self.declare_parameter('tool_station_x', -0.711)
+        self.declare_parameter('tool_station_y', -0.278)
+        self.declare_parameter('tool_station_z', 0.346)
         
-        self.declare_parameter('cup_holder_x', -0.469)
-        self.declare_parameter('cup_holder_y', -0.351)
-        self.declare_parameter('cup_holder_z', 0.210)
+        self.declare_parameter('cup_holder_x', -0.523)
+        self.declare_parameter('cup_holder_y', -0.330)
+        self.declare_parameter('cup_holder_z', 0.348)
         
         self.declare_parameter('coffee_cup_x', 0.700)
         self.declare_parameter('coffee_cup_y', -0.300)

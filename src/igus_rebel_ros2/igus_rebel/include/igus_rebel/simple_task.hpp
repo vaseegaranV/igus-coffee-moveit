@@ -19,6 +19,8 @@ private:
   mtc::Task createPickCupTask();
   mtc::Task createMoveToCoffeeMachine();
   mtc::Task createPlaceCupHolderTask();
+  mtc::Task createGoHomeTask();
+  mtc::Task createMoveToDeliveryStation();
   mtc::Task task_;
   rclcpp::Node::SharedPtr node_;
 };

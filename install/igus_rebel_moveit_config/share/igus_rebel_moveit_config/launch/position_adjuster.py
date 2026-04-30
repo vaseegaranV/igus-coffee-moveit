@@ -27,8 +27,8 @@ _table_surface_z = -0.120
 INITIAL_POSITIONS = {
     'grinder':          {'x':  0.000, 'y': -0.300, 'z': 0.010},
     'coffee_machine':   {'x':  0.419, 'y': -0.316, 'z': 0.010},
-    'tool_station':     {'x': -0.670, 'y': -0.300, 'z': 0.210},
-    'cup_holder':       {'x': -0.469, 'y': -0.351, 'z': 0.210},
+    'tool_station':     {'x': -0.796, 'y': -0.278, 'z': 0.346},
+    'cup_holder':       {'x': -0.473, 'y': -0.330, 'z': 0.348},
     'coffee_cup':       {'x':  0.700, 'y': -0.300, 'z': _table_surface_z + 0.7},
     'portafilter':      {'x': -0.800, 'y': -0.300, 'z': _table_surface_z + 0.7},
     'delivery_station': {'x': -0.800, 'y': -0.300, 'z': _table_surface_z + 0.7},
