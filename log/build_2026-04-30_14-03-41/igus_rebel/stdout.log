@@ -1,0 +1,46 @@
+[ 23%] [32m[1mLinking CXX executable igus_moveit[0m
+[ 23%] [32m[1mLinking CXX executable igus_rail_moveit[0m
+[ 30%] Built target random_pose_node
+[ 38%] [32mBuilding CXX object CMakeFiles/igus_rebel.dir/src/Rebel.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o[0m
+[ 61%] Built target igus_moveit
+[ 69%] Built target igus_rail_moveit
+[ 76%] [32m[1mLinking CXX shared library libigus_rebel.so[0m
+[ 92%] Built target igus_rebel
+[100%] [32m[1mLinking CXX executable pick_and_place[0m
+[100%] Built target pick_and_place
+-- Install configuration: ""
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/rebel.xml
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/libigus_rebel.so
+-- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/libigus_rebel.so" to ""
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_moveit
+-- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_moveit" to ""
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_rail_moveit
+-- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_rail_moveit" to ""
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/pick_and_place
+-- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/pick_and_place" to ""
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/random_pose_node
+-- Set non-toolchain portion of runtime path of "/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/random_pose_node" to ""
+-- Up-to-date: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/rebel.xml
+-- Up-to-date: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//config
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//config/controller.yaml
+-- Up-to-date: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch/pick_and_place.launch.py
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//launch/rebel.launch.py
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/package_run_dependencies/igus_rebel
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/parent_prefix_path/igus_rebel
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.sh
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/ament_prefix_path.dsv
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/path.sh
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/environment/path.dsv
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.bash
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.sh
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.zsh
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/local_setup.dsv
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/package.dsv
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/packages/igus_rebel
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/igus_rebel
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig.cmake
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/cmake/igus_rebelConfig-version.cmake
+-- Installing: /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/package.xml

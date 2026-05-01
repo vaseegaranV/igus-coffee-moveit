@@ -42,35 +42,35 @@ void SimpleTask::doTask()
     return;
   }
   
-  // // Execute Task 2: Pick up the coffee cup (with cup holder attached)
-  // RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
-  // task_ = createPickCupTask();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-  //   return;
-  // }
+  // Execute Task 2: Pick up the coffee cup (with cup holder attached)
+  RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
+  task_ = createPickCupTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+    return;
+  }
 
-  // // Execute Task 3: Deliver coffee cup
-  // RCLCPP_INFO(LOGGER, "=== TASK 3: Deliver Coffee Cup ===");
-  // task_ = createMoveToDeliveryStation();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "Deliver cup planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-  //   return;
-  // }
+  // Execute Task 3: Deliver coffee cup
+  RCLCPP_INFO(LOGGER, "=== TASK 3: Deliver Coffee Cup ===");
+  task_ = createMoveToDeliveryStation();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Deliver cup planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+    return;
+  }
 
 
   // RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
@@ -102,19 +102,19 @@ void SimpleTask::doTask()
   }
   
 
-  RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
-  task_ = createPlaceCupHolderTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "place cup holder failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "place cup holder failed");
-    return;
-  }
+  // RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
+  // task_ = createPlaceCupHolderTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
+  //   return;
+  // }
   
   RCLCPP_INFO(LOGGER, "All tasks completed successfully!");
 }

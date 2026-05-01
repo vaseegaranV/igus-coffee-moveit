@@ -281,9 +281,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.400;
-        pose.position.y = -0.300;
-        pose.position.z = 0.010;
+        pose.position.x = 0.4935;
+        pose.position.y = -0.385;
+        pose.position.z = 0.025;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = 1.0;
@@ -324,9 +324,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.619;
-        pose.position.y = -0.316;
-        pose.position.z = 0.115; //0.01
+        pose.position.x = -0.356;
+        pose.position.y = -0.457;
+        pose.position.z = 0.020; //0.01
         pose.orientation.w = 1.0;
 
         
@@ -365,9 +365,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = -0.711;
-        pose.position.y = -0.278;
-        pose.position.z = 0.346;
+        pose.position.x = -0.715;
+        pose.position.y = -0.188;
+        pose.position.z = 0.405;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = 0.7071;
@@ -408,9 +408,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = -0.523;
-        pose.position.y = -0.330;
-        pose.position.z = 0.348;
+        pose.position.x = -0.527;
+        pose.position.y = -0.240;
+        pose.position.z = 0.407;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = -0.7071;
@@ -494,9 +494,9 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = 0.200;
-        pose.position.y = -0.440;
-        pose.position.z = 0.110;
+        pose.position.x = 0.105;
+        pose.position.y = -0.553;
+        pose.position.z = 0.066;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
         pose.orientation.z = 0.0;

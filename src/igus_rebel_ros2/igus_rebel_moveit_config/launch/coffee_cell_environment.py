@@ -167,9 +167,9 @@ class CoffeeCellEnvironment(Node):
         self.declare_parameter('portafilter_y', -0.300)
         self.declare_parameter('portafilter_z', _table_surface_z + 0.7)
 
-        self.declare_parameter('delivery_station_x', -0.800)
-        self.declare_parameter('delivery_station_y', -0.300)
-        self.declare_parameter('delivery_station_z', _table_surface_z + 0.7)
+        self.declare_parameter('delivery_station_x', 0.0)
+        self.declare_parameter('delivery_station_y', 0.0)
+        self.declare_parameter('delivery_station_z', 0.0)
 
         # Latched publisher
         latch_qos = QoSProfile(
