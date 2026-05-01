@@ -42,35 +42,35 @@ void SimpleTask::doTask()
     return;
   }
   
-  // Execute Task 2: Pick up the coffee cup (with cup holder attached)
-  RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
-  task_ = createPickCupTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-    return;
-  }
+  // // Execute Task 2: Pick up the coffee cup (with cup holder attached)
+  // RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
+  // task_ = createPickCupTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+  //   return;
+  // }
 
-  // Execute Task 3: Deliver coffee cup
-  RCLCPP_INFO(LOGGER, "=== TASK 3: Deliver Coffee Cup ===");
-  task_ = createMoveToDeliveryStation();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Deliver cup planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-    return;
-  }
+  // // Execute Task 3: Deliver coffee cup
+  // RCLCPP_INFO(LOGGER, "=== TASK 3: Deliver Coffee Cup ===");
+  // task_ = createMoveToDeliveryStation();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Deliver cup planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+  //   return;
+  // }
 
 
   // RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
@@ -102,19 +102,33 @@ void SimpleTask::doTask()
   }
   
 
-  // RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
-  // task_ = createPlaceCupHolderTask();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
-  //   return;
-  // }
+  RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
+  task_ = createPlaceCupHolderTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "place cup holder failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "place cup holder failed");
+    return;
+  }
+
+  RCLCPP_INFO(LOGGER, "=== Going Home ===");
+  task_ = createGoHomeTask();
+  task_.init();
+  if (!task_.plan(10)) {
+    RCLCPP_ERROR(LOGGER, "Go home planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "going home failed");
+    return;
+  }
   
   RCLCPP_INFO(LOGGER, "All tasks completed successfully!");
 }
@@ -644,13 +658,13 @@ mtc::Task SimpleTask::createPlaceCupHolderTask()
 
     geometry_msgs::msg::PoseStamped target_pose;
     target_pose.header.frame_id = "world";
-    target_pose.pose.position.x = -0.511;  // tool station position
-    target_pose.pose.position.y = -0.278;
-    target_pose.pose.position.z = 0.346;   // tune this
-    target_pose.pose.orientation.x =  0.1532;
-    target_pose.pose.orientation.y =  0.1532;
-    target_pose.pose.orientation.z = -0.6903;
-    target_pose.pose.orientation.w =  0.6903;
+    target_pose.pose.position.x = -0.517;
+    target_pose.pose.position.y = -0.240;
+    target_pose.pose.position.z =  0.437;
+    target_pose.pose.orientation.x = -0.478;
+    target_pose.pose.orientation.y = -0.478;
+    target_pose.pose.orientation.z = -0.521;
+    target_pose.pose.orientation.w =  0.521;
 
     stage->setPose(target_pose);
 
@@ -663,6 +677,53 @@ mtc::Task SimpleTask::createPlaceCupHolderTask()
     wrapper->setIgnoreCollisions(true);
 
     task.add(std::move(wrapper));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("insert into station", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.03, 0.03);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = -1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Detach cup holder from gripper
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach cup holder");
+    stage->detachObject("cup_holder", hand_frame);
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("twist unlock", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    
+    std::map<std::string, double> joint_deltas;
+    joint_deltas["joint6"] = -M_PI / 3.0;
+    stage->setDirection(joint_deltas);
+    stage->setMinMaxDistance(0.0, M_PI / 3.0);
+    
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat holder", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.05, 0.10);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = hand_frame;
+    vec.vector.y = 1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
   }
 
   // // Approach tool station along -X axis (reverse of retreat)
