@@ -1,0 +1,12 @@
+[ 46%] Built target igus_rail_moveit
+[ 53%] Built target random_pose_node
+[ 46%] Built target igus_moveit
+[ 76%] Built target igus_rebel
+[ 84%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o[0m
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:[m[K In member function ‘[01m[Kvoid SimpleTask::[01;32m[KsetupPlanningScene[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp:505:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kportafilter[m[K’ was not declared in this scope
+  505 |         [01;31m[Kportafilter[m[K.meshes.push_back(mesh_msg);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:90: CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

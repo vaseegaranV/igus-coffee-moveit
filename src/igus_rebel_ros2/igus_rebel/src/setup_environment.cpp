@@ -476,6 +476,49 @@ void SimpleTask::setupPlanningScene()  // Implementation
         }
     }
 
+    // ── Tamping Station (mesh) ──────────────────────────────────────────────────
+    {
+        moveit_msgs::msg::CollisionObject tamping_station;
+        tamping_station.header.frame_id = "world";
+        tamping_station.id = "tamping_station";
+        
+        shapes::Mesh* mesh = shapes::createMeshFromResource(
+            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/FullTampingStation.stl",
+            Eigen::Vector3d(0.001, 0.001, 0.001));
+        
+        if (mesh)
+        {
+        shape_msgs::msg::Mesh mesh_msg;
+        shapes::ShapeMsg mesh_msg_variant;
+        shapes::constructMsgFromShape(mesh, mesh_msg_variant);
+        mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
+        
+        geometry_msgs::msg::Pose pose;
+        pose.position.x = 0.105;
+        pose.position.y = -0.553;
+        pose.position.z = 0.066;
+        pose.orientation.x = 0.0;
+        pose.orientation.y = 0.0;
+        pose.orientation.z = 0.0;
+        pose.orientation.w = 1.0;
+        
+        tamping_station.meshes.push_back(mesh_msg);
+        tamping_station.mesh_poses.push_back(pose);
+        tamping_station.operation = tamping_station.ADD;
+        collision_objects.push_back(tamping_station);
+        
+        moveit_msgs::msg::ObjectColor tamping_station_color;
+        tamping_station_color.id = "tamping_station";
+        tamping_station_color.color.r = 0.1;
+        tamping_station_color.color.g = 0.1;
+        tamping_station_color.color.b = 0.1;
+        tamping_station_color.color.a = 0.5;
+        object_colors.push_back(tamping_station_color);
+        
+        delete mesh;
+        }
+    }
+
     // ── Delivery Station (mesh) ──────────────────────────────────────────────────
     {
         moveit_msgs::msg::CollisionObject delivery_station;

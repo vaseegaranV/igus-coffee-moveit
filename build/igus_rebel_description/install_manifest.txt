@@ -63,6 +63,7 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/collisionMesh.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel2/simplified_motor4.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/DeliveryStation.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/FullTampingStation.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Tool Station.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes1/robolink_rebel/Robolink_RebeL_002_2.dae
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes1/robolink_rebel/Robolink_RebeL_001.dae

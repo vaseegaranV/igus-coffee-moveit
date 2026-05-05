@@ -21,6 +21,7 @@ def generate_launch_description():
             ],
             "response_adapters": [
                 "default_planning_response_adapters/AddTimeOptimalParameterization",
+                "default_planning_response_adapters/AddRuckigTrajectorySmoothing",
                 "default_planning_response_adapters/ValidateSolution",
                 "default_planning_response_adapters/DisplayMotionPath",
             ],

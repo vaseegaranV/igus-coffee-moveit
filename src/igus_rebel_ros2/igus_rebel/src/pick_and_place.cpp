@@ -264,20 +264,20 @@ mtc::Task SimpleTask::createPickupCupHolderTask()
       grasp_holder->insert(std::move(stage));
     }
     
-    // Retreat along +X axis in gripper frame
-    {
-       auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat", cartesian_planner);
-       stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-       stage->setMinMaxDistance(0.05, 0.10);
-       stage->setIKFrame(hand_frame);
+    // // Retreat along +X axis in gripper frame
+    // {
+    //    auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat", cartesian_planner);
+    //    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    //    stage->setMinMaxDistance(0.05, 0.10);
+    //    stage->setIKFrame(hand_frame);
       
-       geometry_msgs::msg::Vector3Stamped vec;
-       vec.header.frame_id = hand_frame;
-       vec.vector.x = 1.0;
-       stage->setDirection(vec);
+    //    geometry_msgs::msg::Vector3Stamped vec;
+    //    vec.header.frame_id = hand_frame;
+    //    vec.vector.x = 1.0;
+    //    stage->setDirection(vec);
       
-       grasp_holder->insert(std::move(stage));
-    }
+    //    grasp_holder->insert(std::move(stage));
+    // }
     
     task.add(std::move(grasp_holder));
   }
