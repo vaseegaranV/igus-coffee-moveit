@@ -42,20 +42,20 @@ void SimpleTask::doTask()
     return;
   }
   
-  // // Execute Task 2: Pick up the coffee cup (with cup holder attached)
-  // RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
-  // task_ = createPickCupTask();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-  //   return;
-  // }
+  // Execute Task 2: Pick up the coffee cup (with cup holder attached)
+  RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
+  task_ = createPickCupTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+    return;
+  }
 
   // // Execute Task 3: Deliver coffee cup
   // RCLCPP_INFO(LOGGER, "=== TASK 3: Deliver Coffee Cup ===");
@@ -73,31 +73,17 @@ void SimpleTask::doTask()
   // }
 
 
-  // RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
-  // task_ = createMoveToCoffeeMachine();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
-  //   return;
-  // }
-
-  RCLCPP_INFO(LOGGER, "=== Going Home ===");
-  task_ = createGoHomeTask();
+  RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
+  task_ = createMoveToCoffeeMachine();
   task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Go home planning failed");
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
     return;
   }
   task_.introspection().publishSolution(*task_.solutions().front());
   result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "going home failed");
+    RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
     return;
   }
   
@@ -452,8 +438,8 @@ mtc::Task SimpleTask::createMoveToCoffeeMachine()
  
   // ── Tunable placement target (world frame) ─────────────────────────────
   // Coffee machine origin: (0.419, -0.316, 0.010)
-  const double MACHINE_X        = 0.419;
-  const double MACHINE_Y        = -0.316;
+  const double MACHINE_X        = -0.356;
+  const double MACHINE_Y        = -0.457;
   const double PLACE_X_OFFSET   = -0.1;     // along world X relative to machine
   const double PLACE_Y_OFFSET   = 0.215;   // negative = pushed back into machine
   const double PLACE_Z          = 0.24;    // cup base height — tune

@@ -440,7 +440,7 @@ void SimpleTask::setupPlanningScene()  // Implementation
         portafilter.id = "portafilter";
         
         shapes::Mesh* mesh = shapes::createMeshFromResource(
-            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Portafilter.stl",
+            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/PortaFilterandTool.stl",
             Eigen::Vector3d(0.001, 0.001, 0.001));
         
         if (mesh)
@@ -451,12 +451,12 @@ void SimpleTask::setupPlanningScene()  // Implementation
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
         
         geometry_msgs::msg::Pose pose;
-        pose.position.x = -0.600;
-        pose.position.y = -0.247;
-        pose.position.z = 0.209;
+        pose.position.x = -0.663;
+        pose.position.y = -0.071;
+        pose.position.z = 0.379;
         pose.orientation.x = 0.0;
         pose.orientation.y = 0.0;
-        pose.orientation.z = 0.7071;
+        pose.orientation.z = -0.7071;
         pose.orientation.w = 0.7071;
         
         portafilter.meshes.push_back(mesh_msg);

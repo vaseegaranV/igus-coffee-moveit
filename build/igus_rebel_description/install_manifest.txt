@@ -1,6 +1,7 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/launch/display.launch.archive
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/launch/igus_rebel_robot.launch.archive
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/CoffeeMachine.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/PortaFilterandTool.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/CoffeeCupHolder.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Coffee Grinder.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/coffee_cup.stl

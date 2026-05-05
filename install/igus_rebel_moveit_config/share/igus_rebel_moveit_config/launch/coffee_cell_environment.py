@@ -143,33 +143,33 @@ class CoffeeCellEnvironment(Node):
         super().__init__("coffee_cell_environment")
 
         # Declare parameters for object positions (defaults)
-        self.declare_parameter('grinder_x', 0.000)
-        self.declare_parameter('grinder_y', -0.300)
-        self.declare_parameter('grinder_z', 0.010)
-        
-        self.declare_parameter('coffee_machine_x', 0.419)
-        self.declare_parameter('coffee_machine_y', -0.316)
-        self.declare_parameter('coffee_machine_z', 0.010)
-        
-        self.declare_parameter('tool_station_x', -0.711)
-        self.declare_parameter('tool_station_y', -0.278)
-        self.declare_parameter('tool_station_z', 0.346)
-        
-        self.declare_parameter('cup_holder_x', -0.523)
-        self.declare_parameter('cup_holder_y', -0.330)
-        self.declare_parameter('cup_holder_z', 0.348)
-        
-        self.declare_parameter('coffee_cup_x', 0.700)
+        self.declare_parameter('grinder_x', 0.4935)
+        self.declare_parameter('grinder_y', -0.385)
+        self.declare_parameter('grinder_z', 0.025)
+
+        self.declare_parameter('coffee_machine_x', -0.356)
+        self.declare_parameter('coffee_machine_y', -0.457)
+        self.declare_parameter('coffee_machine_z', 0.020)
+
+        self.declare_parameter('tool_station_x', -0.715)
+        self.declare_parameter('tool_station_y', -0.188)
+        self.declare_parameter('tool_station_z', 0.405)
+
+        self.declare_parameter('cup_holder_x', -0.527)
+        self.declare_parameter('cup_holder_y', -0.240)
+        self.declare_parameter('cup_holder_z', 0.407)
+
+        self.declare_parameter('coffee_cup_x', 0.500)
         self.declare_parameter('coffee_cup_y', -0.300)
         self.declare_parameter('coffee_cup_z', _table_surface_z + 0.7)
 
-        self.declare_parameter('portafilter_x', -0.800)
-        self.declare_parameter('portafilter_y', -0.300)
-        self.declare_parameter('portafilter_z', _table_surface_z + 0.7)
+        self.declare_parameter('portafilter_x', -0.527)
+        self.declare_parameter('portafilter_y', -0.240)
+        self.declare_parameter('portafilter_z', 0.407)
 
-        self.declare_parameter('delivery_station_x', 0.0)
-        self.declare_parameter('delivery_station_y', 0.0)
-        self.declare_parameter('delivery_station_z', 0.0)
+        self.declare_parameter('delivery_station_x', 0.105)
+        self.declare_parameter('delivery_station_y', -0.553)
+        self.declare_parameter('delivery_station_z', 0.066)
 
         # Latched publisher
         latch_qos = QoSProfile(
@@ -343,11 +343,11 @@ class CoffeeCellEnvironment(Node):
 
         objects.append(mesh_object(
             "portafilter", FRAME_ID,
-            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/Portafilter.stl",
+            stl_path="/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/PortaFilterandTool.stl",
             px=portafilter_x,
             py=portafilter_y,
             pz=portafilter_z,
-            qx=0.0, qy=0.0, qz=0.7071, qw=0.7071,
+            qx=0.0, qy=0.0, qz=-0.7071, qw=0.7071,
             scale=0.001,
         ))
 
