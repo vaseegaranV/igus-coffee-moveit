@@ -1,0 +1,4 @@
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreateMoveToCoffeeMachine[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:646:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  646 |  mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K

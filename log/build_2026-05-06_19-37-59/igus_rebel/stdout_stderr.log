@@ -1,0 +1,12 @@
+[ 61%] Built target igus_rail_moveit
+[ 61%] Built target igus_moveit
+[ 61%] Built target igus_rebel
+[ 76%] Built target random_pose_node
+[ 84%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreatePickupPortafilter[m[K()[m[K’:
+[01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/pick_and_place.cpp:453:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld[m[K’ was not declared in this scope
+  453 |        stage->setIKFrame([01;31m[Kworld[m[K);
+      |                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -16,9 +16,11 @@ public:
 private:
   void setupPlanningScene();
   mtc::Task createPickupCupHolderTask();
+  mtc::Task createPickupPortafilter();
   mtc::Task createPickCupTask();
   mtc::Task createMoveToCoffeeMachine();
   mtc::Task createPlaceCupHolderTask();
+  mtc::Task createPlacePortafilter();
   mtc::Task createGoHomeTask();
   mtc::Task createMoveToDeliveryStation();
   mtc::Task task_;
