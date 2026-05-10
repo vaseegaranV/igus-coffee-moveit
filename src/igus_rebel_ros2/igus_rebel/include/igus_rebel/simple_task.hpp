@@ -23,6 +23,11 @@ private:
   mtc::Task createPlacePortafilter();
   mtc::Task createGoHomeTask();
   mtc::Task createMoveToDeliveryStation();
+  mtc::Task createPressMiddleButtonTask();
+  mtc::Task createPressLeftButtonTask();
+  mtc::Task createInsertPortafilterToGrinder();
+  mtc::Task createDetachPortafilterFromGrinder();
+  mtc::Task createAttachPortafilterFromGrinder();
   mtc::Task task_;
   rclcpp::Node::SharedPtr node_;
 };

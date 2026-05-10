@@ -175,9 +175,9 @@ void SimpleTask::setupPlanningScene()
             shapes::constructMsgFromShape(mesh, mesh_msg_variant);
             mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
             geometry_msgs::msg::Pose pose;
-            pose.position.x = 0.450 + OX;
-            pose.position.y = -0.300 + OY;
-            pose.position.z = _table_surface_z + 0.7 + OZ;
+            pose.position.x = 0.115 + OX;
+            pose.position.y = -0.553 + OY;
+            pose.position.z = 0.115 + OZ;
             pose.orientation.w = 1.0;
             cup.meshes.push_back(mesh_msg);
             cup.mesh_poses.push_back(pose);
@@ -207,7 +207,7 @@ void SimpleTask::setupPlanningScene()
             shapes::constructMsgFromShape(mesh, mesh_msg_variant);
             mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
             geometry_msgs::msg::Pose pose;
-            pose.position.x = 0.4935 + OX;
+            pose.position.x = 0.4535 + OX;
             pose.position.y = -0.385 + OY;
             pose.position.z = 0.025 + OZ;
             pose.orientation.x = 0.0;
@@ -414,7 +414,7 @@ void SimpleTask::setupPlanningScene()
             shapes::constructMsgFromShape(mesh, mesh_msg_variant);
             mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
             geometry_msgs::msg::Pose pose;
-            pose.position.x = 0.105 + OX;
+            pose.position.x = 0.115 + OX;
             pose.position.y = -0.553 + OY;
             pose.position.z = 0.066 + OZ;
             pose.orientation.x = 0.0;

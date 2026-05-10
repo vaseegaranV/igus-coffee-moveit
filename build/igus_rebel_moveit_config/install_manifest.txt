@@ -1,6 +1,7 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/move_group.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/moveit_rviz.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/ros_controllers.launch.py
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/eef_adjuster.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/gazebo.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/igus_rebel_simulated.launch.py
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config/share/igus_rebel_moveit_config/launch/igus_rebel_motion_planner.launch.py
