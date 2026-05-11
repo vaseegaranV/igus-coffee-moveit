@@ -371,7 +371,7 @@ void SimpleTask::setupPlanningScene()
         tamping_station.id = "tamping_station";
         shapes::Mesh* mesh = shapes::createMeshFromResource(
             "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/FullTampingStation.stl",
-            Eigen::Vector3d(0.001, 0.001, 0.001));
+            Eigen::Vector3d(1, 1, 1));
         if (mesh)
         {
             shape_msgs::msg::Mesh mesh_msg;
@@ -379,13 +379,13 @@ void SimpleTask::setupPlanningScene()
             shapes::constructMsgFromShape(mesh, mesh_msg_variant);
             mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
             geometry_msgs::msg::Pose pose;
-            pose.position.x = 0.105 + OX;
-            pose.position.y = -0.553 + OY;
-            pose.position.z = 0.066 + OZ;
+            pose.position.x = 0.035 + OX;
+            pose.position.y = -0.603 + OY;
+            pose.position.z = 0.466 + OZ;
             pose.orientation.x = 0.0;
             pose.orientation.y = 0.0;
-            pose.orientation.z = 0.0;
-            pose.orientation.w = 1.0;
+            pose.orientation.z = 0.7071;
+            pose.orientation.w = 0.7071;
             tamping_station.meshes.push_back(mesh_msg);
             tamping_station.mesh_poses.push_back(pose);
             tamping_station.operation = tamping_station.ADD;

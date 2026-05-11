@@ -4,3 +4,7 @@ igus_rebel_msgs.egg-info/PKG-INFO
 igus_rebel_msgs.egg-info/SOURCES.txt
 igus_rebel_msgs.egg-info/dependency_links.txt
 igus_rebel_msgs.egg-info/top_level.txt
+igus_rebel_msgs/msg/__init__.py
+igus_rebel_msgs/msg/_digital_output.py
+igus_rebel_msgs/srv/__init__.py
+igus_rebel_msgs/srv/_set_digital_output.py
