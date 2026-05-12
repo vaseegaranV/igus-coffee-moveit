@@ -31,6 +31,8 @@ private:
   mtc::Task createCleanBrush();
   mtc::Task createBinDispose();
   mtc::Task createPickCupFromMachineTask();
+  mtc::Task createPressGrinderPowerButtonTask();
+  mtc::Task createTampPortafilterTask();
   mtc::Task task_;
   rclcpp::Node::SharedPtr node_;
 };
