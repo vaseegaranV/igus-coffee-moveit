@@ -526,6 +526,30 @@ src/tasks/task_detach_portafilter_grinder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.s
 .PHONY : src/tasks/task_detach_portafilter_grinder.cpp.s
 
+src/tasks/task_dispose_portafilter_bin.o: src/tasks/task_dispose_portafilter_bin.cpp.o
+.PHONY : src/tasks/task_dispose_portafilter_bin.o
+
+# target to build an object file
+src/tasks/task_dispose_portafilter_bin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o
+.PHONY : src/tasks/task_dispose_portafilter_bin.cpp.o
+
+src/tasks/task_dispose_portafilter_bin.i: src/tasks/task_dispose_portafilter_bin.cpp.i
+.PHONY : src/tasks/task_dispose_portafilter_bin.i
+
+# target to preprocess a source file
+src/tasks/task_dispose_portafilter_bin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.i
+.PHONY : src/tasks/task_dispose_portafilter_bin.cpp.i
+
+src/tasks/task_dispose_portafilter_bin.s: src/tasks/task_dispose_portafilter_bin.cpp.s
+.PHONY : src/tasks/task_dispose_portafilter_bin.s
+
+# target to generate assembly for a file
+src/tasks/task_dispose_portafilter_bin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.s
+.PHONY : src/tasks/task_dispose_portafilter_bin.cpp.s
+
 src/tasks/task_go_home.o: src/tasks/task_go_home.cpp.o
 .PHONY : src/tasks/task_go_home.o
 
@@ -766,6 +790,30 @@ src/tasks/task_place_portafilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.s
 .PHONY : src/tasks/task_place_portafilter.cpp.s
 
+src/tasks/task_press_grinder.o: src/tasks/task_press_grinder.cpp.o
+.PHONY : src/tasks/task_press_grinder.o
+
+# target to build an object file
+src/tasks/task_press_grinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o
+.PHONY : src/tasks/task_press_grinder.cpp.o
+
+src/tasks/task_press_grinder.i: src/tasks/task_press_grinder.cpp.i
+.PHONY : src/tasks/task_press_grinder.i
+
+# target to preprocess a source file
+src/tasks/task_press_grinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.i
+.PHONY : src/tasks/task_press_grinder.cpp.i
+
+src/tasks/task_press_grinder.s: src/tasks/task_press_grinder.cpp.s
+.PHONY : src/tasks/task_press_grinder.s
+
+# target to generate assembly for a file
+src/tasks/task_press_grinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.s
+.PHONY : src/tasks/task_press_grinder.cpp.s
+
 src/tasks/task_press_left_coffee_machine.o: src/tasks/task_press_left_coffee_machine.cpp.o
 .PHONY : src/tasks/task_press_left_coffee_machine.o
 
@@ -813,6 +861,30 @@ src/tasks/task_press_middle_coffee_machine.s: src/tasks/task_press_middle_coffee
 src/tasks/task_press_middle_coffee_machine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.s
 .PHONY : src/tasks/task_press_middle_coffee_machine.cpp.s
+
+src/tasks/task_tamp_portafilter.o: src/tasks/task_tamp_portafilter.cpp.o
+.PHONY : src/tasks/task_tamp_portafilter.o
+
+# target to build an object file
+src/tasks/task_tamp_portafilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o
+.PHONY : src/tasks/task_tamp_portafilter.cpp.o
+
+src/tasks/task_tamp_portafilter.i: src/tasks/task_tamp_portafilter.cpp.i
+.PHONY : src/tasks/task_tamp_portafilter.i
+
+# target to preprocess a source file
+src/tasks/task_tamp_portafilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.i
+.PHONY : src/tasks/task_tamp_portafilter.cpp.i
+
+src/tasks/task_tamp_portafilter.s: src/tasks/task_tamp_portafilter.cpp.s
+.PHONY : src/tasks/task_tamp_portafilter.s
+
+# target to generate assembly for a file
+src/tasks/task_tamp_portafilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.s
+.PHONY : src/tasks/task_tamp_portafilter.cpp.s
 
 # Help Target
 help:
@@ -867,6 +939,9 @@ help:
 	@echo "... src/tasks/task_detach_portafilter_grinder.o"
 	@echo "... src/tasks/task_detach_portafilter_grinder.i"
 	@echo "... src/tasks/task_detach_portafilter_grinder.s"
+	@echo "... src/tasks/task_dispose_portafilter_bin.o"
+	@echo "... src/tasks/task_dispose_portafilter_bin.i"
+	@echo "... src/tasks/task_dispose_portafilter_bin.s"
 	@echo "... src/tasks/task_go_home.o"
 	@echo "... src/tasks/task_go_home.i"
 	@echo "... src/tasks/task_go_home.s"
@@ -897,12 +972,18 @@ help:
 	@echo "... src/tasks/task_place_portafilter.o"
 	@echo "... src/tasks/task_place_portafilter.i"
 	@echo "... src/tasks/task_place_portafilter.s"
+	@echo "... src/tasks/task_press_grinder.o"
+	@echo "... src/tasks/task_press_grinder.i"
+	@echo "... src/tasks/task_press_grinder.s"
 	@echo "... src/tasks/task_press_left_coffee_machine.o"
 	@echo "... src/tasks/task_press_left_coffee_machine.i"
 	@echo "... src/tasks/task_press_left_coffee_machine.s"
 	@echo "... src/tasks/task_press_middle_coffee_machine.o"
 	@echo "... src/tasks/task_press_middle_coffee_machine.i"
 	@echo "... src/tasks/task_press_middle_coffee_machine.s"
+	@echo "... src/tasks/task_tamp_portafilter.o"
+	@echo "... src/tasks/task_tamp_portafilter.i"
+	@echo "... src/tasks/task_tamp_portafilter.s"
 .PHONY : help
 
 

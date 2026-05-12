@@ -1979,11 +1979,33 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -2067,6 +2089,11 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -2079,26 +2106,44 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/mesh_operations.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shape_messages.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shape_operations.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -2111,14 +2156,29 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -2129,11 +2189,36 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -2144,25 +2229,36 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/attached_collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
@@ -2171,16 +2267,34 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -2191,10 +2305,18 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -2207,22 +2329,51 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -2234,6 +2385,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -2242,6 +2394,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -2326,6 +2479,8 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -2491,6 +2646,14 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -2597,6 +2760,11 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -2646,6 +2814,8 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -3240,6 +3410,10 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -3270,8 +3444,22 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -3302,6 +3490,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -3321,6 +3510,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -3353,6 +3543,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -3379,10 +3570,13 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -3412,6 +3606,8 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -3590,6 +3786,9 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -3608,6 +3807,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -3725,6 +3925,7 @@ CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-co
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -3751,11 +3952,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -3839,6 +4062,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -3851,22 +4079,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -3879,14 +4126,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -3897,11 +4159,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -3912,37 +4199,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -3951,8 +4270,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -3965,19 +4294,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -3989,6 +4348,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -3997,6 +4357,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -4081,6 +4442,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -4246,6 +4609,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -4352,6 +4723,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -4391,6 +4767,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -4581,6 +4959,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -4611,8 +4993,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -4643,6 +5039,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -4662,6 +5059,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -4694,6 +5092,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -4720,10 +5119,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -4753,6 +5155,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -4931,6 +5335,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -4949,6 +5356,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -5066,6 +5474,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o: /
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -5092,11 +5501,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -5180,6 +5611,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -5192,22 +5628,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -5220,14 +5675,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -5238,11 +5708,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -5253,37 +5748,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -5292,8 +5819,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -5306,19 +5843,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -5330,6 +5897,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -5338,6 +5906,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -5422,6 +5991,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -5587,6 +6158,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -5693,6 +6272,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -5732,6 +6316,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -5922,6 +6508,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -5952,8 +6542,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -5984,6 +6588,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -6003,6 +6608,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -6035,6 +6641,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -6061,10 +6668,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -6094,6 +6704,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -6272,6 +6884,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -6290,6 +6905,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -6407,6 +7023,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o: /home/vase
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -6433,11 +7050,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -6521,6 +7160,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -6533,22 +7177,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -6561,14 +7224,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -6579,11 +7257,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -6594,37 +7297,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -6633,8 +7368,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -6647,19 +7392,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -6671,6 +7446,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -6679,6 +7455,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -6763,6 +7540,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -6928,6 +7707,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -7034,6 +7821,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -7073,6 +7865,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -7263,6 +8057,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -7293,8 +8091,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -7325,6 +8137,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -7344,6 +8157,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -7376,6 +8190,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -7402,10 +8217,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -7435,6 +8253,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -7613,6 +8433,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -7631,6 +8454,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -7748,6 +8572,1556 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o: /
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp \
+  /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/link_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/planar_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
+  /opt/ros/jazzy/include/random_numbers/random_numbers.h \
+  /opt/ros/jazzy/include/rcl/rcl/allocator.h \
+  /opt/ros/jazzy/include/rcl/rcl/arguments.h \
+  /opt/ros/jazzy/include/rcl/rcl/client.h \
+  /opt/ros/jazzy/include/rcl/rcl/context.h \
+  /opt/ros/jazzy/include/rcl/rcl/domain_id.h \
+  /opt/ros/jazzy/include/rcl/rcl/error_handling.h \
+  /opt/ros/jazzy/include/rcl/rcl/event.h \
+  /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
+  /opt/ros/jazzy/include/rcl/rcl/graph.h \
+  /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
+  /opt/ros/jazzy/include/rcl/rcl/init_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/log_level.h \
+  /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/jazzy/include/rcl/rcl/macros.h \
+  /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/jazzy/include/rcl/rcl/node.h \
+  /opt/ros/jazzy/include/rcl/rcl/node_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+  /opt/ros/jazzy/include/rcl/rcl/service.h \
+  /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
+  /opt/ros/jazzy/include/rcl/rcl/subscription.h \
+  /opt/ros/jazzy/include/rcl/rcl/time.h \
+  /opt/ros/jazzy/include/rcl/rcl/timer.h \
+  /opt/ros/jazzy/include/rcl/rcl/types.h \
+  /opt/ros/jazzy/include/rcl/rcl/visibility_control.h \
+  /opt/ros/jazzy/include/rcl/rcl/wait.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/types.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/add_guard_condition_to_rcl_wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/time.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
+  /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h \
+  /opt/ros/jazzy/include/rmw/rmw/error_handling.h \
+  /opt/ros/jazzy/include/rmw/rmw/event.h \
+  /opt/ros/jazzy/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/features.h \
+  /opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/config.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/init.h \
+  /opt/ros/jazzy/include/rmw/rmw/init_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/localhost.h \
+  /opt/ros/jazzy/include/rmw/rmw/macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/message_sequence.h \
+  /opt/ros/jazzy/include/rmw/rmw/names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/publisher_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/rmw.h \
+  /opt/ros/jazzy/include/rmw/rmw/security_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/time.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/types.h \
+  /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/model.h \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/visibility_control.h \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/color_rgba.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/config.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/jazzy/include/urdf/urdf/model.h \
+  /opt/ros/jazzy/include/urdf/urdf/urdfdom_compatibility.h \
+  /opt/ros/jazzy/include/urdf/urdf/visibility_control.hpp \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_exception/exception.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/color.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/joint.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/link.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/model.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/pose.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/types.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/utils.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_world/types.h \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/boost/any.hpp \
+  /usr/include/boost/any/bad_any_cast.hpp \
+  /usr/include/boost/any/detail/placeholder.hpp \
+  /usr/include/boost/any/fwd.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/assert/source_location.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/cxx_composite.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/pragma_message.hpp \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/core/bit.hpp \
+  /usr/include/boost/core/demangle.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/current_function.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/exception/exception.hpp \
+  /usr/include/boost/integer.hpp \
+  /usr/include/boost/integer/integer_log2.hpp \
+  /usr/include/boost/integer/integer_mask.hpp \
+  /usr/include/boost/integer/static_log2.hpp \
+  /usr/include/boost/integer_fwd.hpp \
+  /usr/include/boost/integer_traits.hpp \
+  /usr/include/boost/limits.hpp \
+  /usr/include/boost/random/detail/config.hpp \
+  /usr/include/boost/random/detail/const_mod.hpp \
+  /usr/include/boost/random/detail/disable_warnings.hpp \
+  /usr/include/boost/random/detail/enable_warnings.hpp \
+  /usr/include/boost/random/detail/generator_bits.hpp \
+  /usr/include/boost/random/detail/generator_seed_seq.hpp \
+  /usr/include/boost/random/detail/int_float_pair.hpp \
+  /usr/include/boost/random/detail/integer_log2.hpp \
+  /usr/include/boost/random/detail/large_arithmetic.hpp \
+  /usr/include/boost/random/detail/operators.hpp \
+  /usr/include/boost/random/detail/polynomial.hpp \
+  /usr/include/boost/random/detail/ptr_helper.hpp \
+  /usr/include/boost/random/detail/seed.hpp \
+  /usr/include/boost/random/detail/seed_impl.hpp \
+  /usr/include/boost/random/detail/signed_unsigned_tools.hpp \
+  /usr/include/boost/random/detail/uniform_int_float.hpp \
+  /usr/include/boost/random/exponential_distribution.hpp \
+  /usr/include/boost/random/mersenne_twister.hpp \
+  /usr/include/boost/random/normal_distribution.hpp \
+  /usr/include/boost/random/traits.hpp \
+  /usr/include/boost/random/uniform_01.hpp \
+  /usr/include/boost/random/uniform_int.hpp \
+  /usr/include/boost/random/uniform_int_distribution.hpp \
+  /usr/include/boost/random/uniform_real.hpp \
+  /usr/include/boost/random/uniform_real_distribution.hpp \
+  /usr/include/boost/random/variate_generator.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/throw_exception.hpp \
+  /usr/include/boost/type_index.hpp \
+  /usr/include/boost/type_index/stl_type_index.hpp \
+  /usr/include/boost/type_index/type_index_facade.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/type_traits/alignment_of.hpp \
+  /usr/include/boost/type_traits/conditional.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/utility/enable_if.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/array \
+  /usr/include/c++/13/atomic \
+  /usr/include/c++/13/backward/auto_ptr.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
+  /usr/include/c++/13/bits/enable_special_members.h \
+  /usr/include/c++/13/bits/erase_if.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_queue.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
+  /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/this_thread_sleep.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/chrono \
+  /usr/include/c++/13/climits \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/codecvt \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/complex \
+  /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/csignal \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/cxxabi.h \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
+  /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
+  /usr/include/c++/13/locale \
+  /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
+  /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
+  /usr/include/c++/13/optional \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
+  /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
+  /usr/include/c++/13/set \
+  /usr/include/c++/13/shared_mutex \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeindex \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
+  /usr/include/c++/13/utility \
+  /usr/include/c++/13/variant \
+  /usr/include/c++/13/vector \
+  /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /usr/include/ctype.h \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/StdVector \
+  /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
+  /usr/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -7774,11 +10148,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -7862,6 +10258,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -7874,22 +10275,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -7902,14 +10322,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -7920,11 +10355,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -7935,37 +10395,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -7974,8 +10466,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -7988,19 +10490,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -8012,6 +10544,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -8020,6 +10553,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -8104,6 +10638,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -8269,6 +10805,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -8375,6 +10919,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -8414,6 +10963,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -8604,6 +11155,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -8634,8 +11189,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -8666,6 +11235,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -8685,6 +11255,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -8717,6 +11288,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -8743,10 +11315,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -8776,6 +11351,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -8954,6 +11531,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -8972,6 +11552,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -9089,6 +11670,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-c
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -9115,11 +11697,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -9203,6 +11807,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -9215,22 +11824,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -9243,14 +11871,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -9261,11 +11904,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -9276,37 +11944,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -9315,8 +12015,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -9329,19 +12039,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -9353,6 +12093,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -9361,6 +12102,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -9445,6 +12187,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -9610,6 +12354,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -9716,6 +12468,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -9755,6 +12512,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -9945,6 +12704,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -9975,8 +12738,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -10007,6 +12784,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -10026,6 +12804,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -10058,6 +12837,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -10084,10 +12864,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -10117,6 +12900,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -10295,6 +13080,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -10313,6 +13101,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -10430,6 +13219,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /h
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -10456,11 +13246,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -10544,6 +13356,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -10556,22 +13373,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -10584,14 +13420,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -10602,11 +13453,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -10617,37 +13493,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -10656,8 +13564,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -10670,19 +13588,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -10694,6 +13642,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -10702,6 +13651,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -10786,6 +13736,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -10951,6 +13903,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -11057,6 +14017,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -11096,6 +14061,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -11286,6 +14253,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -11316,8 +14287,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -11348,6 +14333,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -11367,6 +14353,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -11399,6 +14386,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -11425,10 +14413,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -11458,6 +14449,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -11636,6 +14629,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -11654,6 +14650,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -11771,6 +14768,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -11797,11 +14795,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -11885,6 +14905,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -11897,22 +14922,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -11925,14 +14969,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -11943,11 +15002,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -11958,37 +15042,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -11997,8 +15113,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -12011,19 +15137,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -12035,6 +15191,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -12043,6 +15200,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -12127,6 +15285,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -12292,6 +15452,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -12398,6 +15566,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -12437,6 +15610,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -12627,6 +15802,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -12657,8 +15836,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -12689,6 +15882,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -12708,6 +15902,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -12740,6 +15935,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -12766,10 +15962,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -12799,6 +15998,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -12977,6 +16178,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -12995,6 +16199,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -13112,6 +16317,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -13138,11 +16344,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -13226,6 +16454,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -13238,22 +16471,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -13266,14 +16518,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -13284,11 +16551,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -13299,37 +16591,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -13338,8 +16662,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -13352,19 +16686,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -13376,6 +16740,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -13384,6 +16749,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -13468,6 +16834,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -13633,6 +17001,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -13739,6 +17115,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -13778,6 +17159,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -13968,6 +17351,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -13998,8 +17385,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -14030,6 +17431,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -14049,6 +17451,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -14081,6 +17484,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -14107,10 +17511,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -14140,6 +17547,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -14318,6 +17727,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -14336,6 +17748,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -14453,6 +17866,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -14479,11 +17893,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -14567,6 +18003,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -14579,22 +18020,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -14607,14 +18067,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -14625,11 +18100,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -14640,37 +18140,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -14679,8 +18211,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -14693,19 +18235,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -14717,6 +18289,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -14725,6 +18298,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -14809,6 +18383,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -14974,6 +18550,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -15080,6 +18664,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -15119,6 +18708,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -15309,6 +18900,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -15339,8 +18934,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -15371,6 +18980,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -15390,6 +19000,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -15422,6 +19033,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -15448,10 +19060,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -15481,6 +19096,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -15659,6 +19276,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -15677,6 +19297,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -15794,6 +19415,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee2
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -15820,11 +19442,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -15908,6 +19552,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -15920,22 +19569,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -15948,14 +19616,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -15966,11 +19649,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -15981,37 +19689,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -16020,8 +19760,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -16034,19 +19784,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -16058,6 +19838,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -16066,6 +19847,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -16150,6 +19932,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -16315,6 +20099,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -16421,6 +20213,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -16460,6 +20257,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -16650,6 +20449,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -16680,8 +20483,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -16712,6 +20529,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -16731,6 +20549,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -16763,6 +20582,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -16789,10 +20609,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -16822,6 +20645,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -17000,6 +20825,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -17018,6 +20846,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -17135,6 +20964,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -17161,11 +20991,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -17249,6 +21101,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -17261,22 +21118,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -17289,14 +21165,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -17307,11 +21198,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -17322,37 +21238,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -17361,8 +21309,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -17375,19 +21333,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -17399,6 +21387,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -17407,6 +21396,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -17491,6 +21481,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -17656,6 +21648,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -17762,6 +21762,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -17801,6 +21806,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -17991,6 +21998,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -18021,8 +22032,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -18053,6 +22078,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -18072,6 +22098,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -18104,6 +22131,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -18130,10 +22158,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -18163,6 +22194,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -18341,6 +22374,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -18359,6 +22395,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -18476,6 +22513,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -18502,11 +22540,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -18590,6 +22650,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -18602,22 +22667,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -18630,14 +22714,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -18648,11 +22747,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -18663,37 +22787,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -18702,8 +22858,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -18716,19 +22882,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -18740,6 +22936,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -18748,6 +22945,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -18832,6 +23030,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -18997,6 +23197,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -19103,6 +23311,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -19142,6 +23355,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -19332,6 +23547,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -19362,8 +23581,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -19394,6 +23627,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -19413,6 +23647,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -19445,6 +23680,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -19471,10 +23707,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -19504,6 +23743,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -19682,6 +23923,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -19700,6 +23944,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -19817,6 +24062,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -19843,11 +24089,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -19931,6 +24199,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -19943,22 +24216,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -19971,14 +24263,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -19989,11 +24296,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -20004,37 +24336,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -20043,8 +24407,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -20057,19 +24431,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -20081,6 +24485,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -20089,6 +24494,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -20173,6 +24579,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -20338,6 +24746,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -20444,6 +24860,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -20483,6 +24904,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -20673,6 +25096,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -20703,8 +25130,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -20735,6 +25176,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -20754,6 +25196,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -20786,6 +25229,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -20812,10 +25256,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -20845,6 +25292,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -21023,6 +25472,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -21041,6 +25493,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -21158,6 +25611,1556 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vase
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp \
+  /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/link_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/planar_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
+  /opt/ros/jazzy/include/random_numbers/random_numbers.h \
+  /opt/ros/jazzy/include/rcl/rcl/allocator.h \
+  /opt/ros/jazzy/include/rcl/rcl/arguments.h \
+  /opt/ros/jazzy/include/rcl/rcl/client.h \
+  /opt/ros/jazzy/include/rcl/rcl/context.h \
+  /opt/ros/jazzy/include/rcl/rcl/domain_id.h \
+  /opt/ros/jazzy/include/rcl/rcl/error_handling.h \
+  /opt/ros/jazzy/include/rcl/rcl/event.h \
+  /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
+  /opt/ros/jazzy/include/rcl/rcl/graph.h \
+  /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
+  /opt/ros/jazzy/include/rcl/rcl/init_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/log_level.h \
+  /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/jazzy/include/rcl/rcl/macros.h \
+  /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/jazzy/include/rcl/rcl/node.h \
+  /opt/ros/jazzy/include/rcl/rcl/node_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+  /opt/ros/jazzy/include/rcl/rcl/service.h \
+  /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
+  /opt/ros/jazzy/include/rcl/rcl/subscription.h \
+  /opt/ros/jazzy/include/rcl/rcl/time.h \
+  /opt/ros/jazzy/include/rcl/rcl/timer.h \
+  /opt/ros/jazzy/include/rcl/rcl/types.h \
+  /opt/ros/jazzy/include/rcl/rcl/visibility_control.h \
+  /opt/ros/jazzy/include/rcl/rcl/wait.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/types.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/add_guard_condition_to_rcl_wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/time.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
+  /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h \
+  /opt/ros/jazzy/include/rmw/rmw/error_handling.h \
+  /opt/ros/jazzy/include/rmw/rmw/event.h \
+  /opt/ros/jazzy/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/features.h \
+  /opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/config.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/init.h \
+  /opt/ros/jazzy/include/rmw/rmw/init_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/localhost.h \
+  /opt/ros/jazzy/include/rmw/rmw/macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/message_sequence.h \
+  /opt/ros/jazzy/include/rmw/rmw/names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/publisher_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/rmw.h \
+  /opt/ros/jazzy/include/rmw/rmw/security_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/time.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/types.h \
+  /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/model.h \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/visibility_control.h \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/color_rgba.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/config.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/jazzy/include/urdf/urdf/model.h \
+  /opt/ros/jazzy/include/urdf/urdf/urdfdom_compatibility.h \
+  /opt/ros/jazzy/include/urdf/urdf/visibility_control.hpp \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_exception/exception.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/color.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/joint.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/link.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/model.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/pose.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/types.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/utils.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_world/types.h \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/boost/any.hpp \
+  /usr/include/boost/any/bad_any_cast.hpp \
+  /usr/include/boost/any/detail/placeholder.hpp \
+  /usr/include/boost/any/fwd.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/assert/source_location.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/cxx_composite.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/pragma_message.hpp \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/core/bit.hpp \
+  /usr/include/boost/core/demangle.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/current_function.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/exception/exception.hpp \
+  /usr/include/boost/integer.hpp \
+  /usr/include/boost/integer/integer_log2.hpp \
+  /usr/include/boost/integer/integer_mask.hpp \
+  /usr/include/boost/integer/static_log2.hpp \
+  /usr/include/boost/integer_fwd.hpp \
+  /usr/include/boost/integer_traits.hpp \
+  /usr/include/boost/limits.hpp \
+  /usr/include/boost/random/detail/config.hpp \
+  /usr/include/boost/random/detail/const_mod.hpp \
+  /usr/include/boost/random/detail/disable_warnings.hpp \
+  /usr/include/boost/random/detail/enable_warnings.hpp \
+  /usr/include/boost/random/detail/generator_bits.hpp \
+  /usr/include/boost/random/detail/generator_seed_seq.hpp \
+  /usr/include/boost/random/detail/int_float_pair.hpp \
+  /usr/include/boost/random/detail/integer_log2.hpp \
+  /usr/include/boost/random/detail/large_arithmetic.hpp \
+  /usr/include/boost/random/detail/operators.hpp \
+  /usr/include/boost/random/detail/polynomial.hpp \
+  /usr/include/boost/random/detail/ptr_helper.hpp \
+  /usr/include/boost/random/detail/seed.hpp \
+  /usr/include/boost/random/detail/seed_impl.hpp \
+  /usr/include/boost/random/detail/signed_unsigned_tools.hpp \
+  /usr/include/boost/random/detail/uniform_int_float.hpp \
+  /usr/include/boost/random/exponential_distribution.hpp \
+  /usr/include/boost/random/mersenne_twister.hpp \
+  /usr/include/boost/random/normal_distribution.hpp \
+  /usr/include/boost/random/traits.hpp \
+  /usr/include/boost/random/uniform_01.hpp \
+  /usr/include/boost/random/uniform_int.hpp \
+  /usr/include/boost/random/uniform_int_distribution.hpp \
+  /usr/include/boost/random/uniform_real.hpp \
+  /usr/include/boost/random/uniform_real_distribution.hpp \
+  /usr/include/boost/random/variate_generator.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/throw_exception.hpp \
+  /usr/include/boost/type_index.hpp \
+  /usr/include/boost/type_index/stl_type_index.hpp \
+  /usr/include/boost/type_index/type_index_facade.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/type_traits/alignment_of.hpp \
+  /usr/include/boost/type_traits/conditional.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/utility/enable_if.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/array \
+  /usr/include/c++/13/atomic \
+  /usr/include/c++/13/backward/auto_ptr.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
+  /usr/include/c++/13/bits/enable_special_members.h \
+  /usr/include/c++/13/bits/erase_if.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_queue.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
+  /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/this_thread_sleep.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/chrono \
+  /usr/include/c++/13/climits \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/codecvt \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/complex \
+  /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/csignal \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/cxxabi.h \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
+  /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
+  /usr/include/c++/13/locale \
+  /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
+  /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
+  /usr/include/c++/13/optional \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
+  /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
+  /usr/include/c++/13/set \
+  /usr/include/c++/13/shared_mutex \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeindex \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
+  /usr/include/c++/13/utility \
+  /usr/include/c++/13/variant \
+  /usr/include/c++/13/vector \
+  /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /usr/include/ctype.h \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/StdVector \
+  /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
+  /usr/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -21184,11 +27187,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -21272,6 +27297,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -21284,22 +27314,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -21312,14 +27361,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -21330,11 +27394,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -21345,37 +27434,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -21384,8 +27505,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -21398,19 +27529,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -21422,6 +27583,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -21430,6 +27592,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -21514,6 +27677,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -21679,6 +27844,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -21785,6 +27958,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -21824,6 +28002,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -22014,6 +28194,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -22044,8 +28228,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -22076,6 +28274,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -22095,6 +28294,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -22127,6 +28327,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -22153,10 +28354,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -22186,6 +28390,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -22364,6 +28570,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -22382,6 +28591,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -22499,6 +28709,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /h
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -22525,11 +28736,33 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
   /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
@@ -22613,6 +28846,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -22625,22 +28863,41 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
   /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
   /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
@@ -22653,14 +28910,29 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -22671,11 +28943,36 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
   /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
@@ -22686,37 +28983,69 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
   /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
@@ -22725,8 +29054,18 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
@@ -22739,19 +29078,49 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
   /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
   /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
   /opt/ros/jazzy/include/random_numbers/random_numbers.h \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -22763,6 +29132,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
   /opt/ros/jazzy/include/rcl/rcl/graph.h \
   /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
   /opt/ros/jazzy/include/rcl/rcl/init_options.h \
   /opt/ros/jazzy/include/rcl/rcl/log_level.h \
   /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
@@ -22771,6 +29141,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/rcl/rcl/node.h \
   /opt/ros/jazzy/include/rcl/rcl/node_options.h \
   /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
   /opt/ros/jazzy/include/rcl/rcl/service.h \
   /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
   /opt/ros/jazzy/include/rcl/rcl/subscription.h \
@@ -22855,6 +29226,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
   /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
@@ -23020,6 +29393,14 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -23126,6 +29507,11 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
   /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
@@ -23165,6 +29551,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -23355,6 +29743,10 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -23385,8 +29777,22 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
   /usr/include/c++/13/bits/shared_ptr_atomic.h \
@@ -23417,6 +29823,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -23436,6 +29843,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
@@ -23468,6 +29876,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -23494,10 +29903,13 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
   /usr/include/c++/13/set \
   /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
@@ -23527,6 +29939,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
   /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
@@ -23705,6 +30119,9 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -23723,6 +30140,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -23840,6 +30258,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -23861,6 +30280,1557 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
 
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/container.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/cost_queue.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/properties.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/cartesian_path.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/joint_interpolation.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/pipeline_planner.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/solvers/planner_interface.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/compute_ik.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/connect.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/current_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fix_collision_objects.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_cartesian_poses.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/fixed_state.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_grasp_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_place_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/generate_random_pose.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/limit_solutions.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/modify_planning_scene.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_relative.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/move_to.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/passthrough.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/stages/predicate_filter.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/storage.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/trajectory_execution_info.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/type_traits.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/include/moveit/task_constructor/utils.h \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.hpp \
+  /home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp \
+  /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/jazzy/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/jazzy/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h \
+  /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/aabb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/bodies.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/check_isometry.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/obb.h \
+  /opt/ros/jazzy/include/geometric_shapes/geometric_shapes/shapes.h \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/accel__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_env.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/world_diff.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/class_forward.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_interface.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/floating_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/link_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/planar_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/attached_body.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/transforms/transforms.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/logger.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.hpp \
+  /opt/ros/jazzy/include/moveit_core/moveit_kinematics_base_export.h \
+  /opt/ros/jazzy/include/moveit_core/moveit_planning_scene_export.h \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/constraints.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/generic_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_detailed_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_response__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/pipeline_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/workspace_parameters__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_detailed_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/motion_plan_response.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/pipeline_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp \
+  /opt/ros/jazzy/include/moveit_ros_planning/moveit_planning_pipeline_export.h \
+  /opt/ros/jazzy/include/moveit_ros_planning/planning_pipeline_parameters.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp \
+  /opt/ros/jazzy/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__type_support.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
+  /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/jazzy/include/pluginlib/pluginlib/impl/split.hpp \
+  /opt/ros/jazzy/include/random_numbers/random_numbers.h \
+  /opt/ros/jazzy/include/rcl/rcl/allocator.h \
+  /opt/ros/jazzy/include/rcl/rcl/arguments.h \
+  /opt/ros/jazzy/include/rcl/rcl/client.h \
+  /opt/ros/jazzy/include/rcl/rcl/context.h \
+  /opt/ros/jazzy/include/rcl/rcl/domain_id.h \
+  /opt/ros/jazzy/include/rcl/rcl/error_handling.h \
+  /opt/ros/jazzy/include/rcl/rcl/event.h \
+  /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
+  /opt/ros/jazzy/include/rcl/rcl/graph.h \
+  /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+  /opt/ros/jazzy/include/rcl/rcl/init.h \
+  /opt/ros/jazzy/include/rcl/rcl/init_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/log_level.h \
+  /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/jazzy/include/rcl/rcl/macros.h \
+  /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/jazzy/include/rcl/rcl/node.h \
+  /opt/ros/jazzy/include/rcl/rcl/node_options.h \
+  /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+  /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+  /opt/ros/jazzy/include/rcl/rcl/service.h \
+  /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
+  /opt/ros/jazzy/include/rcl/rcl/subscription.h \
+  /opt/ros/jazzy/include/rcl/rcl/time.h \
+  /opt/ros/jazzy/include/rcl/rcl/timer.h \
+  /opt/ros/jazzy/include/rcl/rcl/types.h \
+  /opt/ros/jazzy/include/rcl/rcl/visibility_control.h \
+  /opt/ros/jazzy/include/rcl/rcl/wait.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/types.h \
+  /opt/ros/jazzy/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+  /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/add_guard_condition_to_rcl_wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/types.hpp \
+  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/macros.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/time.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
+  /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h \
+  /opt/ros/jazzy/include/rmw/rmw/error_handling.h \
+  /opt/ros/jazzy/include/rmw/rmw/event.h \
+  /opt/ros/jazzy/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/jazzy/include/rmw/rmw/features.h \
+  /opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/config.h \
+  /opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/jazzy/include/rmw/rmw/init.h \
+  /opt/ros/jazzy/include/rmw/rmw/init_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/localhost.h \
+  /opt/ros/jazzy/include/rmw/rmw/macros.h \
+  /opt/ros/jazzy/include/rmw/rmw/message_sequence.h \
+  /opt/ros/jazzy/include/rmw/rmw/names_and_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/publisher_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
+  /opt/ros/jazzy/include/rmw/rmw/rmw.h \
+  /opt/ros/jazzy/include/rmw/rmw/security_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/subscription_options.h \
+  /opt/ros/jazzy/include/rmw/rmw/time.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/jazzy/include/rmw/rmw/types.h \
+  /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h \
+  /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/rsl/rsl/algorithm.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/export.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/parameter_validators.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_string.hpp \
+  /opt/ros/jazzy/include/rsl/rsl/static_vector.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
+  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp \
+  /opt/ros/jazzy/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/model.h \
+  /opt/ros/jazzy/include/srdfdom/srdfdom/visibility_control.h \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/color_rgba.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__builder.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/color_rgba__type_support.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tcb_span/span.hpp \
+  /opt/ros/jazzy/include/tl_expected/expected.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/config.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
+  /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
+  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/jazzy/include/urdf/urdf/model.h \
+  /opt/ros/jazzy/include/urdf/urdf/urdfdom_compatibility.h \
+  /opt/ros/jazzy/include/urdf/urdf/visibility_control.hpp \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_exception/exception.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/color.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/joint.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/link.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/model.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/pose.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/types.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_model/utils.h \
+  /opt/ros/jazzy/include/urdfdom_headers/urdf_world/types.h \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/boost/any.hpp \
+  /usr/include/boost/any/bad_any_cast.hpp \
+  /usr/include/boost/any/detail/placeholder.hpp \
+  /usr/include/boost/any/fwd.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/assert/source_location.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/cxx_composite.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/pragma_message.hpp \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/core/bit.hpp \
+  /usr/include/boost/core/demangle.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/current_function.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/exception/exception.hpp \
+  /usr/include/boost/integer.hpp \
+  /usr/include/boost/integer/integer_log2.hpp \
+  /usr/include/boost/integer/integer_mask.hpp \
+  /usr/include/boost/integer/static_log2.hpp \
+  /usr/include/boost/integer_fwd.hpp \
+  /usr/include/boost/integer_traits.hpp \
+  /usr/include/boost/limits.hpp \
+  /usr/include/boost/random/detail/config.hpp \
+  /usr/include/boost/random/detail/const_mod.hpp \
+  /usr/include/boost/random/detail/disable_warnings.hpp \
+  /usr/include/boost/random/detail/enable_warnings.hpp \
+  /usr/include/boost/random/detail/generator_bits.hpp \
+  /usr/include/boost/random/detail/generator_seed_seq.hpp \
+  /usr/include/boost/random/detail/int_float_pair.hpp \
+  /usr/include/boost/random/detail/integer_log2.hpp \
+  /usr/include/boost/random/detail/large_arithmetic.hpp \
+  /usr/include/boost/random/detail/operators.hpp \
+  /usr/include/boost/random/detail/polynomial.hpp \
+  /usr/include/boost/random/detail/ptr_helper.hpp \
+  /usr/include/boost/random/detail/seed.hpp \
+  /usr/include/boost/random/detail/seed_impl.hpp \
+  /usr/include/boost/random/detail/signed_unsigned_tools.hpp \
+  /usr/include/boost/random/detail/uniform_int_float.hpp \
+  /usr/include/boost/random/exponential_distribution.hpp \
+  /usr/include/boost/random/mersenne_twister.hpp \
+  /usr/include/boost/random/normal_distribution.hpp \
+  /usr/include/boost/random/traits.hpp \
+  /usr/include/boost/random/uniform_01.hpp \
+  /usr/include/boost/random/uniform_int.hpp \
+  /usr/include/boost/random/uniform_int_distribution.hpp \
+  /usr/include/boost/random/uniform_real.hpp \
+  /usr/include/boost/random/uniform_real_distribution.hpp \
+  /usr/include/boost/random/variate_generator.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/throw_exception.hpp \
+  /usr/include/boost/type_index.hpp \
+  /usr/include/boost/type_index/stl_type_index.hpp \
+  /usr/include/boost/type_index/type_index_facade.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/type_traits/alignment_of.hpp \
+  /usr/include/boost/type_traits/conditional.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/utility/enable_if.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/array \
+  /usr/include/c++/13/atomic \
+  /usr/include/c++/13/backward/auto_ptr.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
+  /usr/include/c++/13/bits/enable_special_members.h \
+  /usr/include/c++/13/bits/erase_if.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fs_dir.h \
+  /usr/include/c++/13/bits/fs_fwd.h \
+  /usr/include/c++/13/bits/fs_ops.h \
+  /usr/include/c++/13/bits/fs_path.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/regex.h \
+  /usr/include/c++/13/bits/regex.tcc \
+  /usr/include/c++/13/bits/regex_automaton.h \
+  /usr/include/c++/13/bits/regex_automaton.tcc \
+  /usr/include/c++/13/bits/regex_compiler.h \
+  /usr/include/c++/13/bits/regex_compiler.tcc \
+  /usr/include/c++/13/bits/regex_constants.h \
+  /usr/include/c++/13/bits/regex_error.h \
+  /usr/include/c++/13/bits/regex_executor.h \
+  /usr/include/c++/13/bits/regex_executor.tcc \
+  /usr/include/c++/13/bits/regex_scanner.h \
+  /usr/include/c++/13/bits/regex_scanner.tcc \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_multiset.h \
+  /usr/include/c++/13/bits/stl_numeric.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_queue.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
+  /usr/include/c++/13/bits/stl_set.h \
+  /usr/include/c++/13/bits/stl_stack.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/this_thread_sleep.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/bitset \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/chrono \
+  /usr/include/c++/13/climits \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/codecvt \
+  /usr/include/c++/13/compare \
+  /usr/include/c++/13/complex \
+  /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/csignal \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/cxxabi.h \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/filesystem \
+  /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
+  /usr/include/c++/13/locale \
+  /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
+  /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/numeric \
+  /usr/include/c++/13/optional \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/queue \
+  /usr/include/c++/13/random \
+  /usr/include/c++/13/ratio \
+  /usr/include/c++/13/regex \
+  /usr/include/c++/13/set \
+  /usr/include/c++/13/shared_mutex \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stack \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeindex \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
+  /usr/include/c++/13/utility \
+  /usr/include/c++/13/variant \
+  /usr/include/c++/13/vector \
+  /usr/include/c++/13/version \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /usr/include/ctype.h \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/StdVector \
+  /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
+  /usr/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fmt/core.h \
+  /usr/include/fmt/format.h \
+  /usr/include/fmt/ranges.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/tinyxml2.h \
+  /usr/include/tl/expected.hpp \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
+
+
+/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp:
 
 /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_cup_holder.cpp:
 
@@ -24491,6 +32461,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
+
+/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp:
 
 /usr/include/c++/13/bits/codecvt.h:
 
@@ -26225,6 +34197,8 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/trajectory_constraints__traits.hpp:
 

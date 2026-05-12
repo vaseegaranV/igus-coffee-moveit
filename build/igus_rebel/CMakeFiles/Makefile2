@@ -221,12 +221,12 @@ CMakeFiles/igus_rail_moveit.dir/clean:
 CMakeFiles/pick_and_place.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target pick_and_place"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target pick_and_place"
 .PHONY : CMakeFiles/pick_and_place.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pick_and_place.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pick_and_place.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles 0
 .PHONY : CMakeFiles/pick_and_place.dir/rule
@@ -247,7 +247,7 @@ CMakeFiles/pick_and_place.dir/clean:
 CMakeFiles/random_pose_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_pose_node.dir/build.make CMakeFiles/random_pose_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/random_pose_node.dir/build.make CMakeFiles/random_pose_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=27,28 "Built target random_pose_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=30,31 "Built target random_pose_node"
 .PHONY : CMakeFiles/random_pose_node.dir/all
 
 # Build rule for subdir invocation for target.

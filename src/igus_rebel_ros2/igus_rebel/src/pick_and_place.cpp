@@ -27,34 +27,105 @@ void SimpleTask::doTask()
   // Set up the planning scene with all collision objects
   setupPlanningScene();
 
-  // // Execute Task 1: Pick up the cup holder from tool station
-  // RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Portafilter ===");
-  // task_ = createPickupPortafilter();
-  // task_.init();
-  // if (!task_.plan(10)) {
-  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // auto result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
-  //   return;
-  // }
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createPressLeftButtonTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  auto result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+    return;
+  }
 
-  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
-  // task_ = createTampPortafilterTask();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "Press left button planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Press left button execution failed");
-  //   return;
-  // }
+  // Execute Task 1: Pick up the cup holder from tool station
+  RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Portafilter ===");
+  task_ = createPickupPortafilter();
+  task_.init();
+  if (!task_.plan(10)) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+    return;
+  }
+
+  // Execute Task 1: Pick up the cup holder from tool station
+  RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
+  task_ = createInsertPortafilterToGrinder();
+  task_.init();
+  if (!task_.plan(10)) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+    return;
+  }
+
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createDetachPortafilterFromGrinder();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+    return;
+  }
+
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createPressGrinderPowerButtonTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+    return;
+  }
+
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createAttachPortafilterFromGrinder();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+    return;
+  }
+
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createTampPortafilterTask();
+  task_.init();
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+    return;
+  }
 
   // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
   // task_ = createGoHomeTask();
@@ -99,20 +170,6 @@ void SimpleTask::doTask()
   //   return;
   // }
 
-  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
-  // task_ = createPressLeftButtonTask();
-  // task_.init();
-  // if (!task_.plan(20)) {
-  //   RCLCPP_ERROR(LOGGER, "Press left button planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // auto result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Press left button execution failed");
-  //   return;
-  // }
-
   // // Execute Task after place coffee cup in Coffee Machine
   // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button ===");
   // task_ = createPressMiddleButtonTask();
@@ -128,50 +185,50 @@ void SimpleTask::doTask()
   //   return;
   // }
 
-  // Execute Task 1: Pick up the cup holder from tool station
-  RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Cup Holder ===");
-  task_ = createPickupCupHolderTask();
-  task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Pick holder planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  auto result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick holder execution failed");
-    return;
-  }
+  // // Execute Task 1: Pick up the cup holder from tool station
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Cup Holder ===");
+  // task_ = createPickupCupHolderTask();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick holder planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // auto result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick holder execution failed");
+  //   return;
+  // }
   
-  // Execute Task 2: Pick up the coffee cup (with cup holder attached)
-  RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
-  task_ = createPickCupTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-    return;
-  }
+  // // Execute Task 2: Pick up the coffee cup (with cup holder attached)
+  // RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
+  // task_ = createPickCupTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+  //   return;
+  // }
 
 
-  RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
-  task_ = createMoveToCoffeeMachine();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
-    return;
-  }
+  // RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
+  // task_ = createMoveToCoffeeMachine();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
+  //   return;
+  // }
 
   // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
   // task_ = createGoHomeTask();
@@ -202,20 +259,7 @@ void SimpleTask::doTask()
   //   return;
   // }
 
-  // // Execute Task 1: Pick up the cup holder from tool station
-  // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
-  // task_ = createInsertPortafilterToGrinder();
-  // task_.init();
-  // if (!task_.plan(10)) {
-  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
-  //   return;
-  // }
-  // task_.introspection().publishSolution(*task_.solutions().front());
-  // result = task_.execute(*task_.solutions().front());
-  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
-  //   return;
-  // }
+  
 
   // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
   // task_ = createGoHomeTask();

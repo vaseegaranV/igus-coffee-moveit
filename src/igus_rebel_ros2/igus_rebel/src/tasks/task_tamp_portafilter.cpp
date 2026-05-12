@@ -40,16 +40,6 @@ mtc::Task SimpleTask::createTampPortafilterTask()
   }
 
 
-  // Stage 2: Allow collisions between portafilter and tamping station
-  {
-    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow tamp collisions");
-    stage->allowCollisions("portafilter", std::vector<std::string>{"tamping_station"}, true);
-    stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
-    stage->allowCollisions("portafilter", std::vector<std::string>{"object"}, true);
-    task.add(std::move(stage));
-  }
-
-
   // Stage 3: Move to above tamping station
   {
     auto stage = std::make_unique<mtc::stages::Connect>(
@@ -89,6 +79,15 @@ mtc::Task SimpleTask::createTampPortafilterTask()
     task.add(std::move(wrapper));
   }
 
+  // Stage 2: Allow collisions between portafilter and tamping station
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow tamp collisions");
+    stage->allowCollisions("portafilter", std::vector<std::string>{"tamping_station"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"object"}, true);
+    task.add(std::move(stage));
+  }
+
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("rotate gripper", sampling_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
@@ -105,9 +104,9 @@ mtc::Task SimpleTask::createTampPortafilterTask()
   // Allow collisions between coffee cup and gripper/cup_holder
   {
     auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
-    stage->allowCollisions("tamping_station", std::vector<std::string>{"portafilter"}, true);
+    //stage->allowCollisions("tamping_station", std::vector<std::string>{"portafilter"}, true);
     stage->allowCollisions("tamping_station", std::vector<std::string>{"gripper_link"}, true);
-    stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
+    //stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
     task.add(std::move(stage));
   }
 

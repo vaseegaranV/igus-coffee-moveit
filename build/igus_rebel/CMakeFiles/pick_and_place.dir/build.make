@@ -125,10 +125,24 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_detach_portafilter_grinder.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.s
 
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp > CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.i
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_dispose_portafilter_bin.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.s
+
 CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_go_home.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_go_home.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.s: cmake_force
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_insert_cup_coffee_machine.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_insert_cup_coffee_machine.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.s: cm
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_insert_portafilter_grinder.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_insert_portafilter_grinder.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.s: c
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup_coffee_machine.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup_coffee_machine.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_coffee_machine.cpp.s: cmak
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup_holder.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup_holder.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup_holder.cpp.s: cmake_force
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_cup.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_cup.cpp.s: cmake_force
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.s: cmake_force
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_cup_delivery_station.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_cup_delivery_station.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.s: c
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_cup_holder.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_cup_holder.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.s: cmake_force
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_portafilter.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_portafilter.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.i: cmake_force
@@ -265,10 +279,24 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_place_portafilter.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.s
 
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp > CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.i
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_grinder.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.s
+
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_left_coffee_machine.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_left_coffee_machine.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.s: cm
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_middle_coffee_machine.cpp
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_middle_coffee_machine.cpp
 
 CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.i: cmake_force
@@ -293,10 +321,24 @@ CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_press_middle_coffee_machine.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.s
 
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o -MF CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp > CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.i
+
+CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_tamp_portafilter.cpp -o CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.s
+
 CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: CMakeFiles/pick_and_place.dir/flags.make
 CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp
 CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o: CMakeFiles/pick_and_place.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o -MF CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o.d -o CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o -c /home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/setup_environment.cpp
 
 CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.i: cmake_force
@@ -313,6 +355,7 @@ pick_and_place_OBJECTS = \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o" \
+"CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o" \
@@ -323,8 +366,10 @@ pick_and_place_OBJECTS = \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o" \
+"CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o" \
+"CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o" \
 "CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o"
 
 # External object files for target pick_and_place
@@ -334,6 +379,7 @@ pick_and_place: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_grinder.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_clean_portafilter.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_detach_portafilter_grinder.cpp.o
+pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_dispose_portafilter_bin.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_go_home.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_grinder.cpp.o
@@ -344,8 +390,10 @@ pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cp
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_delivery_station.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_place_cup_holder.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_place_portafilter.cpp.o
+pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_press_grinder.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_press_left_coffee_machine.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_press_middle_coffee_machine.cpp.o
+pick_and_place: CMakeFiles/pick_and_place.dir/src/tasks/task_tamp_portafilter.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.o
 pick_and_place: CMakeFiles/pick_and_place.dir/build.make
 pick_and_place: /home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/libigus_rebel_msgs__rosidl_typesupport_fastrtps_c.so
@@ -639,7 +687,7 @@ pick_and_place: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 pick_and_place: /opt/ros/jazzy/lib/librcpputils.so
 pick_and_place: /opt/ros/jazzy/lib/librcutils.so
 pick_and_place: CMakeFiles/pick_and_place.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable pick_and_place"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable pick_and_place"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pick_and_place.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
