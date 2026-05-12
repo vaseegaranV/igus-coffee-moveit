@@ -43,6 +43,24 @@ add_executable(igus_rail_moveit src/igus_rail_moveit.cpp)
 # FIXED: Both .cpp files are part of ONE executable
 add_executable(pick_and_place 
   src/pick_and_place.cpp
+  src/tasks/task_attach_portafilter_grinder.cpp
+  src/tasks/task_clean_portafilter.cpp
+  src/tasks/task_detach_portafilter_grinder.cpp
+  src/tasks/task_dispose_portafilter_bin.cpp
+  src/tasks/task_go_home.cpp
+  src/tasks/task_insert_cup_coffee_machine.cpp
+  src/tasks/task_insert_portafilter_grinder.cpp
+  src/tasks/task_pick_cup_coffee_machine.cpp
+  src/tasks/task_pick_cup_holder.cpp
+  src/tasks/task_pick_cup.cpp
+  src/tasks/task_pick_portafilter.cpp
+  src/tasks/task_place_cup_delivery_station.cpp
+  src/tasks/task_place_cup_holder.cpp
+  src/tasks/task_place_portafilter.cpp
+  src/tasks/task_press_grinder.cpp
+  src/tasks/task_press_left_coffee_machine.cpp
+  src/tasks/task_press_middle_coffee_machine.cpp
+  src/tasks/task_tamp_portafilter.cpp
   src/setup_environment.cpp
 )
 

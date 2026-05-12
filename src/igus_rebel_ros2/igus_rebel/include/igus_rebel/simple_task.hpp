@@ -3,6 +3,12 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/task_constructor/task.h>
+#include <moveit/task_constructor/stages.h>
+#include <moveit/task_constructor/solvers.h>
+#include <geometry_msgs/msg/vector3_stamped.hpp>
+#include <geometry_msgs/msg/twist_stamped.hpp>
+#include <moveit_msgs/msg/robot_state.hpp>
+#include <Eigen/Geometry>
 
 namespace mtc = moveit::task_constructor;
 

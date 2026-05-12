@@ -1,0 +1,280 @@
+[0.017s] Invoking command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel': CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/igus-coffee-moveit/install/igus_rebel:/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config:/home/vasee22/igus-coffee-moveit/install/igus_rebel_description:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/igus-coffee-moveit/install/modbus_ros:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:/home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24
+[0.117s] [ 57%] Built target random_pose_node
+[0.117s] [ 57%] Built target igus_moveit
+[0.118s] [ 57%] Built target igus_rail_moveit
+[0.118s] [ 71%] Built target igus_rebel
+[0.157s] [ 78%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[0.157s] [ 85%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o[0m
+[4.386s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task SimpleTask::[01;32m[KcreatePickupPortafilter[m[K()[m[K’:
+[4.386s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:21:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPipelinePlanner[m[K’ is not a member of ‘[01m[Kmoveit::task_constructor::solvers[m[K’
+[4.386s]    21 |   auto sampling_planner = std::make_shared<mtc::solvers::[01;31m[KPipelinePlanner[m[K>(node_);
+[4.386s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.386s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:21:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(rclcpp::Node::SharedPtr&)[m[K’
+[4.387s]    21 |   auto sampling_planner = [01;31m[Kstd::make_shared<mtc::solvers::PipelinePlanner>(node_)[m[K;
+[4.387s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.387s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[4.387s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[4.387s]                  from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/include/igus_rebel/simple_task.hpp:4[m[K,
+[4.387s]                  from [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:1[m[K:
+[4.388s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[4.388s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.388s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.388s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.389s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:21:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.389s]    21 |   auto sampling_planner = [01;31m[Kstd::make_shared<mtc::solvers::PipelinePlanner>(node_)[m[K;
+[4.389s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.389s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:26:59:[m[K [01;31m[Kerror: [m[K‘[01m[KCartesianPath[m[K’ is not a member of ‘[01m[Kmoveit::task_constructor::solvers[m[K’
+[4.389s]    26 |   auto cartesian_planner = std::make_shared<mtc::solvers::[01;31m[KCartesianPath[m[K>();
+[4.389s]       |                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[4.389s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:26:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[4.390s]    26 |   auto cartesian_planner = [01;31m[Kstd::make_shared<mtc::solvers::CartesianPath>()[m[K;
+[4.390s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[4.390s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.390s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.390s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.390s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:26:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.390s]    26 |   auto cartesian_planner = [01;31m[Kstd::make_shared<mtc::solvers::CartesianPath>()[m[K;
+[4.391s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.391s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.391s]    37 |     auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::CurrentState>("current");
+[4.391s]       |                                        [01;31m[K^~~~~~[m[K
+[4.391s]       |                                        [32m[KStage[m[K
+[4.391s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.391s]    37 |     auto stage = std::[01;31m[Kmake_unique<mtc::stages::CurrentState>[m[K("current");
+[4.391s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.391s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [8])[m[K’
+[4.392s]    37 |     auto stage = [01;31m[Kstd::make_unique<mtc::stages::CurrentState>("current")[m[K;
+[4.392s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.392s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K:
+[4.392s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.392s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.392s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.392s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.392s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.392s]    37 |     auto stage = [01;31m[Kstd::make_unique<mtc::stages::CurrentState>("current")[m[K;
+[4.393s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.393s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.393s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.393s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.393s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.393s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.393s]    37 |     auto stage = [01;31m[Kstd::make_unique<mtc::stages::CurrentState>("current")[m[K;
+[4.393s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.393s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.394s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.394s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.394s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.394s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:37:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.394s]    37 |     auto stage = [01;31m[Kstd::make_unique<mtc::stages::CurrentState>("current")[m[K;
+[4.394s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.394s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:44:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.394s]    44 |     auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::Connect>(
+[4.394s]       |                                        [01;31m[K^~~~~~[m[K
+[4.395s]       |                                        [32m[KStage[m[K
+[4.395s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:44:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.395s]    44 |     auto stage = std::[01;31m[Kmake_unique<mtc::stages::Connect>[m[K(
+[4.395s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.395s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmtc::stages[m[K’ has not been declared
+[4.395s]    46 |         mtc::[01;31m[Kstages[m[K::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+[4.395s]       |              [01;31m[K^~~~~~[m[K
+[4.395s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.395s]    61 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::ModifyPlanningScene>("allow connector/holder collision");
+[4.396s]       |                                          [01;31m[K^~~~~~[m[K
+[4.396s]       |                                          [32m[KStage[m[K
+[4.396s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.396s]    61 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::ModifyPlanningScene>[m[K("allow connector/holder collision");
+[4.396s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.396s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [33])[m[K’
+[4.396s]    61 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow connector/holder collision")[m[K;
+[4.397s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.397s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.397s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.397s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.397s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.397s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.397s]    61 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow connector/holder collision")[m[K;
+[4.397s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.397s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.398s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.398s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.398s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.398s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.398s]    61 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow connector/holder collision")[m[K;
+[4.398s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.398s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.398s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.398s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.399s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.399s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:61:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.399s]    61 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow connector/holder collision")[m[K;
+[4.399s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.399s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:69:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.399s]    69 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::MoveRelative>("approach holder", cartesian_planner);
+[4.399s]       |                                          [01;31m[K^~~~~~[m[K
+[4.399s]       |                                          [32m[KStage[m[K
+[4.399s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:69:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.400s]    69 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::MoveRelative>[m[K("approach holder", cartesian_planner);
+[4.400s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.400s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:74:27:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3Stamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[4.400s]    74 |       geometry_msgs::msg::[01;31m[KVector3Stamped[m[K vec;
+[4.400s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.400s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:75:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kvec[m[K’ was not declared in this scope
+[4.400s]    75 |       [01;31m[Kvec[m[K.header.frame_id = hand_frame;
+[4.400s]       |       [01;31m[K^~~[m[K
+[4.400s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.401s]    84 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::GenerateGraspPose>("generate holder grasp");
+[4.401s]       |                                          [01;31m[K^~~~~~[m[K
+[4.401s]       |                                          [32m[KStage[m[K
+[4.401s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.401s]    84 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::GenerateGraspPose>[m[K("generate holder grasp");
+[4.401s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.401s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [22])[m[K’
+[4.401s]    84 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::GenerateGraspPose>("generate holder grasp")[m[K;
+[4.401s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.402s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.402s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.402s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.402s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.402s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.402s]    84 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::GenerateGraspPose>("generate holder grasp")[m[K;
+[4.402s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.402s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.402s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.403s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.403s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.403s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.403s]    84 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::GenerateGraspPose>("generate holder grasp")[m[K;
+[4.403s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.403s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.403s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.403s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.403s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.404s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:84:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.404s]    84 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::GenerateGraspPose>("generate holder grasp")[m[K;
+[4.404s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.414s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:102:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.414s]   102 |       auto wrapper = std::make_unique<mtc::[01;31m[Kstages[m[K::ComputeIK>("holder grasp IK", std::move(stage));
+[4.414s]       |                                            [01;31m[K^~~~~~[m[K
+[4.414s]       |                                            [32m[KStage[m[K
+[4.414s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:102:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.414s]   102 |       auto wrapper = std::[01;31m[Kmake_unique<mtc::stages::ComputeIK>[m[K("holder grasp IK", std::move(stage));
+[4.415s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.415s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.415s]   115 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::ModifyPlanningScene>("maintain allowed collisions");
+[4.415s]       |                                          [01;31m[K^~~~~~[m[K
+[4.415s]       |                                          [32m[KStage[m[K
+[4.415s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.416s]   115 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::ModifyPlanningScene>[m[K("maintain allowed collisions");
+[4.416s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.416s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [28])[m[K’
+[4.416s]   115 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("maintain allowed collisions")[m[K;
+[4.416s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.416s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.416s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.416s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.416s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.417s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.417s]   115 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("maintain allowed collisions")[m[K;
+[4.417s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.417s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.417s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.417s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.417s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.418s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.418s]   115 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("maintain allowed collisions")[m[K;
+[4.418s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.418s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.418s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.418s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.418s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.418s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:115:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.418s]   115 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("maintain allowed collisions")[m[K;
+[4.419s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.419s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:123:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.419s]   123 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::MoveRelative>("twist lock", sampling_planner);
+[4.419s]       |                                          [01;31m[K^~~~~~[m[K
+[4.419s]       |                                          [32m[KStage[m[K
+[4.419s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:123:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.419s]   123 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::MoveRelative>[m[K("twist lock", sampling_planner);
+[4.419s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.420s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.420s]   136 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::ModifyPlanningScene>("allow holder/tool_station for attach");
+[4.420s]       |                                          [01;31m[K^~~~~~[m[K
+[4.420s]       |                                          [32m[KStage[m[K
+[4.420s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.420s]   136 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::ModifyPlanningScene>[m[K("allow holder/tool_station for attach");
+[4.420s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.420s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [37])[m[K’
+[4.420s]   136 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/tool_station for attach")[m[K;
+[4.421s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.421s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.421s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.421s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.421s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.421s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.421s]   136 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/tool_station for attach")[m[K;
+[4.421s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.421s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.422s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.422s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.422s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.422s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.422s]   136 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/tool_station for attach")[m[K;
+[4.422s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.422s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.422s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.422s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.423s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.423s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:136:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.423s]   136 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/tool_station for attach")[m[K;
+[4.423s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.423s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.423s]   143 |       auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::ModifyPlanningScene>("attach cup holder");
+[4.423s]       |                                          [01;31m[K^~~~~~[m[K
+[4.423s]       |                                          [32m[KStage[m[K
+[4.423s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.424s]   143 |       auto stage = std::[01;31m[Kmake_unique<mtc::stages::ModifyPlanningScene>[m[K("attach cup holder");
+[4.424s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.424s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const char [18])[m[K’
+[4.424s]   143 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("attach cup holder")[m[K;
+[4.424s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.424s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’
+[4.425s]  1069 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.425s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.425s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1069:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.425s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.425s]   143 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("attach cup holder")[m[K;
+[4.425s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.425s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::__detail::__unique_ptr_array_t<_Tp> std::[01;32m[Kmake_unique[m[K(size_t)[m[K’
+[4.425s]  1084 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.425s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.426s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1084:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.426s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.426s]   143 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("attach cup holder")[m[K;
+[4.426s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.426s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::__detail::__invalid_make_unique_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...)[m[K’ (deleted)
+[4.426s]  1094 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.426s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.426s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1094:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.426s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:143:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.427s]   143 |       auto stage = [01;31m[Kstd::make_unique<mtc::stages::ModifyPlanningScene>("attach cup holder")[m[K;
+[4.427s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.427s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:150:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstages[m[K’ is not a member of ‘[01m[Kmtc[m[K’; did you mean ‘[01m[KStage[m[K’?
+[4.427s]   150 |        auto stage = std::make_unique<mtc::[01;31m[Kstages[m[K::MoveRelative>("retreat", cartesian_planner);
+[4.427s]       |                                           [01;31m[K^~~~~~[m[K
+[4.427s]       |                                           [32m[KStage[m[K
+[4.427s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:150:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.427s]   150 |        auto stage = std::[01;31m[Kmake_unique<mtc::stages::MoveRelative>[m[K("retreat", cartesian_planner);
+[4.427s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.428s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:155:28:[m[K [01;31m[Kerror: [m[K‘[01m[KVector3Stamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[4.428s]   155 |        geometry_msgs::msg::[01;31m[KVector3Stamped[m[K vec;
+[4.428s]       |                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.428s] [01m[K/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel/src/tasks/task_pick_portafilter.cpp:156:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvec[m[K’ was not declared in this scope
+[4.428s]   156 |        [01;31m[Kvec[m[K.header.frame_id = "world";
+[4.428s]       |        [01;31m[K^~~[m[K
+[6.727s] gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:90: CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o] Error 1
+[6.727s] gmake[2]: *** Waiting for unfinished jobs....
+[10.027s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pick_and_place.dir/all] Error 2
+[10.027s] gmake: *** [Makefile:146: all] Error 2
+[10.031s] Invoked command in '/home/vasee22/igus-coffee-moveit/build/igus_rebel' returned '2': CMAKE_PREFIX_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs:/home/vasee22/igus-coffee-moveit/install/igus_rebel:/home/vasee22/igus-coffee-moveit/install/igus_rebel_moveit_config:/home/vasee22/igus-coffee-moveit/install/igus_rebel_description:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_moveit_config:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vasee22/igus-coffee-moveit/install/modbus_ros:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_demo/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_visualization/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_capabilities/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib/python3.12/site-packages:/home/vasee22/igus-coffee-moveit/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/modbus_ros/lib/python3.12/site-packages:/home/vasee22/COAR-ROS2-Workspace-mai/install/igus_rebel_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vasee22/igus-coffee-moveit/build/igus_rebel -- -j24 -l24
