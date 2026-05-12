@@ -27,19 +27,6 @@ void SimpleTask::doTask()
   // Set up the planning scene with all collision objects
   setupPlanningScene();
 
-  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
-  task_ = createPressLeftButtonTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  auto result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
-    return;
-  }
 
   // Execute Task 1: Pick up the cup holder from tool station
   RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Portafilter ===");
@@ -50,39 +37,23 @@ void SimpleTask::doTask()
     return;
   }
   task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
+  auto result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
     RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
     return;
   }
 
-  // Execute Task 1: Pick up the cup holder from tool station
-  RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
-  task_ = createInsertPortafilterToGrinder();
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createBinDispose();
   task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
     return;
   }
   task_.introspection().publishSolution(*task_.solutions().front());
   result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
-    return;
-  }
-
-
-  RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
-  task_ = createDetachPortafilterFromGrinder();
-  task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
     return;
   }
 
@@ -100,17 +71,17 @@ void SimpleTask::doTask()
     return;
   }
 
-  RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
-  task_ = createAttachPortafilterFromGrinder();
+  RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  task_ = createCleanBrush();
   task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  if (!task_.plan(20)) {
+    RCLCPP_ERROR(LOGGER, "Press left button planning failed");
     return;
   }
   task_.introspection().publishSolution(*task_.solutions().front());
   result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+    RCLCPP_ERROR(LOGGER, "Press left button execution failed");
     return;
   }
 
@@ -128,81 +99,197 @@ void SimpleTask::doTask()
     RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
     return;
   }
+
+  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button (Off) ===");
+  // task_ = createPressLeftButtonTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Press left button planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // auto result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Press left button execution failed");
+  //   return;
+  // }
+
+  // // Execute Task after place coffee cup in Coffee Machine
+  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button ===");
+  // task_ = createPressMiddleButtonTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Press button planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Press button execution failed");
+  //   return;
+  // }
+
+  // // Execute Task 1: Pick up the cup holder from tool station
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Cup Holder ===");
+  // task_ = createPickupCupHolderTask();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick holder planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // auto result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick holder execution failed");
+  //   return;
+  // }
   
-  // Execute Task 1: Pick up the cup holder from tool station
-  RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Cup Holder ===");
-  task_ = createPickupCupHolderTask();
-  task_.init();
-  if (!task_.plan(10)) {
-    RCLCPP_ERROR(LOGGER, "Pick holder planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick holder execution failed");
-    return;
-  }
+  // // Execute Task 2: Pick up the coffee cup (with cup holder attached)
+  // RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
+  // task_ = createPickCupTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
+  //   return;
+  // }
+
+
+  // RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
+  // task_ = createMoveToCoffeeMachine();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
+  //   return;
+  // }
+
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
+  // task_ = createGoHomeTask();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+  //   return;
+  // }
+
+  // // Execute Task after place coffee cup in Coffee Machine
+  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Left Button ===");
+  // task_ = createPickCupFromMachineTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Press button planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Press button execution failed");
+  //   return;
+  // }
+
+  // // Execute Task 1: Pick up the cup holder from tool station
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
+  // task_ = createInsertPortafilterToGrinder();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+  //   return;
+  // }
+
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
+  // task_ = createGoHomeTask();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+  //   return;
+  // }
+
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Insert Portafilter ===");
+  // task_ = createAttachPortafilterFromGrinder();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+  //   return;
+  // }
+
+  // // Execute Task 1: Pick up the cup holder from tool station
+  // RCLCPP_INFO(LOGGER, "=== TASK 1: Place Portafilter ===");
+  // task_ = createPlacePortafilter();
+  // task_.init();
+  // if (!task_.plan(10)) {
+  //   RCLCPP_ERROR(LOGGER, "Place portafilter planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
+  //   return;
+  // }
+
+  //  // Execute Task after place coffee cup in Coffee Machine
+  // RCLCPP_INFO(LOGGER, "=== TASK X: Press Middle Button ===");
+  // task_ = createPressMiddleButtonTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "Press button planning failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "Press button execution failed");
+  //   return;
+  // }
   
-  // Execute Task 2: Pick up the coffee cup (with cup holder attached)
-  RCLCPP_INFO(LOGGER, "=== TASK 2: Pick Coffee Cup ===");
-  task_ = createPickCupTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Pick cup planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Pick cup execution failed");
-    return;
-  }
 
-
-  RCLCPP_INFO(LOGGER, "=== TASK 3: Place Coffee Cup ===");
-  task_ = createMoveToCoffeeMachine();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "move to coffee machine planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "move to coffee machine execution failed");
-    return;
-  }
-
-   // Execute Task after place coffee cup in Coffee Machine
-  RCLCPP_INFO(LOGGER, "=== TASK X: Press Middle Button ===");
-  task_ = createPressMiddleButtonTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "Press button planning failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "Press button execution failed");
-    return;
-  }
-  
-
-  RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
-  task_ = createPlaceCupHolderTask();
-  task_.init();
-  if (!task_.plan(20)) {
-    RCLCPP_ERROR(LOGGER, "place cup holder failed");
-    return;
-  }
-  task_.introspection().publishSolution(*task_.solutions().front());
-  result = task_.execute(*task_.solutions().front());
-  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
-    RCLCPP_ERROR(LOGGER, "place cup holder failed");
-    return;
-  }
+  // RCLCPP_INFO(LOGGER, "=== TASK 4: Place Cup Holder ===");
+  // task_ = createPlaceCupHolderTask();
+  // task_.init();
+  // if (!task_.plan(20)) {
+  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
+  //   return;
+  // }
+  // task_.introspection().publishSolution(*task_.solutions().front());
+  // result = task_.execute(*task_.solutions().front());
+  // if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+  //   RCLCPP_ERROR(LOGGER, "place cup holder failed");
+  //   return;
+  // }
   
   RCLCPP_INFO(LOGGER, "All tasks completed successfully!");
 }
@@ -884,6 +971,7 @@ mtc::Task SimpleTask::createPickCupTask()
   {
     auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
     //stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"cup_holder"}, true);
     stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
     stage->allowCollisions("object", std::vector<std::string>{"delivery_station"}, true);
     task.add(std::move(stage));
@@ -974,7 +1062,7 @@ mtc::Task SimpleTask::createPickCupTask()
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("lift cup", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.05, 0.3);
+    stage->setMinMaxDistance(0.05, 0.1);
     stage->setIKFrame(hand_frame);
     
     geometry_msgs::msg::Vector3Stamped vec;
@@ -1051,7 +1139,7 @@ mtc::Task SimpleTask::createMoveToCoffeeMachine()
 
 
    // Cup, holder, machine, and no_go_zone interactions
-   stage->allowCollisions("object",     std::vector<std::string>{"coffee_machine"}, true);
+   //stage->allowCollisions("object",     std::vector<std::string>{"coffee_machine"}, true);
    stage->allowCollisions("cup_holder", std::vector<std::string>{"coffee_machine"}, true);
    stage->allowCollisions("object",     std::vector<std::string>{"cup_holder"},     true);
    stage->allowCollisions("object",     std::vector<std::string>{"no_go_zone"},     true);
@@ -1125,7 +1213,7 @@ mtc::Task SimpleTask::createMoveToCoffeeMachine()
 {
  auto stage = std::make_unique<mtc::stages::MoveRelative>("nudge into tray", cartesian_planner);
  stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
- stage->setMinMaxDistance(0.03, 0.05);
+ stage->setMinMaxDistance(0.025, 0.05);
  stage->setIKFrame(hand_frame);
 
 
@@ -1221,7 +1309,7 @@ mtc::Task SimpleTask::createPressLeftButtonTask()
 
 
  // How far in front of the button to start (gripper tip clearance)
- const double PREPRESS_OFFSET_Y = 0.16;
+ const double PREPRESS_OFFSET_Y = 0.13;
  // How far to push into the button
  const double PRESS_DEPTH       = 0.00005;
 
@@ -1374,7 +1462,7 @@ mtc::Task SimpleTask::createPressMiddleButtonTask()
  const double BUTTON_Y = -0.328;
  const double BUTTON_Z =  0.266;
  // How far in front of the button to start (gripper tip clearance)
- const double PREPRESS_OFFSET_Y = 0.16;   // 5cm in front of button face
+ const double PREPRESS_OFFSET_Y = 0.13;   // 5cm in front of button face
  // How far to push into the button
  const double PRESS_DEPTH       = 0.00005;   // 2cm push (tunable)
  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
@@ -1981,6 +2069,450 @@ mtc::Task SimpleTask::createMoveToDeliveryStation()
 
   return task;
 }
+
+mtc::Task SimpleTask::createPickCupFromMachineTask()
+{
+  mtc::Task task;
+  task.stages()->setName("pick cup from machine");
+  task.loadRobotModel(node_);
+  task.enableIntrospection(true);
+
+  const std::string arm_group_name = "igus_rebel_arm";
+  const std::string eef_name       = "female_connector_eef";
+  const std::string hand_frame     = "gripper_link";
+
+  task.setProperty("group", arm_group_name);
+  task.setProperty("eef", eef_name);
+  task.setProperty("ik_frame", hand_frame);
+
+  // Cup position on coffee machine drip tray (same as place task)
+  const double CUP_X = -0.346;
+  const double CUP_Y = -0.200;
+  const double CUP_Z =  0.165;
+
+  // Hover offsets (mirror of place task: same forward and above offsets)
+  const double APPROACH_Y_OFFSET = 0.04;   // 4cm in front of cup (so we descend clear of machine)
+  const double APPROACH_Z_OFFSET = 0.30;   // 30cm above cup
+  // After lowering, gripper sits ~5cm below the cup base before lifting up to wedge-grip
+  const double GRIPPER_BELOW_CUP = 0.05;
+
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(0.05);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.05);
+  cartesian_planner->setStepSize(0.01);
+
+  mtc::Stage* current_state_ptr = nullptr;
+
+  // Stage 1: Current state
+  {
+    auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+    current_state_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+
+  // Stage 2: Allow cup, holder, machine, no-go-zone interactions
+  mtc::Stage* allow_collisions_ptr = nullptr;
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow pickup collisions");
+
+    auto all_links = task.getRobotModel()->getLinkModelNamesWithCollisionGeometry();
+    stage->allowCollisions("coffee_machine", all_links, true);
+    stage->allowCollisions("no_go_zone",     all_links, true);
+
+    stage->allowCollisions("object",     std::vector<std::string>{"coffee_machine"}, true);
+    stage->allowCollisions("cup_holder", std::vector<std::string>{"coffee_machine"}, true);
+    stage->allowCollisions("object",     std::vector<std::string>{"cup_holder"},     true);
+    stage->allowCollisions("object",     std::vector<std::string>{"no_go_zone"},     true);
+    stage->allowCollisions("cup_holder", std::vector<std::string>{"no_go_zone"},     true);
+
+    allow_collisions_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+
+  // Stage 3: Free-space move to hover pose (above and in front of cup)
+  {
+    auto stage = std::make_unique<mtc::stages::Connect>(
+        "move to hover above cup",
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+    stage->setTimeout(5.0);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    task.add(std::move(stage));
+  }
+
+  // Stage 4: Generate hover pose for the gripper (above and in front of the cup)
+  {
+    auto stage = std::make_unique<mtc::stages::GeneratePose>("generate hover pose");
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    stage->properties().set("marker_ns", "pickup_hover");
+    stage->setMonitoredStage(allow_collisions_ptr);
+
+    geometry_msgs::msg::PoseStamped target;
+    target.header.frame_id = "world";
+    target.pose.position.x = CUP_X;
+    target.pose.position.y = CUP_Y + APPROACH_Y_OFFSET;
+    target.pose.position.z = CUP_Z + APPROACH_Z_OFFSET;
+
+    // Same wrist orientation we used for the original cup pickup
+    // (matches what task 2 used; cup should fit into gripper the same way)
+    target.pose.orientation.x =  0.354;
+    target.pose.orientation.y = -0.612;
+    target.pose.orientation.z =  0.354;
+    target.pose.orientation.w =  0.612;
+    stage->setPose(target);
+
+    auto wrapper = std::make_unique<mtc::stages::ComputeIK>("hover IK", std::move(stage));
+    wrapper->setMaxIKSolutions(8);
+    wrapper->setMinSolutionDistance(1.0);
+    wrapper->setIKFrame(hand_frame);
+    wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+    wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+
+    task.add(std::move(wrapper));
+  }
+
+  // Stage 5: Lower past the machine to a position next to the cup (Cartesian)
+  // Final gripper Z = CUP_Z - GRIPPER_BELOW_CUP, so it lands below the cup base
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lower past machine", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    // Descent distance: APPROACH_Z_OFFSET + GRIPPER_BELOW_CUP = 0.30 + 0.05 = 0.35
+    stage->setMinMaxDistance(0.34, 0.36);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = -1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Stage 6: Slide gripper toward the cup (-Y, into the slot under the cup)
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("slide under cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.035, 0.045);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.y = -1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Stage 7: Allow cup-vs-gripper collisions for the wedge-grip motion
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup vs gripper");
+    stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("object", std::vector<std::string>{"cup_holder"},   true);
+    task.add(std::move(stage));
+  }
+
+  // Stage 8: Lift cup along world +Z (wedge-grip motion, same as task 2)
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lift to wedge cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.04, 0.07);   // small lift to engage the wedge grip
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Stage 9: Attach the cup to the gripper
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("attach cup");
+    stage->attachObject("object", hand_frame);
+    task.add(std::move(stage));
+  }
+
+  // Stage 10: Slide back forward (+Y) to clear the slot before lifting away
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("slide out of slot", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.04, 0.06);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.y = 1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  // Stage 11: Lift well clear of the machine (world +Z)
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("lift away", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.20, 0.30);
+    stage->setIKFrame(hand_frame);
+
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+
+    task.add(std::move(stage));
+  }
+
+  return task;
+}
+
+mtc::Task SimpleTask::createCleanBrush()
+{
+  mtc::Task task;
+  task.stages()->setName("clean on brush");
+  task.loadRobotModel(node_);
+  task.enableIntrospection(true);
+
+  const std::string arm_group_name = "igus_rebel_arm";
+  const std::string eef_name = "female_connector_eef";
+  const std::string hand_frame = "gripper_link";
+  
+  task.setProperty("group", arm_group_name);
+  task.setProperty("eef", eef_name);
+  task.setProperty("ik_frame", hand_frame);
+
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+  
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(0.1);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.1);
+  cartesian_planner->setStepSize(0.01);
+
+  mtc::Stage* current_state_ptr = nullptr;
+
+  // Get current robot state (with cup holder attached)
+  {
+    auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+    current_state_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+
+  // Allow collisions between coffee cup and gripper/cup_holder
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+    stage->allowCollisions("cup_holder", std::vector<std::string>{"portafilter"}, true);
+    task.add(std::move(stage));
+  }
+
+  // Move to coffee cup area
+  {
+    auto stage = std::make_unique<mtc::stages::Connect>(
+        "move to cup",
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+    stage->setTimeout(5.0);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::GeneratePose>("generate delivery pose");
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    stage->setMonitoredStage(current_state_ptr);
+
+    geometry_msgs::msg::PoseStamped target_pose;
+    target_pose.header.frame_id = "world";
+    target_pose.pose.position.x = 0.1;
+    target_pose.pose.position.y = -0.355;
+    target_pose.pose.position.z = 0.304;
+    target_pose.pose.orientation.x = 0.0;
+    target_pose.pose.orientation.y = -0.7071;
+    target_pose.pose.orientation.z = 0.0;
+    target_pose.pose.orientation.w = 0.7071;
+
+    stage->setPose(target_pose);
+
+    auto wrapper = std::make_unique<mtc::stages::ComputeIK>("delivery IK", std::move(stage));
+    wrapper->setMaxIKSolutions(8);
+    wrapper->setMinSolutionDistance(1.0);
+    wrapper->setIKFrame(hand_frame);
+    wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+    wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+    wrapper->setIgnoreCollisions(true);
+
+    task.add(std::move(wrapper));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("rotate gripper", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+
+    geometry_msgs::msg::TwistStamped twist;
+    twist.header.frame_id = "world";
+    twist.twist.angular.y = 1.0;  // rotate about world Y
+    stage->setDirection(twist);
+    stage->setMinMaxDistance(4.0 * M_PI / 180.0, 4.0 * M_PI / 180.0);  // exactly 10°
+
+    task.add(std::move(stage));
+  }
+
+  // Allow collisions between coffee cup and gripper/cup_holder
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+    stage->allowCollisions("tamping_station", std::vector<std::string>{"portafilter"}, true);
+    stage->allowCollisions("tamping_station", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.1, 0.1);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = 1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.05, 0.05);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.z = -1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
+  }
+
+  return task;
+}
+
+
+mtc::Task SimpleTask::createBinDispose()
+{
+  mtc::Task task;
+  task.stages()->setName("bin");
+  task.loadRobotModel(node_);
+  task.enableIntrospection(true);
+
+  const std::string arm_group_name = "igus_rebel_arm";
+  const std::string eef_name = "female_connector_eef";
+  const std::string hand_frame = "gripper_link";
+  
+  task.setProperty("group", arm_group_name);
+  task.setProperty("eef", eef_name);
+  task.setProperty("ik_frame", hand_frame);
+
+  auto sampling_planner = std::make_shared<mtc::solvers::PipelinePlanner>(node_);
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.1);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
+  
+  auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
+  cartesian_planner->setMaxVelocityScalingFactor(0.1);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.1);
+  cartesian_planner->setStepSize(0.01);
+
+  mtc::Stage* current_state_ptr = nullptr;
+
+  // Get current robot state (with cup holder attached)
+  {
+    auto stage = std::make_unique<mtc::stages::CurrentState>("current");
+    current_state_ptr = stage.get();
+    task.add(std::move(stage));
+  }
+
+
+  // Move to coffee cup area
+  {
+    auto stage = std::make_unique<mtc::stages::Connect>(
+        "move to cup",
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+    stage->setTimeout(5.0);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    task.add(std::move(stage));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::GeneratePose>("generate delivery pose");
+    stage->properties().configureInitFrom(mtc::Stage::PARENT);
+    stage->setMonitoredStage(current_state_ptr);
+
+    geometry_msgs::msg::PoseStamped target_pose;
+    target_pose.header.frame_id = "world";
+    target_pose.pose.position.x = 0.130;
+    target_pose.pose.position.y = -0.335;
+    target_pose.pose.position.z = 0.734;
+    target_pose.pose.orientation.x = 0.0;
+    target_pose.pose.orientation.y = -0.7071;
+    target_pose.pose.orientation.z = 0.0;
+    target_pose.pose.orientation.w = 0.7071;
+
+    stage->setPose(target_pose);
+
+    auto wrapper = std::make_unique<mtc::stages::ComputeIK>("delivery IK", std::move(stage));
+    wrapper->setMaxIKSolutions(8);
+    wrapper->setMinSolutionDistance(1.0);
+    wrapper->setIKFrame(hand_frame);
+    wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
+    wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
+    wrapper->setIgnoreCollisions(true);
+
+    task.add(std::move(wrapper));
+  }
+
+    // Allow collisions between coffee cup and gripper/cup_holder
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+    stage->allowCollisions("bin_station", std::vector<std::string>{"portafilter"}, true);
+    stage->allowCollisions("bin_station", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
+    task.add(std::move(stage));
+  }
+
+  sampling_planner->setProperty("max_velocity_scaling_factor", 0.2);
+  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.2);
+
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("twist lock", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    
+    std::map<std::string, double> joint_deltas;
+    joint_deltas["joint6"] = M_PI;
+    stage->setDirection(joint_deltas);
+    stage->setMinMaxDistance(M_PI, M_PI);
+    
+    task.add(std::move(stage));
+  }
+
+  // {
+  //   auto stage = std::make_unique<mtc::stages::MoveRelative>("rotate gripper", sampling_planner);
+  //   stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+
+  //   geometry_msgs::msg::TwistStamped twist;
+  //   twist.header.frame_id = "world";
+  //   twist.twist.angular.y = 1.0;  // rotate about world Y
+  //   stage->setDirection(twist);
+  //   stage->setMinMaxDistance(180.0 * M_PI / 180.0, 180.0 * M_PI / 180.0);  // exactly 10°
+
+  //   task.add(std::move(stage));
+  // }
+
+  return task;
+}
+
 
 int main(int argc, char** argv)
 {

@@ -434,6 +434,41 @@ void SimpleTask::setupPlanningScene()
         }
     }
 
+    // ── Bin Station (mesh) ──────────────────────────────────────────────────
+    {
+        moveit_msgs::msg::CollisionObject bin_station;
+        bin_station.header.frame_id = "world";
+        bin_station.id = "bin_station";
+        shapes::Mesh* mesh = shapes::createMeshFromResource(
+            "file:///home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_description/meshes/bin_station.stl",
+            Eigen::Vector3d(0.001, 0.001, 0.001));
+        if (mesh)
+        {
+            shape_msgs::msg::Mesh mesh_msg;
+            shapes::ShapeMsg mesh_msg_variant;
+            shapes::constructMsgFromShape(mesh, mesh_msg_variant);
+            mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_variant);
+            geometry_msgs::msg::Pose pose;
+            pose.position.x = 0.035 + OX;
+            pose.position.y = -0.483 + OY;
+            pose.position.z = 0.526 + OZ;
+            pose.orientation.x = 0.7071;
+            pose.orientation.y = 0.0;
+            pose.orientation.z = 0.0;
+            pose.orientation.w = 0.7071;
+            bin_station.meshes.push_back(mesh_msg);
+            bin_station.mesh_poses.push_back(pose);
+            bin_station.operation = bin_station.ADD;
+            collision_objects.push_back(bin_station);
+            moveit_msgs::msg::ObjectColor bin_station_color;
+            bin_station_color.id = "bin_station";
+            bin_station_color.color.r = 0.8; bin_station_color.color.g = 0.1;
+            bin_station_color.color.b = 0.3; bin_station_color.color.a = 1.0;
+            object_colors.push_back(bin_station_color);
+            delete mesh;
+        }
+    }
+
     // ── Add all objects to planning scene with colors ──────────────────────
     RCLCPP_INFO(LOGGER, "Adding %zu collision objects with colors to planning scene...", collision_objects.size());
     psi.applyCollisionObjects(collision_objects, object_colors);

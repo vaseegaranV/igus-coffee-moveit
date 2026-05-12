@@ -6,6 +6,7 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Coffee Grinder.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/coffee_cup.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/Coffee Bin.stl
+/home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/bin_station.stl
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel/Diffuse Map.001.png
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel/Robolink_RebeL_002_2.dae
 /home/vasee22/igus-coffee-moveit/install/igus_rebel_description/share/igus_rebel_description/meshes/robolink_rebel/Robolink_RebeL_001.dae

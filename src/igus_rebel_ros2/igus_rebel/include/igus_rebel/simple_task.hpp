@@ -28,6 +28,9 @@ private:
   mtc::Task createInsertPortafilterToGrinder();
   mtc::Task createDetachPortafilterFromGrinder();
   mtc::Task createAttachPortafilterFromGrinder();
+  mtc::Task createCleanBrush();
+  mtc::Task createBinDispose();
+  mtc::Task createPickCupFromMachineTask();
   mtc::Task task_;
   rclcpp::Node::SharedPtr node_;
 };
