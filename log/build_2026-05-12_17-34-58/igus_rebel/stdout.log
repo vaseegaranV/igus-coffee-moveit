@@ -1,6 +1,0 @@
-[ 57%] Built target random_pose_node
-[ 57%] Built target igus_moveit
-[ 57%] Built target igus_rail_moveit
-[ 71%] Built target igus_rebel
-[ 78%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
-[ 85%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/tasks/task_pick_portafilter.cpp.o[0m

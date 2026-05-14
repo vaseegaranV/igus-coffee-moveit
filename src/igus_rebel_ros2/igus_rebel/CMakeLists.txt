@@ -61,6 +61,8 @@ add_executable(pick_and_place
   src/tasks/task_press_left_coffee_machine.cpp
   src/tasks/task_press_middle_coffee_machine.cpp
   src/tasks/task_tamp_portafilter.cpp
+  src/tasks/task_insert_portafilter_coffee_machine.cpp
+  src/tasks/task_attach_portafilter_coffee_machine.cpp
   src/setup_environment.cpp
 )
 

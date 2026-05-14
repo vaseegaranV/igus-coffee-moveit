@@ -35,7 +35,7 @@ mtc::Task SimpleTask::createPlacePortafilter()
 
   // Allow collisions for approach to tool station
   {
-    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow holder/station collisions");
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow portafilter/station collisions");
     stage->allowCollisions("portafilter", std::vector<std::string>{"gripper_link"}, true);
     stage->allowCollisions("portafilter", std::vector<std::string>{"tool_station"}, true);
     task.add(std::move(stage));
@@ -80,7 +80,7 @@ mtc::Task SimpleTask::createPlacePortafilter()
   }
 
   {
-    auto stage = std::make_unique<mtc::stages::MoveRelative>("insert into station", cartesian_planner);
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("insert into tool station", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
     stage->setMinMaxDistance(0.10, 0.10);
     stage->setIKFrame(hand_frame);
@@ -95,7 +95,7 @@ mtc::Task SimpleTask::createPlacePortafilter()
 
   // Detach cup holder from gripper
   {
-    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach cup holder");
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach portafilter");
     stage->detachObject("portafilter", hand_frame);
     task.add(std::move(stage));
   }
@@ -125,56 +125,6 @@ mtc::Task SimpleTask::createPlacePortafilter()
     
     task.add(std::move(stage));
   }
-
-  // // Approach tool station along -X axis (reverse of retreat)
-  // {
-  //   auto stage = std::make_unique<mtc::stages::MoveRelative>("approach station", cartesian_planner);
-  //   stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-  //   stage->setMinMaxDistance(0.0, 0.10);
-  //   stage->setIKFrame(hand_frame);
-
-  //   geometry_msgs::msg::Vector3Stamped vec;
-  //   vec.header.frame_id = hand_frame;
-  //   vec.vector.x = -1.0;  // reverse of retreat
-  //   stage->setDirection(vec);
-
-  //   task.add(std::move(stage));
-  // }
-
-  // // Detach cup holder from gripper
-  // {
-  //   auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("detach cup holder");
-  //   stage->detachObject("cup_holder", hand_frame);
-  //   task.add(std::move(stage));
-  // }
-
-  // // Twist unlock: rotate joint6 by -60° to disengage bayonet
-  // {
-  //   auto stage = std::make_unique<mtc::stages::MoveRelative>("twist unlock", sampling_planner);
-  //   stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-
-  //   std::map<std::string, double> joint_deltas;
-  //   joint_deltas["joint6"] = M_PI / 3.0;  // reverse of twist lock
-  //   stage->setDirection(joint_deltas);
-  //   stage->setMinMaxDistance(0.0, M_PI / 3.0);
-
-  //   task.add(std::move(stage));
-  // }
-
-  // // Retreat along +Y axis (reverse of approach)
-  // {
-  //   auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat", cartesian_planner);
-  //   stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-  //   stage->setMinMaxDistance(0.05, 0.10);
-  //   stage->setIKFrame(hand_frame);
-
-  //   geometry_msgs::msg::Vector3Stamped vec;
-  //   vec.header.frame_id = hand_frame;
-  //   vec.vector.y = 1.0;  // reverse of approach
-  //   stage->setDirection(vec);
-
-  //   task.add(std::move(stage));
-  // }
 
   return task;
 }

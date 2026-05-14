@@ -454,6 +454,30 @@ src/setup_environment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/setup_environment.cpp.s
 .PHONY : src/setup_environment.cpp.s
 
+src/tasks/task_attach_portafilter_coffee_machine.o: src/tasks/task_attach_portafilter_coffee_machine.cpp.o
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.o
+
+# target to build an object file
+src/tasks/task_attach_portafilter_coffee_machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_coffee_machine.cpp.o
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.cpp.o
+
+src/tasks/task_attach_portafilter_coffee_machine.i: src/tasks/task_attach_portafilter_coffee_machine.cpp.i
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.i
+
+# target to preprocess a source file
+src/tasks/task_attach_portafilter_coffee_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_coffee_machine.cpp.i
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.cpp.i
+
+src/tasks/task_attach_portafilter_coffee_machine.s: src/tasks/task_attach_portafilter_coffee_machine.cpp.s
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.s
+
+# target to generate assembly for a file
+src/tasks/task_attach_portafilter_coffee_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_attach_portafilter_coffee_machine.cpp.s
+.PHONY : src/tasks/task_attach_portafilter_coffee_machine.cpp.s
+
 src/tasks/task_attach_portafilter_grinder.o: src/tasks/task_attach_portafilter_grinder.cpp.o
 .PHONY : src/tasks/task_attach_portafilter_grinder.o
 
@@ -597,6 +621,30 @@ src/tasks/task_insert_cup_coffee_machine.s: src/tasks/task_insert_cup_coffee_mac
 src/tasks/task_insert_cup_coffee_machine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_insert_cup_coffee_machine.cpp.s
 .PHONY : src/tasks/task_insert_cup_coffee_machine.cpp.s
+
+src/tasks/task_insert_portafilter_coffee_machine.o: src/tasks/task_insert_portafilter_coffee_machine.cpp.o
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.o
+
+# target to build an object file
+src/tasks/task_insert_portafilter_coffee_machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_coffee_machine.cpp.o
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.cpp.o
+
+src/tasks/task_insert_portafilter_coffee_machine.i: src/tasks/task_insert_portafilter_coffee_machine.cpp.i
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.i
+
+# target to preprocess a source file
+src/tasks/task_insert_portafilter_coffee_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_coffee_machine.cpp.i
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.cpp.i
+
+src/tasks/task_insert_portafilter_coffee_machine.s: src/tasks/task_insert_portafilter_coffee_machine.cpp.s
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.s
+
+# target to generate assembly for a file
+src/tasks/task_insert_portafilter_coffee_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/src/tasks/task_insert_portafilter_coffee_machine.cpp.s
+.PHONY : src/tasks/task_insert_portafilter_coffee_machine.cpp.s
 
 src/tasks/task_insert_portafilter_grinder.o: src/tasks/task_insert_portafilter_grinder.cpp.o
 .PHONY : src/tasks/task_insert_portafilter_grinder.o
@@ -930,6 +978,9 @@ help:
 	@echo "... src/setup_environment.o"
 	@echo "... src/setup_environment.i"
 	@echo "... src/setup_environment.s"
+	@echo "... src/tasks/task_attach_portafilter_coffee_machine.o"
+	@echo "... src/tasks/task_attach_portafilter_coffee_machine.i"
+	@echo "... src/tasks/task_attach_portafilter_coffee_machine.s"
 	@echo "... src/tasks/task_attach_portafilter_grinder.o"
 	@echo "... src/tasks/task_attach_portafilter_grinder.i"
 	@echo "... src/tasks/task_attach_portafilter_grinder.s"
@@ -948,6 +999,9 @@ help:
 	@echo "... src/tasks/task_insert_cup_coffee_machine.o"
 	@echo "... src/tasks/task_insert_cup_coffee_machine.i"
 	@echo "... src/tasks/task_insert_cup_coffee_machine.s"
+	@echo "... src/tasks/task_insert_portafilter_coffee_machine.o"
+	@echo "... src/tasks/task_insert_portafilter_coffee_machine.i"
+	@echo "... src/tasks/task_insert_portafilter_coffee_machine.s"
 	@echo "... src/tasks/task_insert_portafilter_grinder.o"
 	@echo "... src/tasks/task_insert_portafilter_grinder.i"
 	@echo "... src/tasks/task_insert_portafilter_grinder.s"
