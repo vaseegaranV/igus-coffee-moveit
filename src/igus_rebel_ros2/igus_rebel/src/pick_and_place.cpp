@@ -24,6 +24,7 @@ rclcpp::node_interfaces::NodeBaseInterface::SharedPtr SimpleTask::getNodeBaseInt
 
 void SimpleTask::doTask()
 {
+
   // Set up the planning scene with all collision objects
   setupPlanningScene();
 
@@ -169,6 +170,21 @@ void SimpleTask::doTask()
   result = task_.execute(*task_.solutions().front());
   if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
     RCLCPP_ERROR(LOGGER, "Pick holder execution failed");
+    return;
+  }
+
+  // Execute Task 1: Pick up the cup holder from tool station
+  RCLCPP_INFO(LOGGER, "=== TASK 1: Pick Portafilter ===");
+  task_ = createGoHomeTask();
+  task_.init();
+  if (!task_.plan(10)) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter planning failed");
+    return;
+  }
+  task_.introspection().publishSolution(*task_.solutions().front());
+  result = task_.execute(*task_.solutions().front());
+  if (result.val != moveit_msgs::msg::MoveItErrorCodes::SUCCESS) {
+    RCLCPP_ERROR(LOGGER, "Pick portafilter execution failed");
     return;
   }
   

@@ -74,7 +74,7 @@ mtc::Task SimpleTask::createTampPortafilterTask()
     wrapper->setIKFrame(hand_frame);
     wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
     wrapper->properties().configureInitFrom(mtc::Stage::INTERFACE, { "target_pose" });
-    wrapper->setIgnoreCollisions(true);
+    //wrapper->setIgnoreCollisions(true);
 
     task.add(std::move(wrapper));
   }

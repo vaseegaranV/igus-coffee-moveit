@@ -33,15 +33,6 @@ mtc::Task SimpleTask::createPickCupTask()
   }
 
   {
-    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
-    //stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
-    stage->allowCollisions("portafilter", std::vector<std::string>{"cup_holder"}, true);
-    stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
-    stage->allowCollisions("object", std::vector<std::string>{"delivery_station"}, true);
-    task.add(std::move(stage));
-  }
-
-  {
     auto stage = std::make_unique<mtc::stages::Connect>(
         "move to delivery station",
         mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
@@ -77,6 +68,15 @@ mtc::Task SimpleTask::createPickCupTask()
     wrapper->setIgnoreCollisions(true);
 
     task.add(std::move(wrapper));
+  }
+
+  {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
+    //stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"cup_holder"}, true);
+    stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
+    stage->allowCollisions("object", std::vector<std::string>{"delivery_station"}, true);
+    task.add(std::move(stage));
   }
 
   {

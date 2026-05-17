@@ -122,5 +122,19 @@ mtc::Task SimpleTask::createAttachPortafilterFromGrinder()
     task.add(std::move(stage));
   }
 
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("approach cup", cartesian_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+    stage->setMinMaxDistance(0.1, 0.1);
+    stage->setIKFrame(hand_frame);
+    
+    geometry_msgs::msg::Vector3Stamped vec;
+    vec.header.frame_id = "world";
+    vec.vector.x = -1.0;
+    stage->setDirection(vec);
+    
+    task.add(std::move(stage));
+  }
+
   return task;
 }

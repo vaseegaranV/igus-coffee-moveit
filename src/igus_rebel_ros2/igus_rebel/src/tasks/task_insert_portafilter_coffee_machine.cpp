@@ -71,8 +71,8 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
 {
     auto stage = std::make_unique<mtc::stages::Connect>(
         "move to hover above group head",
-        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
-    stage->setTimeout(10.0);
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, cartesian_planner } });
+    stage->setTimeout(20.0);
     stage->properties().configureInitFrom(mtc::Stage::PARENT);
     task.add(std::move(stage));
   }
@@ -89,7 +89,7 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
     target.header.frame_id = "world";
     target.pose.position.x = INSERT_X;
     target.pose.position.y = INSERT_Y;
-    target.pose.position.z = INSERT_Z + 0.20;  // 20cm above group head
+    target.pose.position.z = INSERT_Z + 0.50;  // 20cm above group head
     target.pose.orientation.x = 0.0;
     target.pose.orientation.y = -0.7071;
     target.pose.orientation.z = 0.0;
@@ -98,7 +98,7 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
 
 
     auto wrapper = std::make_unique<mtc::stages::ComputeIK>("hover pose IK", std::move(stage));
-    wrapper->setMaxIKSolutions(16);
+    wrapper->setMaxIKSolutions(32);
     wrapper->setMinSolutionDistance(1.0);
     wrapper->setIKFrame(hand_frame);
     wrapper->properties().configureInitFrom(mtc::Stage::PARENT, { "eef", "group" });
@@ -112,7 +112,7 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("lower to group head", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.15, 0.25);
+    stage->setMinMaxDistance(0.44, 0.54);
     stage->setIKFrame(hand_frame);
 
 
@@ -139,12 +139,25 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
     task.add(std::move(stage));
   }
 
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("rotate gripper", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+
+    geometry_msgs::msg::TwistStamped twist;
+    twist.header.frame_id = "world";
+    twist.twist.angular.y = 1.0;  // rotate about world Y
+    stage->setDirection(twist);
+    stage->setMinMaxDistance(4.0 * M_PI / 180.0, 4.0 * M_PI / 180.0);  // exactly 10°
+
+    task.add(std::move(stage));
+  }
+
 
 // Stage 7: Push up into group head seat
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("push up into seat", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.02, 0.06);  // tune push distance
+    stage->setMinMaxDistance(0.08, 0.08);  // tune push distance
     stage->setIKFrame(hand_frame);
 
 
@@ -158,25 +171,21 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
 
 
 
-// Stage 8: Bayonet twist — rotate handle 90° around portafilter long axis (world Y)
-  {
-    auto stage = std::make_unique<mtc::stages::MoveRelative>("twist lock", cartesian_planner);
-    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+// // Stage 8: Bayonet twist — rotate handle 90° around portafilter long axis (world Y)
+//   {
+//     auto stage = std::make_unique<mtc::stages::MoveRelative>("twist lock", cartesian_planner);
+//     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
 
 
-    geometry_msgs::msg::TwistStamped twist;
-    twist.header.frame_id = "world";
-    twist.twist.angular.y = -1.0;  // try 1.0 if wrong direction
-    stage->setDirection(twist);
-    stage->setMinMaxDistance(M_PI / 2.0, M_PI / 2.0);
+//     geometry_msgs::msg::TwistStamped twist;
+//     twist.header.frame_id = "world";
+//     twist.twist.angular.y = -1.0;  // try 1.0 if wrong direction
+//     stage->setDirection(twist);
+//     stage->setMinMaxDistance(M_PI / 2.0, M_PI / 2.0);
 
 
-    task.add(std::move(stage));
-  }
-
-
-
-
+//     task.add(std::move(stage));
+//   }
 
 
 // Stage 9: Detach portafilter — locked into machine
@@ -186,6 +195,17 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
     task.add(std::move(stage));
   }
 
+  {
+    auto stage = std::make_unique<mtc::stages::MoveRelative>("twist unlock", sampling_planner);
+    stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
+
+    std::map<std::string, double> joint_deltas;
+    joint_deltas["joint6"] = M_PI / 3.0;  // reverse of twist lock
+    stage->setDirection(joint_deltas);
+    stage->setMinMaxDistance(0.0, M_PI / 3.0);
+
+    task.add(std::move(stage));
+  }
 
   // Stage 10: Retreat — pull back in +Y
   {

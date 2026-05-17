@@ -36,6 +36,12 @@ mtc::Task SimpleTask::createInsertPortafilterToGrinder()
   }
 
   {
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow collisions");
+    stage->allowCollisions("link4", std::vector<std::string>{"link5"}, true);
+    task.add(std::move(stage));
+  }
+
+  {
     auto stage = std::make_unique<mtc::stages::Connect>(
         "move to delivery station",
         mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
