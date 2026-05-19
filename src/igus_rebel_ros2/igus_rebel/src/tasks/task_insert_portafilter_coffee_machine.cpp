@@ -71,7 +71,7 @@ mtc::Task SimpleTask::createInsertPortafilterToCoffeeMachine()
 {
     auto stage = std::make_unique<mtc::stages::Connect>(
         "move to hover above group head",
-        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, cartesian_planner } });
+        mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
     stage->setTimeout(20.0);
     stage->properties().configureInitFrom(mtc::Stage::PARENT);
     task.add(std::move(stage));

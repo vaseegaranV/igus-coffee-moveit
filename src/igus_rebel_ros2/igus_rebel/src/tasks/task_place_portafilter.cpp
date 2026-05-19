@@ -20,8 +20,8 @@ mtc::Task SimpleTask::createPlacePortafilter()
   sampling_planner->setProperty("max_acceleration_scaling_factor", 0.1);
   
   auto cartesian_planner = std::make_shared<mtc::solvers::CartesianPath>();
-  cartesian_planner->setMaxVelocityScalingFactor(0.02);
-  cartesian_planner->setMaxAccelerationScalingFactor(0.02);
+  cartesian_planner->setMaxVelocityScalingFactor(0.05);
+  cartesian_planner->setMaxAccelerationScalingFactor(0.05);
   cartesian_planner->setStepSize(0.01);
 
   mtc::Stage* current_state_ptr = nullptr;

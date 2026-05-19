@@ -33,10 +33,14 @@ mtc::Task SimpleTask::createDetachPortafilterFromGrinder()
   }
 
   {
-    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow cup collisions");
-    //stage->allowCollisions("object", std::vector<std::string>{"cup_holder"}, true);
-    stage->allowCollisions("object", std::vector<std::string>{"gripper_link"}, true);
-    stage->allowCollisions("object", std::vector<std::string>{"delivery_station"}, true);
+    auto stage = std::make_unique<mtc::stages::ModifyPlanningScene>("allow detach collisions");
+    
+    auto all_links = task.getRobotModel()->getLinkModelNamesWithCollisionGeometry();
+    stage->allowCollisions("grinder", all_links, true);
+    stage->allowCollisions("portafilter", std::vector<std::string>{"grinder"}, true);
+    stage->allowCollisions("portafilter", all_links, true);
+    stage->allowCollisions("no_go_zone", all_links, true);   // belt-and-braces
+    
     task.add(std::move(stage));
   }
 
@@ -67,7 +71,7 @@ mtc::Task SimpleTask::createDetachPortafilterFromGrinder()
     stage->setIKFrame(hand_frame);
 
     geometry_msgs::msg::Vector3Stamped vec;
-    vec.header.frame_id = hand_frame;
+    vec.header.frame_id = "world";
     vec.vector.y = 1.0;  // reverse of approach
     stage->setDirection(vec);
 

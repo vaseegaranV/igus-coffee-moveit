@@ -249,7 +249,7 @@ mtc::Task SimpleTask::createMoveToDeliveryStation()
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("lower onto station", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.05, 0.10);
+    stage->setMinMaxDistance(0.11, 0.11);
     stage->setIKFrame(hand_frame);
 
     geometry_msgs::msg::Vector3Stamped vec;
@@ -286,7 +286,7 @@ mtc::Task SimpleTask::createMoveToDeliveryStation()
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("retreat from delivery", cartesian_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-    stage->setMinMaxDistance(0.03, 0.13);
+    stage->setMinMaxDistance(0.3, 0.3);
     stage->setIKFrame(hand_frame);
 
     geometry_msgs::msg::Vector3Stamped vec;

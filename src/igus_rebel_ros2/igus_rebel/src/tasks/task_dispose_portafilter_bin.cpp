@@ -81,9 +81,6 @@ mtc::Task SimpleTask::createBinDispose()
     task.add(std::move(stage));
   }
 
-  sampling_planner->setProperty("max_velocity_scaling_factor", 0.2);
-  sampling_planner->setProperty("max_acceleration_scaling_factor", 0.2);
-
   {
     auto stage = std::make_unique<mtc::stages::MoveRelative>("twist lock", sampling_planner);
     stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
@@ -95,19 +92,6 @@ mtc::Task SimpleTask::createBinDispose()
     
     task.add(std::move(stage));
   }
-
-  // {
-  //   auto stage = std::make_unique<mtc::stages::MoveRelative>("rotate gripper", sampling_planner);
-  //   stage->properties().configureInitFrom(mtc::Stage::PARENT, { "group" });
-
-  //   geometry_msgs::msg::TwistStamped twist;
-  //   twist.header.frame_id = "world";
-  //   twist.twist.angular.y = 1.0;  // rotate about world Y
-  //   stage->setDirection(twist);
-  //   stage->setMinMaxDistance(180.0 * M_PI / 180.0, 180.0 * M_PI / 180.0);  // exactly 10°
-
-  //   task.add(std::move(stage));
-  // }
 
   return task;
 }
