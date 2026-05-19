@@ -156,8 +156,8 @@ void SimpleTask::setupPlanningScene()
         collision_objects.push_back(no_go);
         moveit_msgs::msg::ObjectColor no_go_color;
         no_go_color.id = "no_go_zone";
-        no_go_color.color.r = 0.1; no_go_color.color.g = 0.6;
-        no_go_color.color.b = 0.7; no_go_color.color.a = 0.5;
+        no_go_color.color.r = 0.1; no_go_color.color.g = 0.1;
+        no_go_color.color.b = 0.1; no_go_color.color.a = 0.8;
         object_colors.push_back(no_go_color);
     }
 
@@ -322,8 +322,8 @@ void SimpleTask::setupPlanningScene()
             collision_objects.push_back(cup_holder);
             moveit_msgs::msg::ObjectColor cup_holder_color;
             cup_holder_color.id = "cup_holder";
-            cup_holder_color.color.r = 0.1; cup_holder_color.color.g = 0.1;
-            cup_holder_color.color.b = 0.1; cup_holder_color.color.a = 0.5;
+            cup_holder_color.color.r = 1.0; cup_holder_color.color.g = 0.9;
+            cup_holder_color.color.b = 0.0; cup_holder_color.color.a = 1.0;
             object_colors.push_back(cup_holder_color);
             delete mesh;
         }
@@ -357,8 +357,8 @@ void SimpleTask::setupPlanningScene()
             collision_objects.push_back(portafilter);
             moveit_msgs::msg::ObjectColor portafilter_color;
             portafilter_color.id = "portafilter";
-            portafilter_color.color.r = 0.1; portafilter_color.color.g = 0.1;
-            portafilter_color.color.b = 0.1; portafilter_color.color.a = 0.5;
+            portafilter_color.color.r = 1.0; portafilter_color.color.g = 0.9;
+            portafilter_color.color.b = 0.0; portafilter_color.color.a = 1.0;
             object_colors.push_back(portafilter_color);
             delete mesh;
         }
