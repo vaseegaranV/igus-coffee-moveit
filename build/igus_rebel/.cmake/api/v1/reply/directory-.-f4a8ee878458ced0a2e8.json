@@ -352,9 +352,9 @@
 			"destination" : "lib/igus_rebel",
 			"paths" : 
 			[
-				"pick_and_place"
+				"main"
 			],
-			"targetId" : "pick_and_place::@6890427a1f51a3e7e1df",
+			"targetId" : "main::@6890427a1f51a3e7e1df",
 			"targetIndex" : 4,
 			"type" : "target"
 		},
@@ -363,7 +363,7 @@
 			"component" : "Unspecified",
 			"cxxModuleBmiTarget" : 
 			{
-				"id" : "pick_and_place::@6890427a1f51a3e7e1df",
+				"id" : "main::@6890427a1f51a3e7e1df",
 				"index" : 4
 			},
 			"destination" : "lib/igus_rebel",

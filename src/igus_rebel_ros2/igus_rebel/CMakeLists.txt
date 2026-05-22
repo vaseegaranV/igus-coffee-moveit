@@ -41,8 +41,8 @@ add_executable(igus_moveit src/igus_moveit.cpp)
 add_executable(igus_rail_moveit src/igus_rail_moveit.cpp)
 
 # FIXED: Both .cpp files are part of ONE executable
-add_executable(pick_and_place 
-  src/pick_and_place.cpp
+add_executable(main 
+  src/main.cpp
   src/tasks/task_attach_portafilter_grinder.cpp
   src/tasks/task_clean_portafilter.cpp
   src/tasks/task_detach_portafilter_grinder.cpp
@@ -79,8 +79,8 @@ ament_target_dependencies(${PROJECT_NAME}
 
 ament_target_dependencies(igus_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
 ament_target_dependencies(igus_rail_moveit geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs)
-ament_target_dependencies(pick_and_place geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs moveit_task_constructor_core)
-# REMOVED: setup_environment line - it's now part of pick_and_place
+ament_target_dependencies(main geometry_msgs moveit_ros_planning_interface rclcpp igus_rebel_msgs moveit_task_constructor_core)
+# REMOVED: setup_environment line - it's now part of main
 ament_target_dependencies(random_pose_node rclcpp moveit_ros_planning_interface)
 
 pluginlib_export_plugin_description_file(hardware_interface rebel.xml)
@@ -96,7 +96,7 @@ install(TARGETS ${PROJECT_NAME}
 install(TARGETS 
     igus_moveit
     igus_rail_moveit
-    pick_and_place
+    main
     random_pose_node
     DESTINATION lib/${PROJECT_NAME}) 
 

@@ -2,7 +2,7 @@
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/libigus_rebel.so
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_moveit
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/igus_rail_moveit
-/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/pick_and_place
+/home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/main
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/lib/igus_rebel/random_pose_node
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel/rebel.xml
 /home/vasee22/igus-coffee-moveit/install/igus_rebel/share/igus_rebel//config/controller.yaml

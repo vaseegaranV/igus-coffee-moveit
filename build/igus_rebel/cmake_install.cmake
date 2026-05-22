@@ -118,27 +118,27 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/igus_rebel" TYPE EXECUTABLE FILES "/home/vasee22/igus-coffee-moveit/build/igus_rebel/pick_and_place")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/igus_rebel" TYPE EXECUTABLE FILES "/home/vasee22/igus-coffee-moveit/build/igus_rebel/main")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main"
          OLD_RPATH "/home/vasee22/igus-coffee-moveit/install/igus_rebel_msgs/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_core/lib:/opt/ros/jazzy/lib:/home/vasee22/COAR-ROS2-Workspace-mai/install/rviz_marker_tools/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vasee22/COAR-ROS2-Workspace-mai/install/moveit_task_constructor_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/pick_and_place")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/igus_rebel/main")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles/pick_and_place.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles/main.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-7e4eecd6327ef057890b.json",
+					"jsonFile" : "directory-.-f4a8ee878458ced0a2e8.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -79,9 +79,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "pick_and_place::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pick_and_place-522359be1515a1d67fb8.json",
-					"name" : "pick_and_place",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-ece4bf1b868fb0133a80.json",
+					"name" : "main",
 					"projectIndex" : 0
 				},
 				{

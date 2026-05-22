@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/vasee22/igus-coffee-moveit/build/igus_rebel
 all: CMakeFiles/igus_rebel.dir/all
 all: CMakeFiles/igus_moveit.dir/all
 all: CMakeFiles/igus_rail_moveit.dir/all
-all: CMakeFiles/pick_and_place.dir/all
+all: CMakeFiles/main.dir/all
 all: CMakeFiles/random_pose_node.dir/all
 .PHONY : all
 
@@ -80,7 +80,7 @@ clean: CMakeFiles/igus_rebel_uninstall.dir/clean
 clean: CMakeFiles/igus_rebel.dir/clean
 clean: CMakeFiles/igus_moveit.dir/clean
 clean: CMakeFiles/igus_rail_moveit.dir/clean
-clean: CMakeFiles/pick_and_place.dir/clean
+clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/random_pose_node.dir/clean
 .PHONY : clean
 
@@ -215,30 +215,30 @@ CMakeFiles/igus_rail_moveit.dir/clean:
 .PHONY : CMakeFiles/igus_rail_moveit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pick_and_place.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/pick_and_place.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target pick_and_place"
-.PHONY : CMakeFiles/pick_and_place.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pick_and_place.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles 23
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pick_and_place.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vasee22/igus-coffee-moveit/build/igus_rebel/CMakeFiles 0
-.PHONY : CMakeFiles/pick_and_place.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-pick_and_place: CMakeFiles/pick_and_place.dir/rule
-.PHONY : pick_and_place
+main: CMakeFiles/main.dir/rule
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/pick_and_place.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_and_place.dir/build.make CMakeFiles/pick_and_place.dir/clean
-.PHONY : CMakeFiles/pick_and_place.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/random_pose_node.dir
