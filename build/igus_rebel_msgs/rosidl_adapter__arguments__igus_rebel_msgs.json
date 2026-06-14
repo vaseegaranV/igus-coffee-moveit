@@ -1,7 +1,0 @@
-{
-  "package_name": "igus_rebel_msgs",
-  "non_idl_tuples": [
-    "/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_msgs:msg/DigitalOutput.msg",
-    "/home/vasee22/igus-coffee-moveit/src/igus_rebel_ros2/igus_rebel_msgs:srv/SetDigitalOutput.srv"
-  ]
-}
